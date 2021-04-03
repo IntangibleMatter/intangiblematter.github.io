@@ -15,6 +15,7 @@ function parseJson() {
     //easiest way to fix the string bug
 };
 
+//update me to change site
 
 function newText() {
     document.getElementById("text").innerHTML = text.Text[Math.floor(Math.random() * text.Text.length)];
