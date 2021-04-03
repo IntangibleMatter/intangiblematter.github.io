@@ -8,7 +8,7 @@ function parseJson() {
 
     function reportStatus() {
         if (oXHR.readyState == 4) {
-            //console.log(this.responseText)
+            console.log(this.responseText)
             text = JSON.parse(this.responseText);
         };
     };
