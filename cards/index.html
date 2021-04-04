@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Cards - Harld</title>
+    <link type="text/css" rel="stylesheet" href="css/Cards.css" />
+    <link rel=”shortcut icon” href=“favicon.ico”/>
+</head>
+
+<body onload="parseJson()">
+    <!--<script type="text/javascript" src="js/cards against harld.js"></script>-->
+    <div class="centred" onload="updateCardText()">
+        <h1>Play Cards Vs. Harld!</h1>
+
+        Pick a card to add to the prompt<br>
+        <script type="text/javascript" src="js/cards against harld.js"></script>
+        <button class="card" id="card1" onclick="updateCard(1)">neopronouns</button>
+        <button class="card" id="card2" onclick="updateCard(2)">Monster energy drinks</button>
+        <button class="card" id="card3" onclick="updateCard(3)">Lyric in drag</button>
+        <div id="generated"></div>
+    </div>
+</body>
