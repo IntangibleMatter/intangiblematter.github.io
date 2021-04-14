@@ -1,5 +1,43 @@
-body {
-    background-color: black;
+html {
     background-image: "./images/stars1.PNG";
-    color: lightgray;
+    background-repeat: repeat;
+}
+
+body {
+    background-color: #111111;
+    color: #cfcfcf;
+    font-family: JetBrains Mono, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8px;
+}
+
+header {
+    font-family: Courier New, Courier, monospace;
+    /*font-size: 32px;*/
+}
+
+.newest {
+    border: #cfcfcf;
+    border-radius: 10px;
+    padding: 16px;
+    /*centring*/
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+img.newIcon {
+    float: left;
+    height: 100px;
+    width: 100px;
+    margin: 16px, 16px;
+    border: #111111;
+}
+
+button.newPost {
+    height: 100px;
 }
