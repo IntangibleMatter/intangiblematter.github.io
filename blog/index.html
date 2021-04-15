@@ -14,7 +14,7 @@
     <h1>IntangibleMatter Blog</h1>
 </header>
 
-<body onload="parseJSON()">
+<body onload="parseJson()">
     <script type="text/javascript" src="js/main.js"></script>
 
     <div id="newest" onload="getNewest()">
@@ -22,11 +22,13 @@
     </div>
 
     <div id="archive" onload="loadArchive()">
-        <table>
-            <!-- <th></th> -->
-            <th>Post</th>
-            <th>Description</th>
-            <th>Published</th>
+        <table id="posts">
+            <tr>
+                <!-- <th></th> -->
+                <th>Post</th>
+                <th>Description</th>
+                <th>Published</th>
+            </tr>
         </table>
     </div>
 </body>

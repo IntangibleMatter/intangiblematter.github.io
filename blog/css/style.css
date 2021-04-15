@@ -1,21 +1,37 @@
 html {
-    background-image: "./images/stars1.PNG";
+    background-image: url("../images/stars1.PNG");
     background-repeat: repeat;
+}
+
+article {}
+
+@font-face {
+    font-family: 'jetbrains_monoregular';
+    src: url('fonts/jetbrainsmono-regular-webfont.woff2') format('woff2'), url('fonts/jetbrainsmono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
     background-color: #111111;
     color: #cfcfcf;
-    font-family: JetBrains Mono, Helvetica, sans-serif;
+    font-family: jetbrains_monoregular, Helvetica, sans-serif;
     font-size: 16px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     padding-top: 8px;
+    max-width: 100rem;
+    min-width: 50rem;
 }
 
 header {
     font-family: Courier New, Courier, monospace;
+    /*background-color: black;*/
+    color: white;
     /*font-size: 32px;*/
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 75px;
 }
 
 .newest {

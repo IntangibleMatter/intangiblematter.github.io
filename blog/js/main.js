@@ -1,5 +1,5 @@
-var postsJSON;
-var posts;
+var postsJSON = {};
+var posts = [];
 
 function parseJson() {
     var oXHR = new XMLHttpRequest();
@@ -13,8 +13,10 @@ function parseJson() {
             postsJSON = JSON.parse(this.responseText);
         };
     };
+    //reportStatus()
     //easiest way to fix the string bug
     posts = postsJSON.Posts;
+    console.log(posts);
 };
 
 
@@ -26,11 +28,13 @@ function getNewest() {
     newThumb += newest.Description;
     newThumb += "</button>"
     document.getElementById("newest").innerHTML = newThumb;
+    console.log("newest");
 };
 
 function loadArchive() {
-    let archiveTable = '';
+    let archiveTable = '<th>Post</th><th>Description</th><th>Published</th>';
     for (var post = posts.length - 1; i >= 0; i--) {
         archiveTable += '<tr> <img class="postIcon" src="' + posts[post].icon + '" /><td><a href="' + posts[post].Link + '">' + posts[post].Title + '</a></td>';
     };
+    document.getElementById("posts").innerHTML = archiveTable;
 };
