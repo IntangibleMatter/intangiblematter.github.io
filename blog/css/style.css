@@ -41,3 +41,7 @@ img.newIcon {
 button.newPost {
     height: 100px;
 }
+
+img.mainIcon {
+    float: left;
+}
