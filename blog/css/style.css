@@ -22,12 +22,6 @@ header {
     border: 4px solid #cfcfcf;
     border-radius: 10px;
     padding: 16px;
-    /*centring*/
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
 }
 
 img.newIcon {
@@ -44,4 +38,12 @@ button.newPost {
 
 img.mainIcon {
     float: left;
+}
+
+.centred {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
 }
