@@ -29,8 +29,8 @@ function getNewest() {
 };
 
 function loadArchive() {
-    let archiveTable = '<!-- <table> <th><!--icon--></th> --> <th>Post</th><th>Description</th><th>Published</th>';
-    for (post = posts.length - 1; i >= 0; i--) {
-        archiveTable += '<tr> <img class="postIcon" src="' + post.icon + '" /><td><a href="' + post.Link + '">' + post.Title + '</a></td>';
+    let archiveTable = '';
+    for (var post = posts.length - 1; i >= 0; i--) {
+        archiveTable += '<tr> <img class="postIcon" src="' + posts[post].icon + '" /><td><a href="' + posts[post].Link + '">' + posts[post].Title + '</a></td>';
     };
 };
