@@ -16,19 +16,28 @@
 
 <body onload="parseJson()">
     <script type="text/javascript" src="js/main.js"></script>
+    <p>TEST</p>
+    <!--div class="centred"-->
+    <div id="newest" class="newest" onload="getNewest()">
 
-    <div id="newest" onload="getNewest()">
-        <p>aaaaaaaaaaatemp</p>
-    </div>
+        <img class="newIcon" src="images/icons/making-a-blog.png">
 
-    <div id="archive" onload="loadArchive()">
-        <table id="posts">
-            <tr>
-                <!-- <th></th> -->
-                <th>Post</th>
-                <th>Description</th>
-                <th>Published</th>
-            </tr>
-        </table>
+        <button class="newPostText">
+            <h2>Making a Blog</h2>
+            <p>This is an article I wrote about making a blog. It describes my process and experience.</p>
+        </button>
     </div>
+    <!--/div-->
+    <article>
+        <div id="archive" onload="loadArchive()">
+            <table id="posts">
+                <thead>
+                    <!-- <th></th> -->
+                    <th>Post</th>
+                    <th>Description</th>
+                    <th>Published</th>
+                </thead>
+            </table>
+        </div>
+    </article>
 </body>
