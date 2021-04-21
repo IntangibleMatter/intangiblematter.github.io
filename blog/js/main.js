@@ -1,4 +1,4 @@
-var posts = [];
+var posts;
 
 function parseJson() {
     var oXHR = new XMLHttpRequest();
@@ -12,7 +12,7 @@ function parseJson() {
         }
     }
     //easiest way to fix the string bug
-    console.log(postsJSON);
+    console.log(posts);
 }
 
 parseJson();
