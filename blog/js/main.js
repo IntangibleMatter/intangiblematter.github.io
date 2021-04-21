@@ -1,5 +1,3 @@
-var postsJSON;
-var text;
 var posts = [];
 
 function parseJson() {
@@ -10,13 +8,14 @@ function parseJson() {
 
     function reportStatus() {
         if (oXHR.readyState == 4) {
-            let temptext = JSON.parse(this.responseText)
-            postsJSON = temptext;
+            posts = JSON.parse(this.responseText).Posts;
         }
     }
     //easiest way to fix the string bug
-    console.log(postsJSON)
+    console.log(postsJSON);
 }
+
+parseJson();
 
 
 function getNewest() {
@@ -30,9 +29,9 @@ function getNewest() {
 }
 
 function loadArchive() {
-    let archiveTable = '<th><!--icons--></th><th>Post</th><th>Description</th><th>Published</th>';
+    let archiveTable = '';
     for (var post = posts.length - 1; i >= 0; i--) {
         archiveTable += '<tr> <img class="postIcon" src="' + posts[post].Icon + '" /><td><a href="' + posts[post].Link + '">' + posts[post].Title + '</a></td>';
     }
-    document.getElementById("posts").innerHTML = archiveTable;
+    document.getElementById("archive").innerHTML = archiveTable;
 }
