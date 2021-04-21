@@ -1,4 +1,5 @@
-var postsJSON = {};
+var postsJSON;
+var text;
 var posts = [];
 
 function parseJson() {
@@ -9,32 +10,29 @@ function parseJson() {
 
     function reportStatus() {
         if (oXHR.readyState == 4) {
-            //console.log(this.responseText)
-            postsJSON = JSON.parse(this.responseText);
-        };
-    };
-    //reportStatus()
+            let temptext = JSON.parse(this.responseText)
+            postsJSON = temptext;
+        }
+    }
     //easiest way to fix the string bug
-    posts = postsJSON.Posts;
-    console.log(posts);
-};
+    console.log(postsJSON)
+}
 
 
 function getNewest() {
     let newest = posts.length[posts.length - 1];
     let newThumb = '<img class="newIcon" src=".' + newest.Icon + '" />';
-    newThumb = '<div class="newPost">';
-    newThumb += '<a href="' + newest.Link + '" <h2>' + newest.Title + '</h2></a>';
-    newThumb += '<p>' + newest.Description + '</p>';
+    newThumb += '<h2>' + newest.Title + '</h2>';
+    newThumb += newest.Description;
     newThumb += "</div>"
     document.getElementById("newest").innerHTML = newThumb;
     console.log("newest");
-};
+}
 
 function loadArchive() {
-    let archiveTable = '<th>Post</th><th>Description</th><th>Published</th>';
+    let archiveTable = '<th><!--icons--></th><th>Post</th><th>Description</th><th>Published</th>';
     for (var post = posts.length - 1; i >= 0; i--) {
         archiveTable += '<tr> <img class="postIcon" src="' + posts[post].Icon + '" /><td><a href="' + posts[post].Link + '">' + posts[post].Title + '</a></td>';
-    };
+    }
     document.getElementById("posts").innerHTML = archiveTable;
-};
+}

@@ -18,21 +18,24 @@
     <script type="text/javascript" src="js/main.js"></script>
     <p>TEST</p>
     <!--div class="centred"-->
-    <div id="newest" class="newest" onload="getNewest()">
+    <div class="newest" onload="getNewest()">
+        <button class="newestButt" id="newest">
 
-        <img class="newIcon" src="images/icons/making-a-blog.png">
+            <img class="newIcon" src="images/icons/making-a-blog.png">
 
-        <div class="newPostText">
-            <h2>Making a Blog</h2>
-            <p>This is an article I wrote about making a blog. It describes my process and experience.</p>
-        </div>
+            <div class="newPostText">
+                <h2>Making a Blog</h2>
+                This is an article I wrote about making a blog. It describes my process and experience.
+        </button>
     </div>
     <!--/div-->
     <article>
         <div id="archive" onload="loadArchive()">
             <table id="posts">
                 <thead>
-                    <!-- <th></th> -->
+                    <th>
+                        <!--icons-->
+                    </th>
                     <th>Post</th>
                     <th>Description</th>
                     <th>Published</th>
