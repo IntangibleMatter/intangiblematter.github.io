@@ -19,7 +19,7 @@ parseJson();
 
 
 function getNewest() {
-    let newest = posts.length[posts.length - 1];
+    let newest = posts[posts.length - 1];
     let newThumb = '<img class="newIcon" src=".' + newest.Icon + '" />';
     newThumb += '<h2>' + newest.Title + '</h2>';
     newThumb += newest.Description;
@@ -34,4 +34,10 @@ function loadArchive() {
         archiveTable += '<tr> <img class="postIcon" src="' + posts[post].Icon + '" /><td><a href="' + posts[post].Link + '">' + posts[post].Title + '</a></td>';
     }
     document.getElementById("archive").innerHTML = archiveTable;
+}
+
+function setup() {
+    parseJson();
+    getNewest();
+    loadArchive();
 }

@@ -1,6 +1,6 @@
 {
     "Posts": [
         { "Title": "Making a blog", "Link": "posts/making-a-blog.html", "Description": "A little article about how I made my blog.", "Published": "2021-04-13", "Icon": "/images/icons/making-a-blog.png" },
-        { "Title": "Test", "Link": "posts/making-a-blog.html", "Description": "aaaaaaaaaaaaaaaa", "Published": "2021-04-13", "Icon": "images/icons/making-a-blog.png" }
+        { "Title": "Test", "Link": "posts/making-a-blog.html", "Description": "aaaaaaaaaaaaaaaa", "Published": "2021-04-13", "Icon": "/images/icons/making-a-blog.png" }
     ]
 }
