@@ -8,13 +8,6 @@
 /*overall styles*/
 html {
   font-family: jetbrains_monoregular, Helvetica, sans-serif;
-  color: white;
-}
-
-header {
-  margin: 0px auto 1em;
-  text-align: center;
-  padding: 1em;
 }
 
 body {
@@ -26,26 +19,11 @@ body {
 .body {
   /* I'm using this to replace the usual "body" section */
   background-color: black;
-  background-color: #000000a9;
-}
-
-@media screen and (max-width: 600px) {
-  .body {
-    margin: 0px;
-  }
 }
 
 @media screen and (min-width: 600px) {
   .body {
-    min-width: 600px;
-    margin: 3em;
-  }
-}
-
-@media screen and (min-width: 1600px) {
-  .body {
-    min-width: 600px;
-    margin: 8em;
+    margin: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
