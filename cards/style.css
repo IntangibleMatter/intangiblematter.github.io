@@ -55,3 +55,9 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+
+a.home {
+    margin-top: 0;
+    margin-left: 0;
+    color: white;
+}
