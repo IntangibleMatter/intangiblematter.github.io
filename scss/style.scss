@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'jetbrains_monoregular';
-    src: url('/css/fonts/jetbrainsmono-regular-webfont.woff2') format('woff2'), url('/css/fonts/jetbrainsmono-regular-webfont.woff') format('woff');
+    src: url('fonts/jetbrainsmono-regular-webfont.woff2') format('woff2'), url('fonts/jetbrainsmono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -79,7 +79,7 @@ header {
 
 body {
     margin: 0px;
-    background-image: url("/images/stars1.PNG");
+    background-image: url("../images/stars1.PNG");
     background-repeat: repeat;
 }
 

@@ -1,51 +1,142 @@
 @font-face {
-  font-family: 'jetbrains_monoregular';
-  src: url("fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"), url("fonts/jetbrainsmono-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'jetbrains_monoregular';
+    src: url("fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"), url("fonts/jetbrainsmono-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 /*overall styles*/
+
 html {
-  font-family: jetbrains_monoregular, Helvetica, sans-serif;
-  color: white;
+    font-family: jetbrains_monoregular, Helvetica, sans-serif;
+    color: white;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: medium;
+}
+
+table th,
+table td {
+    border: 1px solid #ffffffcc;
+    padding: 0.5em;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table td {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+
+/* image properties */
+
+img.mainIcon {
+    background-color: #0000;
+}
+
+img.s,
+img.m,
+img.l {
+    border: 2px solid white;
+}
+
+img.s {
+    width: 25%;
+}
+
+img.m {
+    width: 50%;
+}
+
+img.l {
+    width: 98%;
+}
+
+
+/* section styles*/
+
 header {
-  margin: 0px auto 1em;
-  text-align: center;
-  padding: 1em;
+    margin: 0px 0px 1em;
+    text-align: center;
+    padding: 1em;
+}
+
+header a {
+    color: white;
+}
+
+header a.home {
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-align: left;
 }
 
 body {
-  margin: 0px;
-  background-image: url("../images/stars1.PNG");
-  background-repeat: repeat;
+    margin: 0px;
+    background-image: url("/images/stars1.PNG");
+    background-repeat: repeat;
 }
 
 .body {
-  /* I'm using this to replace the usual "body" section */
-  background-color: black;
-  background-color: #000000a9;
+    /* I'm using this to replace the usual "body" section */
+    background-color: #000000a9;
+    min-height: 100vh;
 }
 
 @media screen and (max-width: 600px) {
-  .body {
-    margin: 0px;
-  }
+    .body {
+        margin: 1em;
+    }
 }
 
 @media screen and (min-width: 600px) {
-  .body {
-    min-width: 600px;
-    margin: 3em;
-  }
+    .body {
+        min-width: 600px;
+        margin: 3em;
+    }
 }
 
 @media screen and (min-width: 1600px) {
-  .body {
-    min-width: 600px;
-    margin: 8em;
-  }
+    .body {
+        min-width: 600px;
+        margin: 8em;
+    }
 }
+
+footer {
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+
+/*Specialized styles*/
+
+.code {
+    background-color: black;
+    border: 1px solid #666666;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*Phone stuff */
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 2em;
+    }
+}
+
+
 /*# sourceMappingURL=style.css.map */
