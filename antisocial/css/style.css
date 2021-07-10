@@ -23,3 +23,9 @@ button:hover {
     margin-bottom: 0;
     text-align: center;
 }
+
+a.home {
+    margin-top: 0;
+    margin-left: 0;
+    color: white;
+}
