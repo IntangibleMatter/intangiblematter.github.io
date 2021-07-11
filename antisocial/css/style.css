@@ -25,6 +25,7 @@ button:hover {
 }
 
 a.home {
+    font-size: 0.5em;
     margin-top: 0;
     margin-left: 0;
     color: white;
