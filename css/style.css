@@ -8,6 +8,7 @@
 /*overall styles*/
 html {
   font-family: jetbrains_monoregular, Helvetica, sans-serif;
+  font-size: small;
   color: white;
 }
 
@@ -123,9 +124,4 @@ footer {
 }
 
 /*Phone stuff */
-@media screen and (max-width: 500px) {
-  html {
-    font-size: 2em;
-  }
-}
 /*# sourceMappingURL=style.css.map */
