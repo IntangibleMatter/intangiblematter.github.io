@@ -49,12 +49,12 @@ img.l {
 }
 
 img.s {
-    width: 15%;
+    width: 10%;
     float: left;
 }
 
 img.m {
-    width: 50%;
+    width: 25%;
     float: left;
 }
 
@@ -107,6 +107,7 @@ body {
 }
 
 footer {
+    padding-top: 2em;
     margin-bottom: 0px;
     .comment {
         text-align: right;
