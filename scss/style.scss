@@ -10,7 +10,6 @@
 
 html {
     font-family: jetbrains_monoregular, Helvetica, sans-serif;
-    font-size: small;
     color: white;
 }
 
@@ -45,19 +44,24 @@ img.mainIcon {
 img.s,
 img.m,
 img.l {
-    border: 2px solid white;
+    //border: 2px solid white;
+    padding: 1em;
 }
 
 img.s {
     width: 25%;
+    float: left;
 }
 
 img.m {
     width: 50%;
+    float: left;
 }
 
 img.l {
-    width: 98%
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -104,7 +108,12 @@ body {
 
 footer {
     margin-bottom: 0px;
-    text-align: right;
+    .comment {
+        text-align: right;
+    }
+    .contact {
+        text-align: left;
+    }
 }
 
 
