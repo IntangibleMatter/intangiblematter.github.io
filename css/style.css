@@ -47,8 +47,19 @@ img.l {
 }
 
 img.s {
-  width: 10%;
   float: left;
+}
+
+@media screen and (max-width: 400px) {
+  img.s {
+    width: 25%;
+  }
+}
+
+@media screen and (min-width: 399px) {
+  img.s {
+    width: 10%;
+  }
 }
 
 img.m {

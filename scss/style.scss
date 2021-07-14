@@ -49,7 +49,12 @@ img.l {
 }
 
 img.s {
-    width: 10%;
+    @media screen and (max-width: 400px) {
+        width: 25%;
+    }
+    @media screen and (min-width:399px) {
+        width: 10%;
+    }
     float: left;
 }
 
