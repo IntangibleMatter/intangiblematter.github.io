@@ -8,6 +8,7 @@
 /*overall styles*/
 html {
   font-family: jetbrains_monoregular, Helvetica, sans-serif;
+  line-height: 1.5em;
   color: white;
 }
 
