@@ -47,12 +47,12 @@ img.l {
 }
 
 img.s {
-  width: 25%;
+  width: 10%;
   float: left;
 }
 
 img.m {
-  width: 50%;
+  width: 25%;
   float: left;
 }
 
@@ -114,6 +114,7 @@ body {
 }
 
 footer {
+  padding-top: 2em;
   margin-bottom: 0px;
 }
 
