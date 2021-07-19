@@ -114,12 +114,16 @@ body {
 
 footer {
     padding-top: 2em;
-    margin-bottom: 0px;
-    .comment {
-        text-align: right;
-    }
+    margin: auto 0px 0px;
     .contact {
+        position: absolute;
+        left: 0px;
         text-align: left;
+    }
+    .comment {
+        position: absolute;
+        right: 0px;
+        text-align: right;
     }
 }
 
@@ -131,6 +135,7 @@ footer {
     border: 1px solid #666666;
     color: green;
     font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
 }
 
 
