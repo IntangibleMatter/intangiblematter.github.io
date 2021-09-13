@@ -30,6 +30,6 @@ header {
         align-items: center;
     }
     .grid-item:hover {
-        transform: perspective(33%);
+        transform: scale(1.2);
     }
 }
