@@ -14,8 +14,8 @@ function parseNames() {
 
     function reportStatus() {
         if (oXHR.readyState == 4) {
-            console.log(this.responseText);
-            messages = JSON.parse(this.responseText);
+            //console.log(this.responseText);
+            names = JSON.parse(this.responseText);
         };
     };
     //easiest way to fix the string bug
@@ -29,7 +29,7 @@ function parseMessages() {
 
     function reportStatus() {
         if (oXHR.readyState == 4) {
-            console.log(this.responseText);
+            //console.log(this.responseText);
             messages = JSON.parse(this.responseText);
         };
     };
