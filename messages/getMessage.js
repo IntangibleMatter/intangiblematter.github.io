@@ -59,7 +59,7 @@ function getmessage() {
     console.log(sid);
     console.log(names);
 
-    var yt = `<iframe width="560" height="315" src="https://www.youtube.com/embed/${songs[sid]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    var yt = `<iframe width="480" height="270" src="https://www.youtube.com/embed/${songs[sid]}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
     message = `${names[sid]} <br><br><hr size="2px" width="90%" color="white">  <br> ${messages[sid]}<p>A song for you:</p><br>${yt}`;
 
