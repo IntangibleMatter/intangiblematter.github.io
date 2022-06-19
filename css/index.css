@@ -6,7 +6,7 @@
 }
 html {
   background-color: black;
-  background-image: url("/images/stars1.png");
+  background-image: url(/images/stars1.png);
   background-repeat: repeat;
   font-family: jetbrains_monoregular, Helvetica, sans-serif;
   line-height: 1.5em;
