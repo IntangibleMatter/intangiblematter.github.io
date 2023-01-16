@@ -1,1 +1,13 @@
-@font-face{font-family:"jetbrains_monoregular";src:url("/fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"),url("/fonts/jetbrainsmono-regular-webfont.woff") format("woff");font-weight:normal;font-style:normal}@-webkit-keyframes slide{from{background-position:0px}to{background-position:900px}}@keyframes slide{from{background-position:0px}to{background-position:900px}}.links{color:red}.games{color:aqua}/*# sourceMappingURL=style.min.css.map */
+@font-face {
+    font-family: "jetbrains_monoregular";
+    src: url("/fonts/jetbrainsmono-regular-webfont.woff2") format("woff2"), url("/fonts/jetbrainsmono-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+.html {
+    font-family: 'jetbrains_monoregular', 'Courier New', Courier, monospace;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
