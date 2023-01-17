@@ -1,0 +1,10 @@
+{{ define "main" }}
+<h1>{{ .Title }}</h1>
+<p>
+    <h3></h3><a href="{{ .RelPermalink }}" class="title">{{ .Title }}</a></h3>
+    {{ partial "metadata.html" . }}
+    <a href="{{ .RelPermalink }}" class="summary">
+        <p>{{ .Summary }}</p>
+    </a>
+</p>
+{{ end }}
