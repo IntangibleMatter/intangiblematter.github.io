@@ -6,11 +6,13 @@
         <nav id="nav" class="nav-menu">
             {{ range .Site.Menus.main }}
             <a class="nav-link" href="{{ .URL }}">
+                <h2>
                 <!--{{ if .Pre }} {{ $icon := printf "<img class=\"icon\" src=\"/static/images/icons/%s.svg\" />" .Pre | safeHTML }}
                 {{ $icon }}
                 {{ end }}-->
                 {{ $text := print .Name | safeHTML }}
                 {{ $text }}
+                </h2>
             </a>
             {{ end }}
         </nav>
