@@ -4,7 +4,13 @@
     <body>
         {{- partial "header.html" . -}}
         <div id="content">
-        {{- block "main" . }}{{- end }}
+            <div class="home-main">
+                <div class="stars-container">
+                    <div class="stars" id="s1"></div>
+                    <div class="stars" id="s2"></div>
+                    <div class="stars" id="s3"></div>
+                </div>
+            </div>
         </div>
         {{- partial "footer.html" . -}}
     </body>
