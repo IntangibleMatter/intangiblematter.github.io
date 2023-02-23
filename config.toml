@@ -18,4 +18,8 @@ theme = 'intangibletheme23'
         pre = "posts"
         url = "/posts/"
         weight = 3
-    
+
+
+
+[permalinks]
+  posts = '/:year/:month/:day/:title/'
