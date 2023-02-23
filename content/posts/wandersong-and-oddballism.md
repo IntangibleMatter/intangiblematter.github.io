@@ -1,8 +1,8 @@
 ---
 title: "Wandersong and Oddballism"
-date: 2023-01-29T21:03:59-08:00
+date: 2023-02-22T21:03:59-08:00
 draft: true
-tags: [wandersong, games, fanboying, oddballism]
+tags: [wandersong, games, fanboying, oddballism, media]
 ---
 
 Wandersong is a very special game. Ask almost anyone who's played it, and you'll find them at the very least agreeing enthusiastically,

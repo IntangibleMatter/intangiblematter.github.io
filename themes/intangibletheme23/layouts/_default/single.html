@@ -1,8 +1,21 @@
 {{ define "main" }}
 <div class="main-content">
-<h1>{{ .Title }}</h1>
-{{ partial "metadata.html" . }}
-<br><br>
-{{ .Content }}
+    <h1>{{ .Title }}</h1>
+    {{ partial "metadata.html" . }}
+    <br><br>
+    {{ .Content }}
+    <div class="prev-next-post-links">
+        <span class="next-post">
+            {{ if .NextPage }}
+            <a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer"><- {{ .NextPage.Title | truncate 50 "..." }}</a>
+            {{ end }}
+        </span>
+
+        <span class="previous-post">
+            {{ if .PrevPage }}
+            <a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">{{ .PrevPage.Title | truncate 50 "..."}} -></a>
+            {{ end }}
+        </span>
+    </div>
 </div>
 {{ end }}
