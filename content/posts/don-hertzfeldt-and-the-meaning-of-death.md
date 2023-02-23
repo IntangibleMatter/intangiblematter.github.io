@@ -1,7 +1,7 @@
 ---
 title: "Don Hertzfeldt and the Meaning of Death"
 date: 2023-02-22T20:55:44-08:00
-draft: 
+draft: true
 tags: [don hertzfeldt, movies, animation, media, death]
 ---
 
