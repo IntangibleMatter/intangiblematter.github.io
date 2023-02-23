@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{- partial "stars.html" . -}}
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
 <div class="post-title">

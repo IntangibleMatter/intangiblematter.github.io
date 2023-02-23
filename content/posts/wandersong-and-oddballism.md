@@ -24,3 +24,7 @@ accountable for how our actions would affect others, and gave us all a sense of 
 2) Start making video games.
 
 Wandersong, incredible game that it is, helped me with both. 
+
+In eighth grade I was a bright-eyed optimist. I said hello to everybody I would pass, and thought of almost anybody who would engage with me in a
+positive way as a friend. The sad truth that I've come to know over the years is that not everyone will be your friend, and if you're an overly
+friendly know-it-all some people who you thought of as friends will hate you.

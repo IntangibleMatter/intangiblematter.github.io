@@ -23,6 +23,7 @@ h5,
 h6 {
     font-family: "JetBrains Mono", monospace;
     text-align: center;
+    text-shadow: 0 0 10px black;
 }
 
 a {
@@ -130,6 +131,7 @@ footer {
 }
 
 .post-title {
+    background-color: black;
     border-radius: 25px;
     border: 4px solid white;
     margin: 2em;
@@ -207,6 +209,19 @@ footer {
         }
     }
 
+
+}
+.stars-container {
+    z-index: -4;
+    overflow-y: hidden;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
     .vingette {
         background: url("/img/fg.png") center center no-repeat;
         position: absolute;
@@ -218,43 +233,41 @@ footer {
         opacity: 0.5;
         z-index: -2;
     }
-    .stars-container {
-        @mixin stars-child($time, $opacity) {
-            display: inline-block;
-            width: 100%;
-            height: 100%;
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            animation: slide $time linear infinite;
-            opacity: $opacity;
-        }
+    @mixin stars-child($time, $opacity) {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        animation: slide $time linear infinite;
+        opacity: $opacity;
+    }
 
-        @keyframes slide {
-            from {
-                background-position: 0px;
-            }
-            to {
-                background-position: 4096px;
-            }
+    @keyframes slide {
+        from {
+            background-position: 0px;
         }
+        to {
+            background-position: 4096px;
+        }
+    }
 
-        .stars {
-            &#s1 {
-                @include stars-child(120s, 80%);
-                background: url("/img/stars/stars_sml.png") repeat center;
-                z-index: -5;
-            }
-            &#s2 {
-                @include stars-child(80s, 90%);
-                background: url("/img/stars/stars_med.png") repeat center;
-                z-index: -4;
-            }
-            &#s3 {
-                @include stars-child(45s, 100%);
-                background: url("/img/stars/stars_big.png") repeat center;
-                z-index: -3;
-            }
+    .stars {
+        &#s1 {
+            @include stars-child(120s, 80%);
+            background: url("/img/stars/stars_sml.png") repeat center;
+            z-index: -5;
+        }
+        &#s2 {
+            @include stars-child(80s, 90%);
+            background: url("/img/stars/stars_med.png") repeat center;
+            z-index: -4;
+        }
+        &#s3 {
+            @include stars-child(45s, 100%);
+            background: url("/img/stars/stars_big.png") repeat center;
+            z-index: -3;
         }
     }
 }
