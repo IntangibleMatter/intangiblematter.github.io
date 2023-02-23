@@ -1,7 +1,7 @@
 ---
 title: "Test Post"
 date: 2023-01-17T11:09:46-08:00
-draft: false
+draft: true
 tags: [test]
 ---
 
