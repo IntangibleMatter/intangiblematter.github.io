@@ -11,7 +11,7 @@ theme = 'intangibletheme23'
     [[menu.main]]
         name = "Games"
         pre = "games"
-        url = "/games/"
+        url = "https://intangiblematter.itch.io/"
         weight = 2
     [[menu.main]]
         name = "Posts"
