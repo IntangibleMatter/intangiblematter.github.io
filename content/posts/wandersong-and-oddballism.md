@@ -23,3 +23,4 @@ accountable for how our actions would affect others, and gave us all a sense of 
 1) Isolate myself socially.
 2) Start making video games.
 
+Wandersong, incredible game that it is, helped me with both. 
