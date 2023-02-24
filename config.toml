@@ -2,6 +2,7 @@ baseURL = 'https://intangiblematter.github.io'
 languageCode = 'en-us'
 title = 'IntangibleMatter'
 theme = 'intangibletheme23'
+enableGitInfo = true
 [menu]
     [[menu.main]]
         name = "Home"

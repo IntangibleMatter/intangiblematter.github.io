@@ -1,15 +1,18 @@
 <div class="metadata">
-{{ $dateTime := .PublishDate.Format "2006-01-02" }}
-{{ $dateFormat := .Site.Params.dateFormat | default "2006-01-02" }}
-<time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time>
-<span> - </span>
-{{ with .Params.tags }}
-<span class="site-data-indicator">Tags: </span>
-<span class="tags-container">
-{{ range .}}
-{{ $href := print (absURL "tags/") (urlize .) }}
-<a class="tags" href="{{ $href }}">{{ . }}</a>
-{{ end }}
-</span>
-{{ end }}
+    {{ $dateTime := .PublishDate.Format "2006-01-02" }}
+    {{ $dateFormat := .Site.Params.dateFormat | default "2006-01-02" }}
+    <time datetime="{{ $dateTime }}">Published on {{ .PublishDate.Format $dateFormat }}</time>
+    {{ if ne .Lastmod .PublishDate }}
+    <span class="date-info italic"> | Edited on {{ .Lastmod.Format $dateFormat }}</span>
+    {{ end }}
+    <span> <br> </span>
+    {{ with .Params.tags }}
+    <span class="site-data-indicator">Tags: </span>
+    <span class="tags-container">
+        {{ range .}}
+        {{ $href := print (absURL "tags/") (urlize .) }}
+        <a class="tags" href="{{ $href }}">{{ . }}</a>
+        {{ end }}
+    </span>
+    {{ end }}
 </div>
