@@ -3,7 +3,11 @@
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
 <div class="post-title">
-    <a href="{{ .RelPermalink }}" class="title"> <h2 class="list-title">{{ .Title }}</h2> <br> {{ partial "metadata.html" . }}</a>
+    <a href="{{ .RelPermalink }}" class="title">
+        <h2 class="list-title">{{ .Title }}</h2>
+        <p class="summary"> <span class="quotemark">"</span> {{ .Summary | truncate 100 "..."}} <span class="quotemark">"</span> </p>
+        {{ partial "metadata.html" . }}
+    </a>
 </div>
 {{ end }}
 {{ end }}
