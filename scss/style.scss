@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     margin: 0;
     #content {
@@ -139,6 +139,17 @@ footer {
     line-height: 1.7em;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 0 10px white;
+
+    .summary {
+        color: #aaaaaa;
+        text-align: justify;
+        .quotemark {
+            color: white;
+            
+        }
+    }
+
     a {
         flex: 1;
         h3 {
