@@ -1,0 +1,7 @@
+<audio controls {{ if .Get "loop" }} loop={{ .Get "loop" }}{{end}}>
+    {{ if (findRE `\.ogg` ( .Get 0))}}
+        <source src="{{ .Get 0}}" type="audio/ogg">
+    {{else if (findRE `\.mp3` ( .Get 0))}}
+        <source src="{{ .Get 0}}" type="audio/mp3">
+    {{end}}
+</audio>

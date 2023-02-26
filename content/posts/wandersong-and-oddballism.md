@@ -5,6 +5,8 @@ draft: true
 tags: [wandersong, games, fanboying, oddballism, media]
 ---
 
+{{< youtube CT1TP4NHHB0 >}}
+
 Wandersong is a very special game. Ask almost anyone who's played it, and you'll find them at the very least agreeing enthusiastically,
 and more than likely raving about some moment in the game or another. In addition to this,
 [the creator says there's almost as much fanart as sold copies of the game.](https://medium.com/@banovg/reflecting-on-wandersong-f2891fec09aa)
