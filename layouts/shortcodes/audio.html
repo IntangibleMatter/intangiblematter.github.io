@@ -1,7 +1,17 @@
-<audio controls {{ if .Get "loop" }} loop={{ .Get "loop" }}{{end}}>
-    {{ if (findRE `\.ogg` ( .Get 0))}}
-        <source src="{{ .Get 0}}" type="audio/ogg">
-    {{else if (findRE `\.mp3` ( .Get 0))}}
-        <source src="{{ .Get 0}}" type="audio/mp3">
+<div class="audio-container">
+    {{if .Get "title" }}
+    <span class="audio-title">{{.Get "title"}}</span>
     {{end}}
-</audio>
+    <audio controls {{ if .Get "loop" }} loop="{{ .Get `loop` }}" {{end}}>
+        {{ if (findRE `\.ogg` ( .Get "src"))}}
+        <source src="{{ .Get `src`}}" type="audio/ogg">
+        {{else if (findRE `\.mp3` ( .Get "src"))}}
+        <source src="{{ .Get `src`}}" type="audio/mp3">
+        {{end}}
+    </audio>
+    {{if .Get "playme"}}
+    <span class="playme-alert">
+        Hey! Play this audio while reading this post for the intended experience.
+    </span>
+    {{end}}
+</div>

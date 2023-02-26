@@ -52,6 +52,7 @@ body {
         height: 100%;
         margin-bottom: auto;
         .main-content {
+            text-align: justify;
             @media screen and (max-width: 800px) {
                 margin-left: 2em;
                 margin-right: 2em;
@@ -183,6 +184,35 @@ img {
 
 blockquote {
     font-family: 'Roboto Mono', monospace;
+}
+
+.audio-container {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    .playme-alert {
+        color: #686868;
+        text-align: center;
+        display: block;
+        font-style: italic;
+        font-size: small;
+    }
+
+    .audio-title {
+        text-align: center;
+        display: block;
+        font-style: italic;
+        font-size: large;
+
+    }
+
+    audio {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .home-main {
