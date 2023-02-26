@@ -17,10 +17,9 @@ Everybody makes mistakes.
 Not everybody makes a game which conveys these feelings so effectively and in a way that feels so painfully accurate to how
 it feels to have hurt somebody in a way you can't take back.
 
-
 ## Wandersong
 
-[I already wrote a whole bunch about Wandersong here]({{< ref "posts/wandersong-and-oddballism.md">}})
+[I already wrote a whole bunch about Wandersong here]({{ ref "/posts/wandersong-and-oddballism.md" }})
 
 ## Chicory: A Colorful Tale
 
