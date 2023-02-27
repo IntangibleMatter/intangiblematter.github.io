@@ -5,7 +5,7 @@ draft: true
 tags: [wandersong, games, fanboying, oddballism, media]
 ---
 
-{{< audio src="/media/wandersong-and-oddballism/thecrater.ogg" loop="true" title="The Crater - A Shell In The Pit" playme="true">}}
+{{< audio src="/media/wandersong-and-oddballism/thecrater.ogg" loop="true" title="The Crater - A Shell In The Pit" playme="true" >}}
 
 > My whole life no one's noticed
 >
@@ -33,7 +33,7 @@ tags: [wandersong, games, fanboying, oddballism, media]
 
 Wandersong is a very special game. Ask almost anyone who's played it, and you'll find them at the very least agreeing enthusiastically,
 and more than likely raving about some moment in the game or another. In addition to this,
-[the creator says there's almost as much fanart as sold copies of the game.](https://medium.com/@banovg/reflecting-on-wandersong-f2891fec09aa#7fcb)
+[the creator says there's almost as many pieces of fanart as copies of the game sold.](https://medium.com/@banovg/reflecting-on-wandersong-f2891fec09aa#7fcb)
 Which is, to put it lightly, incredible. But I'm not here today to talk about how beloved this game is. What I'm here to talk about is Wandersong and delighting in being an oddball.
 
 ![Kiwi Dancing](/media/wandersong-and-oddballism/Dance3.webp)
