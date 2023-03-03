@@ -14,5 +14,13 @@
         <a class="tags" href="{{ $href }}">{{ . }}</a>
         {{ end }}
     </span>
+    <br>
     {{ end }}
+    {{ with .Params.spoilers }}
+    <span class="spoiler-warnings-container">
+        Spoilers for: 
+        {{ delimit . ", " }}
+        {{/*  <span class="spoiler-item">{{ . }}</span>  */}}
+    </span>
+    {{end}}
 </div>

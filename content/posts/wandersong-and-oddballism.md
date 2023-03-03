@@ -3,8 +3,9 @@ title: "Wandersong and Oddballism"
 date: 2023-02-26T14:28:59-08:00
 draft: true
 tags: [wandersong, games, fanboying, oddballism, media]
+spoilers: [Wandersong, "Chicory: A Colorful Tale"]
 ---
-{{< spoilerwarning Wandersong>}}
+<!-- {{< spoilerwarning "Wandersong, Chicory: A Colorful Tale">}} -->
 {{< audio src="/media/wandersong-and-oddballism/thecrater.ogg" loop="true" title="The Crater - A Shell In The Pit" playme="true" >}}
 
 > My whole life no one's noticed
