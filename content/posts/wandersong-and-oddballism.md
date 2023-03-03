@@ -4,7 +4,7 @@ date: 2023-02-26T14:28:59-08:00
 draft: true
 tags: [wandersong, games, fanboying, oddballism, media]
 ---
-
+{{< spoilerwarning Wandersong>}}
 {{< audio src="/media/wandersong-and-oddballism/thecrater.ogg" loop="true" title="The Crater - A Shell In The Pit" playme="true" >}}
 
 > My whole life no one's noticed
@@ -54,3 +54,4 @@ Wandersong, incredible game that it is, helped me with both.
 In eighth grade I was a bright-eyed optimist. I said hello to everybody I would pass, and thought of almost anybody who would engage with me in a
 positive way as a friend. The sad truth that I've come to know over the years is that not everyone will be your friend, and if you're an overly
 friendly know-it-all some people who you thought of as friends will hate you.
+

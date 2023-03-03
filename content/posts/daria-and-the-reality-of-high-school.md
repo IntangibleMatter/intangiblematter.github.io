@@ -5,3 +5,4 @@ draft: true
 tags: [media, tv, fanboying, daria]
 ---
 
+Daria, for those of you who don't know, is a late-90s tv show which aired on MTV. It is also the single most accurate depiction of my high school experience that I have seen.
