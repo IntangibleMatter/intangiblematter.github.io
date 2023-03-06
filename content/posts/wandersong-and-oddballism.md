@@ -38,6 +38,10 @@ unapologetically. You can feel the oddballism and all the pride and nervousness 
 
 I guess I should probably define oddballism if you can't quite pick out the exact meaning.
 
+Oddballism is a word made by the wonderful properties of english that allow us to slap suffixes and prefixes onto other words to make new ones.
+It is the nature and philosophy of being an eccentric, kind, and goodhearted person. Essentially it's the philosophy of being a kid's show
+protagonist but with less emphasis on how you spell words.
+
 > My whole life no one's noticed
 >
 > Or expected much from me
