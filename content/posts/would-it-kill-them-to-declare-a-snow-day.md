@@ -1,7 +1,7 @@
 ---
 title: "Would It Kill Them to Declare a Snow Day"
 date: 2023-02-28T07:15:03-08:00
-draft: false
+draft: true
 tags: [snow, local, ramblings, rant]
 ---
 
