@@ -58,4 +58,17 @@ Oddballism is a word made by the wonderful properties of english that allow us
 to slap suffixes and prefixes onto other words to make new ones. It is the
 nature and philosophy of being an oddball. An oddball, if you don't know the
 meaning of the word, is quite simply someone who is eccentric.
- 
+
+Now, this is a rather broad definition, but to me what oddballism means with
+its connotations is particularly someone who is bright and kind in their
+weirdness. The bard is a perfect example of this, someone who in their entire
+journey treats everyone they meet (even someone actively opposing their goals
+in an aggressive way) with kindness, care, and respect. At the same time, the
+bard *never* compromises on who they are and how they interact with the world.
+
+At the bard's lowest point in the story, Act 4: March of the Happy Factory,
+everything they thought about their journey and what they were capable of
+was ripped out from under them. They feel, quite frankly, like shit. Yet
+despite all these hardships, and everything else going on at this time, they
+still treat everyone they meet with the utmost care, kindness, and sensitivity.
+I find this an utter inspiration
