@@ -11,7 +11,8 @@ honestly *even better* than everyone says. The effects were *amazing*, the
 writing was *fantastic*, and the actors were all... \**chef's kiss*\*.
 
 {{< figure 
-src="/media/a-brief-hantiplad-about-everything-everywhere/jobu_tupekai_is_iconic.GIF" 
+src="/media/a-brief-hantiplad-about-everything-everywhere/jobu_tupekai_is_iconic.GIF"
+alt="god I wish I knew how to look this good in makeup"
 caption="Our deadpan-hyper chaotic-evil queen." >}}
 
 My favourite character was *easily* Jobu Tupekai. She's honestly everything I
