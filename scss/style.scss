@@ -159,15 +159,24 @@ body {
     }
 }
 
+@mixin caption-template {
+    @media screen and (max-width: 600px) {
+        margin-top: -1em;
+    }
+    margin-top: -3em;
+    color: gray;
+    text-align: center;
+    width: 100%
+}
+
 figure {
     figcaption {
-        @media screen and (max-width: 600px) {
-            margin-top: -1em;
-        }
-        margin-top: -3em;
-        color: gray;
-        text-align: center;
+        @include caption-template();
     }
+}
+
+.caption {
+    @include caption-template();
 }
 
 footer {
