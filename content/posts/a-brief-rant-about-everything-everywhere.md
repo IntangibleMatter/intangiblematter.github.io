@@ -39,4 +39,4 @@ If you haven't seen it yet. Watch it. It's on Prime. Or buy the blu-ray. It's
 *SO* worth it.
 
 __note:__ *hantiplad* is a word a friend and I came up with when we realized
-that there wasn't a term for a positive rant*
+that there wasn't a term for a positive rant
