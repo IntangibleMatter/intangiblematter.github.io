@@ -10,10 +10,11 @@ So I finally got to watch that movie everyone was talking about last year. It's
 honestly *even better* than everyone says. The effects were *amazing*, the
 writing was *fantastic*, and the actors were all... \**chef's kiss*\*.
 
-{{< figure 
-src="/media/a-brief-hantiplad-about-everything-everywhere/jobu_tupekai_is_iconic.GIF"
-alt="god I wish I knew how to look this good in makeup"
-caption="Our deadpan-hyper chaotic-evil queen." >}}
+{{< imgtitletext 
+"/media/a-brief-hantiplad-about-everything-everywhere/jobu_tupekai_is_iconic.GIF" 
+"god I wish I knew how to look this good in makeup" >}}
+
+{{<caption "Our deadpan-hyper chaotic-evil queen." >}}
 
 My favourite character was *easily* Jobu Tupekai. She's honestly everything I
 aspire to be. A cool, nihilistic, reality warping, amazing looking young adult
