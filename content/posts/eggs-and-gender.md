@@ -4,7 +4,6 @@ date: 2023-03-28T09:10:26-07:00
 draft: true
 tags: [gender, lgbtq+, eggs, fascism]
 ---
-
 Gender is weird.
 
 It's such a social construct yet our society has been built on it on such a
