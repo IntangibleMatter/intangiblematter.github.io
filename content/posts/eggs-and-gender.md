@@ -2,7 +2,7 @@
 title: "Eggs and Gender"
 date: 2023-03-28T09:10:26-07:00
 draft: true
-tags: [gender, lgbtq+, eggs]
+tags: [gender, lgbtq+, eggs, fascism]
 ---
 
 Gender is weird.
