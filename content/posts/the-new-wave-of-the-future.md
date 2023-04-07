@@ -53,7 +53,14 @@ feelings of wanting to escape their hometown, especially suburban or rural
 areas. Interestingly, the original title of this post was
 *8485 and the Idealization of a False Present*, and I was planning to talk
 about how her music makes me feel, even if for a moment, like what our societal
-idea of a "real teenager" is. I've never been
+idea of a "real teenager" is. I've never been someone who particularly seeks
+out social situations or adventure. On the contrary, I rather tend to avoid
+them. 
+
+I cannot think of any song that makes me feel more like this (see below image)
+
+![Girl floating in space gif](/media/new-wave-of-the-future/summoning-salt.gif)
+{{< caption "Source: Staggernight on youtube" >}}
 
 > But I can't bring myself to\
 > Hate me for wanting a break\
