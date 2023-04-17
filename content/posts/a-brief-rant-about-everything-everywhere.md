@@ -12,7 +12,9 @@ writing was *fantastic*, and the actors were all... \**chef's kiss*\*.
 
 {{< imgtitletext 
 "/media/a-brief-hantiplad-about-everything-everywhere/jobu_tupekai_is_iconic.GIF" 
-"god I wish I knew how to look this good in makeup" >}}
+"god I wish I knew how to look this good in makeup" 
+"Jobu Tupaki it's organic gif"
+>}}
 
 {{<caption "Our deadpan-hyper chaotic-evil queen." >}}
 
