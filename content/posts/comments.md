@@ -9,7 +9,7 @@ Hey! You might notice something new down at the bottom of my blog posts. It's a
 comments section! You can leave comments on my ramblings if you have a Github
 account and you sign in to it. 
 
-I'm using a system called [utterances](utteranc.es) for my comments. It means I
+I'm using a system called [utterances](https://utteranc.es) for my comments. It means I
 don't have to worry about self-hosting anything, and I can just use github!
 Specifically, Github issues, which is a way for people to comment on bugs they
 found in code, and it means that I don't need to handle anyone's data myself!
