@@ -1,7 +1,7 @@
 ---
 title: "Comments"
 date: 2023-04-17T15:58:35-07:00
-draft: true
+draft: false
 tags: [tech, update, blog, github]
 ---
 
