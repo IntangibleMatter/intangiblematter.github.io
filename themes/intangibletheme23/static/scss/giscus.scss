@@ -85,9 +85,11 @@ main {
     /*! Extensions from @primer/css/alerts/flash.scss */
     --color-social-reaction-bg-hover: var(--color-scale-gray-7);
     --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
-}
-main .pagination-loader-container {
-    background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg);
+
+    background-color: black;
+    .pagination-loader-container {
+        background-image: url(https://github.com/images/modules/pulls/progressive-disclosure-line-dark.svg);
+    }
 }
 
 /*! Custom CSS */
@@ -114,5 +116,5 @@ main .pagination-loader-container {
     background-color: #15202b;
 }
 main .gsc-loading-image {
-    background-image: url(https://github.githubassets.com/images/mona-loading-dimmed.gif);
+    background-image: url("/img/commentsload.gif");
 }
