@@ -34,57 +34,57 @@ main {
     --color-prettylights-syntax-brackethighlighter-angle: #768390;
     --color-prettylights-syntax-sublimelinter-gutter-mark: #545d68;
     --color-prettylights-syntax-constant-other-reference-link: #96d0ff;
-    // --color-btn-text: #adbac7;
-    // --color-btn-bg: #373e47;
-    // --color-btn-border: rgba(205, 217, 229, 0.1);
-    // --color-btn-shadow: 0 0 transparent;
-    // --color-btn-inset-shadow: 0 0 transparent;
-    // --color-btn-hover-bg: #444c56;
-    // --color-btn-hover-border: #768390;
-    // --color-btn-active-bg: #3d444d;
-    // --color-btn-active-border: #636e7b;
-    // --color-btn-selected-bg: #2d333b;
-    // --color-btn-primary-text: #fff;
-    // --color-btn-primary-bg: #347d39;
-    // --color-btn-primary-border: rgba(205, 217, 229, 0.1);
-    // --color-btn-primary-shadow: 0 0 transparent;
-    // --color-btn-primary-inset-shadow: 0 0 transparent;
-    // --color-btn-primary-hover-bg: #46954a;
-    // --color-btn-primary-hover-border: rgba(205, 217, 229, 0.1);
-    // --color-btn-primary-selected-bg: #347d39;
-    // --color-btn-primary-selected-shadow: 0 0 transparent;
-    // --color-btn-primary-disabled-text: rgba(205, 217, 229, 0.5);
-    // --color-btn-primary-disabled-bg: rgba(52, 125, 57, 0.6);
-    // --color-btn-primary-disabled-border: rgba(205, 217, 229, 0.1);
-    // --color-fg-default: #adbac7;
-    // --color-fg-muted: #768390;
-    // --color-fg-subtle: #545d68;
-    // --color-canvas-default: #192734;
-    // --color-canvas-overlay: #161b22;
-    // --color-canvas-inset: #15202b;
-    // --color-canvas-subtle: #253341;
-    // --color-border-default: #444c56;
-    // --color-border-muted: #373e47;
-    // --color-neutral-muted: rgba(99, 110, 123, 0.4);
-    // --color-accent-fg: #818181;
-    // --color-accent-emphasis: #7a7a7a;
-    // --color-accent-muted: rgba(211, 211, 211, 0.4);
-    // --color-accent-subtle: rgba(180, 180, 180, 0.15);
-    // --color-success-fg: #57ab5a;
-    // --color-attention-fg: #c69026;
-    // --color-attention-muted: rgba(174, 124, 20, 0.4);
-    // --color-attention-subtle: rgba(174, 124, 20, 0.15);
-    // --color-danger-fg: #e5534b;
-    // --color-danger-muted: rgba(229, 83, 75, 0.4);
-    // --color-danger-subtle: rgba(229, 83, 75, 0.15);
-    // --color-primer-shadow-inset: 0 0 transparent;
-    // --color-primer-shadow-focus: 0 0 0 3px #c0c0c0;
-    // --color-scale-gray-7: #373e47;
-    // --color-scale-blue-8: #000000;
+    --color-btn-text: #000000;
+    --color-btn-bg: #000000;
+    --color-btn-border: #0000001a;
+    --color-btn-shadow: 0 0 transparent;
+    --color-btn-inset-shadow: 0 0 transparent;
+    --color-btn-hover-bg: #000000;
+    --color-btn-hover-border: #000000;
+    --color-btn-active-bg: #000000;
+    --color-btn-active-border: #000000;
+    --color-btn-selected-bg: #000000;
+    --color-btn-primary-text: #fff;
+    --color-btn-primary-bg: #000000;
+    --color-btn-primary-border: #0000001a;
+    --color-btn-primary-shadow: 0 0 transparent;
+    --color-btn-primary-inset-shadow: 0 0 transparent;
+    --color-btn-primary-hover-bg: #46954a;
+    --color-btn-primary-hover-border: #0000001a;
+    --color-btn-primary-selected-bg: #000000;
+    --color-btn-primary-selected-shadow: 0 0 transparent;
+    --color-btn-primary-disabled-text: #00000080;
+    --color-btn-primary-disabled-bg: #00000099;
+    --color-btn-primary-disabled-border: #0000001a;
+    --color-fg-default: #000000;
+    --color-fg-muted: #000000;
+    --color-fg-subtle: #000000;
+    --color-canvas-default: #000000;
+    --color-canvas-overlay: #000000;
+    --color-canvas-inset: #000000;
+    --color-canvas-subtle: #000000;
+    --color-border-default: #000000;
+    --color-border-muted: #000000;
+    --color-neutral-muted: #00000066;
+    --color-accent-fg: #000000;
+    --color-accent-emphasis: #000000;
+    --color-accent-muted: #00000066;
+    --color-accent-subtle: #00000026;
+    --color-success-fg: #57ab5a;
+    --color-attention-fg: #c69026;
+    --color-attention-muted: #ae7c1466;
+    --color-attention-subtle: #ae7c1426;
+    --color-danger-fg: #e5534b;
+    --color-danger-muted: #e5534b66;
+    --color-danger-subtle: #e5534b26;
+    --color-primer-shadow-inset: 0 0 transparent;
+    --color-primer-shadow-focus: 0 0 0 3px #000000;
+    --color-scale-gray-7: #000000;
+    --color-scale-blue-8: #000000;
 
-    // /*! Extensions from @primer/css/alerts/flash.scss */
-    // --color-social-reaction-bg-hover: var(--color-scale-gray-7);
-    // --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
+    /*! Extensions from @primer/css/alerts/flash.scss */
+    --color-social-reaction-bg-hover: var(--color-scale-gray-7);
+    --color-social-reaction-bg-reacted-hover: var(--color-scale-blue-8);
 
     background-color: black;
     .pagination-loader-container {
@@ -113,7 +113,7 @@ main {
     order: 3;
 }
 .gsc-homepage-bg {
-    background-color: #15202b;
+    background-color: #000000;
 }
 main .gsc-loading-image {
     background-image: url("https://intangiblematter.net/img/commentsload.gif");
