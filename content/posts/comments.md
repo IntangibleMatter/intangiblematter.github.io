@@ -21,4 +21,4 @@ to sign up for Github and comment on this blog!
 
 Alright, have a good one!
 
-\- Intangiblematter
+\- IntangibleMatter
