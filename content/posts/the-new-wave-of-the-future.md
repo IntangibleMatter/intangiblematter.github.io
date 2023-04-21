@@ -86,6 +86,8 @@ in the following image:
 
 ### 1:15 
 
+{{< youtube X6SCBvllfCA >}}
+
 I have sung along to this song while miming out a little routine to the lyrics
 many more times than I care to admit. It's not even that it's a song that I 
 relate to! It's again similar to *Hangar* in being such a perfect encapsulation
@@ -98,7 +100,6 @@ wonderful little 2 minutes of music which continues on with 8485's incredible
 ability to channel feelings into a little piece of music that almost anyone
 can relate to, whether or not they've felt those things themselves.
 
-{{< youtube X6SCBvllfCA >}}
 
 ### More to check out
 
@@ -152,8 +153,126 @@ album, *Dumbest Girl Alive*, is my 16th most-listened to song so far this year.
 I expect it to rise farther, and then probably fall a little when I get 
 obsessed with another song sometime later this year.
 
+I don't necessarily have as much to say about their individual songs as some of
+the other artists in this list, but they still have some great songs which you should check out!
 
 ### 10000 gecs
+
+I know what you're thinking. Isn't this the newer album? Why did you put this 
+one first? Well the answer is that I put it first because I like it better. It 
+has most of my favourite songs of theirs on it, and it's also just really
+consistently *good*. Lemme list a few standout songs from the album.
+
+#### Dumbest Girl Alive
+
+{{< youtube oXrbMDww9ss >}}
+
+God this one is a bop. It's the opening song on the album, and I don't know if 
+there's a better way to open an album than by playing the **THX** sound effect.
+The lyrics are amazing, stupid, and resonant in typical gec fashion, and are 
+reportedly somewhat about transitioning. (The line "I did science on my face"
+reportedly being a referrence to Facial Feminization Surgery, as an example.)
+
+> If you think I'm stupid now,\
+> You should see me when I'm high\
+> And I'm smarter than I look,\
+> I'm the dumbest girl alive
+
+Like, *come on!* That's a fun song. Give it a listen. Please.
+
+#### 757
+
+Fun little song with a solid beat. Great to bob your head to, and a chorus
+which is as catchy as any by this band which is a master of hooks.
+
+> 757, yeah I'll never go to heaven\
+> I've been smokin' since eleven\
+> Told the devil he's a lemon, yeah
+
+#### Hollywood Baby.
+
+If you like guitar, give this one a check! It's got a strong electric guitar
+at the center of it, and the lyrics are a lot of fun. This song is one that 
+really gets you pumping easily, with the upbeat tempo, distorted synths, heavy
+electric guitar and drums, it's one that definitely has a lot of mass appeal.
+
+> Do you wanna party? Malibu Barbie\
+> Are you gonna pack that shit up when it all comes tumbling down?\
+> Do you wanna party? Malibu Barbie\
+> Are you gonna pack that shit up when it all comes tumbling down?\
+> So go pitch your fit, no one gives a shit\
+> Better off if you just get over it
+
+#### Frog on the Floor
+
+Not a bad song, but honestly a skip for me. Just not my thing.
+
+#### Doritos and Fritos
+
+{{< youtube 2PWMiy4RysI >}}
+
+Oh. Mygod. This song is such a fun, chaotic mess with noisy guitar, an 
+*extremely* catchy bass riff, and an overall composition that feels like ska
+got hammered and ended up having a one night stand with grunge while both were 
+dressed in candy goth outfits. I know, it's weird and probably doesn't make 
+sense, but this song is just... hard to describe! It's fun! It's silly! The 
+lyrics don't really make sense and it feels like they just pulled random words 
+out of a hat and then used an Ouija board to contact Dr. Seuss for advice on 
+how to write lyrics. It's fun. It's pure fun and one of my favourite songs at 
+the time of writing, and one of the first gec songs that I heard! Give it three 
+listens. Nobody likes it the first time, but it is *such*. *a*. *bop*.
+
+> Okay, I went to France to get some new pants (ooh!)\
+> I went to Greece to get something to eat (ooh!)\
+> He said "Shit, all we got's Doritos and Fritos"\
+> I said "then give me all of those fucking Doritos and Fritos!"
+
+#### Billy Knows Jamie
+
+I gotta say, 2000s nu-metal is not something I was expecting to be brought
+back, but it's not an unwelcome return! Especially from the masters of
+genremashing. If you want something with that classic intense guitar/bass feel 
+and the intense style of every angry 16 year old boy in 2002's favourite genre,
+give this a listen! Not for everyone, but still good fun.
+
+> Billy knows Jamie, Jamie got a gun\
+> Jamie gonna kill me, think I need to run\
+> Jamie goin' loco, Jamie off the juice\
+> Jamie kinda scary when he lookin' at you, come on!
+
+#### One Million Dollars
+
+One million dollars!
+
+> One million dollars!\
+> One million dollars!\
+> One million dollars!
+
+#### The Most Wanted Person in the United States
+
+Nice chill beat, lots of somewhat random sounds, and a buttload of catchy
+hooks. Not much to say about this one aside from it being just a solid little 
+song with fun, silly lyrics and a bunch of samples.
+
+> Yeah, I'm a real killer\
+> I just killed Bobby, and then I ate his dinner\
+> Then I took his car, and I crashed it in the river\\
+> Always been cold, I was born in the winter
+
+#### MeMeMe
+
+Seems to be about a disfunctional relationship or something. But you don't 
+really notice that until a few listens in because of how intense the screaming
+synths are, and the ska-style verse. Yet another one with great hooks, but that 
+goes without saying for this band.
+
+> I tried on yout lipstick, I thought I looked pretty\
+> But you didn't care, no, 'cause you're always busy\
+> And you're always busy, so you never hear me\
+> So you'll never really know, know, know, know, know, know, know\
+> Anything about me, me, me, me, me, me, me
+
+### 1000 gecs 
 
 pass
 
@@ -164,3 +283,4 @@ pass
 ## And more!
 
 pass
+
