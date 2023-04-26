@@ -1,8 +1,8 @@
 ---
 title: "It's the New Wave of the Future!"
-date: 2023-04-03T15:52:02-08:00
+date: 2023-04-26T08:25:02-08:00
 draft: true
-tags: [fanboying, media, hyperpop, music, "100 gecs", 8485, underscores]
+tags: [fanboying, media, hyperpop, music, "100 gecs", 8485, underscores, hantiplad]
 ---
 
 My music taste changes constantly. I had a long time where I mostly listened to
@@ -42,10 +42,9 @@ pass
 8485 is the second artist of this genre who I got into, and the first one that
 caused me to identify "hyperpop" as something that I liked. 8485 is an artist
 who is based somewhere in Ontario. Her music frequently explores themes of
-directionlessness, living in the present, and wanting to escape suburbia. Her 
-song *Hangar* is a song that I've loved for a while now, and I've spent many a 
-day where I will simply have the drawn out, retroesque synths and longing
-vocals looping in my head.
+directionlessness, living in the present, and wanting to escape suburbia.
+
+Also, if you want to look into the lore, it's really cool.
 
 ### Hangar
 
@@ -56,7 +55,7 @@ __*Purgatory* at the end of it.__
 I feel like *Hangar* in particular, at least to me, speaks to many teenager's 
 feelings of wanting to escape their hometown, especially suburban or rural
 areas. Interestingly, the original title of this post was
-*8485 and the Idealization of a False Present*, and I was planning to talk
+__*8485 and the Idealization of a False Present*__, and I was planning to talk
 about how her music makes me feel, even if for a moment, like what our societal
 idea of a "real teenager" is. I've never been someone who particularly seeks
 out social situations or adventure. On the contrary, I rather tend to avoid
@@ -65,7 +64,10 @@ I continue to struggle with) and, for lack of a better term, maladaptive
 daydream myself a world where I can let go of my cares for a minute. Where I 
 can jump into a friend's car and escape it all for a moment. But for the 
 meantime I continue to imagine a world where these words ring true for me,
-and not just for some ideal other self I wish I had.
+and not just for some ideal other self I wish I had. 
+This is a song that I've loved for a while now, and I've spent many a 
+day where I will simply have the drawn out, retroesque synths and longing
+vocals looping in my head.
 
 I feel that the final bridge sums the song's core up best with its lyrics:
 
@@ -100,6 +102,40 @@ wonderful little 2 minutes of music which continues on with 8485's incredible
 ability to channel feelings into a little piece of music that almost anyone
 can relate to, whether or not they've felt those things themselves.
 
+### Scribbles (feat. Drainpuppet)
+
+{{< songlinklarge "https://song.link/ca/i/1561457982" >}}
+
+aaa 
+
+{{< songlinkmedium >}}
+
+asdfas
+
+{{< songlinksmall 1561457982 >}}
+
+assad
+This song *just* came out while I was working on the post... and oh my god it
+has become my current favourite song within *less than twelve hours* since its
+release. I'm gonna just hantiplad about this song for a little bit. The synths
+that it's made of are somehow ethereal and deeply grounded. The bass synth that
+growls sweeping tones across the lower frequencies gives the song a powerful
+base that everything else plays across. The pad's constant drive adds to the 
+forward stasis of the song. 
+
+And the lyrics! *oh. my. god.* I don't know if I've ever felt so seen by a 
+song. Eighty tackles (what I interpret as, at least) feelings of depression,
+isolation, and some level of anxiety with such a level of personal accuracy and
+honesty that it feels like it shouldn't be real. Just.. give this song a 
+listen. It's, quite frankly, fucking amazing.
+
+> You said everything would be fine\
+> Promised me some peace of mind\
+> Find out I don't keep mine\
+> Lose it in a week again\
+> You said everything would be fine\
+> Everything would be fine\
+> Everyday my baseline seeps a little deeper down
 
 ### More to check out
 
@@ -180,32 +216,12 @@ reportedly being a referrence to Facial Feminization Surgery, as an example.)
 
 Like, *come on!* That's a fun song. Give it a listen. Please.
 
-#### 757
-
-Fun little song with a solid beat. Great to bob your head to, and a chorus
-which is as catchy as any by this band which is a master of hooks.
-
-> 757, yeah I'll never go to heaven\
-> I've been smokin' since eleven\
-> Told the devil he's a lemon, yeah
-
 #### Hollywood Baby.
 
 If you like guitar, give this one a check! It's got a strong electric guitar
 at the center of it, and the lyrics are a lot of fun. This song is one that 
 really gets you pumping easily, with the upbeat tempo, distorted synths, heavy
 electric guitar and drums, it's one that definitely has a lot of mass appeal.
-
-> Do you wanna party? Malibu Barbie\
-> Are you gonna pack that shit up when it all comes tumbling down?\
-> Do you wanna party? Malibu Barbie\
-> Are you gonna pack that shit up when it all comes tumbling down?\
-> So go pitch your fit, no one gives a shit\
-> Better off if you just get over it
-
-#### Frog on the Floor
-
-Not a bad song, but honestly a skip for me. Just not my thing.
 
 #### Doritos and Fritos
 
@@ -235,44 +251,17 @@ genremashing. If you want something with that classic intense guitar/bass feel
 and the intense style of every angry 16 year old boy in 2002's favourite genre,
 give this a listen! Not for everyone, but still good fun.
 
-> Billy knows Jamie, Jamie got a gun\
-> Jamie gonna kill me, think I need to run\
-> Jamie goin' loco, Jamie off the juice\
-> Jamie kinda scary when he lookin' at you, come on!
-
-#### One Million Dollars
-
-One million dollars!
-
-> One million dollars!\
-> One million dollars!\
-> One million dollars!
-
-#### The Most Wanted Person in the United States
-
-Nice chill beat, lots of somewhat random sounds, and a buttload of catchy
-hooks. Not much to say about this one aside from it being just a solid little 
-song with fun, silly lyrics and a bunch of samples.
-
-> Yeah, I'm a real killer\
-> I just killed Bobby, and then I ate his dinner\
-> Then I took his car, and I crashed it in the river\\
-> Always been cold, I was born in the winter
-
-#### MeMeMe
-
-Seems to be about a disfunctional relationship or something. But you don't 
-really notice that until a few listens in because of how intense the screaming
-synths are, and the ska-style verse. Yet another one with great hooks, but that 
-goes without saying for this band.
-
-> I tried on yout lipstick, I thought I looked pretty\
-> But you didn't care, no, 'cause you're always busy\
-> And you're always busy, so you never hear me\
-> So you'll never really know, know, know, know, know, know, know\
-> Anything about me, me, me, me, me, me, me
-
 ### 1000 gecs 
+
+#### Money Machine
+
+This is the Gec's biggest hit. 
+
+#### Hand Crushed by a Mallet
+
+pass
+
+#### 800db cloud
 
 pass
 
