@@ -19,7 +19,7 @@ it feels to have hurt somebody in a way you can't take back.
 
 ## Wandersong
 
-[I already wrote a whole bunch about Wandersong here]({{< ref "/posts/wandersong-and-oddballism.md" >}})
+[I already wrote a whole bunch about Wandersong here]({{< ref "/posts/2023/03/wandersong-and-oddballism.md" >}})
 
 ## Chicory: A Colorful Tale
 
