@@ -1,7 +1,7 @@
 ---
 title: "It's the New Wave of the Future!"
 date: 2023-04-26T08:25:02-08:00
-draft: false
+draft: true
 tags: [fanboying, media, hyperpop, music, "100 gecs", 8485, underscores, hantiplad]
 ---
 
