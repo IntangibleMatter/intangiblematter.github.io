@@ -50,6 +50,7 @@ Also, if you want to look into the lore, it's really cool.
 ### Hangar
 
 {{< youtube 3TsrJ9kPU3Q >}}
+{{< songlink "https://music.apple.com/ca/album/hangar/1561457977?i=1561457978" "s" >}}
 **Just want to note: This video also covers about the first minute of**
 ***Purgatory* at the end of it.**
 
@@ -89,7 +90,7 @@ in the following image:
 
 ### 1:15
 
-{{< youtube X6SCBvllfCA >}}
+{{< songlink "https%3A%2F%2Fsong.link%2Fi%2F1524243510" "m" >}}
 
 I have sung along to this song while miming out a little routine to the lyrics
 many more times than I care to admit. It's not even that it's a song that I
@@ -105,11 +106,8 @@ can relate to, whether or not they've felt those things themselves.
 
 ### Scribbles (feat. Drainpuppet)
 
-asdfas
+{{< songlink "https://music.apple.com/ca/album/scribbles-feat-drainpuppet/1677053939?i=1677053940" "m">}}
 
-{{< songlink "https%3A%2F%2Fsong.link%2Fi%2F1524243510" "m" >}}
-
-assad
 This song *just* came out while I was working on the post... and oh my god it
 has become my current favourite song within *less than twelve hours* since its
 release. I'm gonna just hantiplad about this song for a little bit. The synths
@@ -140,6 +138,8 @@ giving a listen off the top of my head.
 
 (This is pretty much just a list of all the songs on *Plague Town* excluding
 *Hangar* because I gave that one its own section)
+
+{{< songlink "https://music.apple.com/ca/album/plague-town-ep/1561457977" "m" >}}
 
 ***Purgatory*** - A great little song to zone out to which seems to me to be
 another one of 8485's songs about relationships and/or suburbia.
