@@ -45,3 +45,6 @@ Do I wish I had a goth pleated skirt?
 Yes, don't all cis men wish this?
 
 Anyways, just a quick little ramble. See y'all next time.
+
+**update: 2023-04-27** - 
+[update here]({{< ref "posts/2023/04/youve-cracked-your-egg-now-fry-in-it.md">}})
