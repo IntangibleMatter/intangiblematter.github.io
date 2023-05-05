@@ -6,7 +6,7 @@ tags: [archive, gamedev, "game engines", godot]
 ---
 **PLEASE NOTE: this is an archive from my original blog. It was my only post.**
 
-```
+```txt
 Before we begin: A game engine is a tool which is used to create games. It
 usually has a user interface and a scripting language (a specialized programming
 language unique to the engine) of some sort.  

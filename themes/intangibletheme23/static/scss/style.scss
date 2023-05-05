@@ -237,6 +237,13 @@ footer {
     }
 }
 
+code {
+    overflow-x: scroll;
+    background-color: #303030;
+    // border: 2px solid #797979;
+    border-radius: 10px;
+}
+
 .metadata {
     text-align: center;
     // color: #3d3d3d;
