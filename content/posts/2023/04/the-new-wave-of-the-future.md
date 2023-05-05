@@ -38,17 +38,17 @@ most listened to albums of 2022.
 
 Underscores is a pretty solid all-around artist, and they're a fairly friendly
 entry into the genre. If you want a new artist with a pretty chill style and
-some unique sonic elements, give them a check out! I won't go into all of 
+some unique sonic elements, give them a check out! I won't go into all of
 their songs here, but I just have a few I want to talk about.
 
 ### 70%
 
-{{<songlink "https://music.apple.com/ca/album/70/1554129662?i=1554129912" "m" >}}
+{{< songlink "https://music.apple.com/ca/album/70/1554129662?i=1554129912" "m" >}}
 
-The opening song off their debut album, *fishmonger*, is a wondefully bombastic
+The opening song off their debut album, *fishmonger*, is a wonderfully bombastic
 welcome into the world of underscores. The guitar in this song screeches, their
-voice near-inaudibly ratches over the driving rock-esque beats, and include a 
-fun, albiet depressingly current message for anyone who can decipher them.
+voice near-inaudibly ratches over the driving rock-esque beats, and include a
+fun, albeit depressingly current message for anyone who can decipher them.
 While definitely not a song for everyone, it's easily one of my favourite songs
 by them.
 
@@ -59,14 +59,14 @@ by them.
 > She had a shitty day and now we've only made it worse for her,\
 > the sky is orange and there's fucking ashes on her windshield (Woo)
 
-### Second Hand Embarrassment 
+### Second Hand Embarrassment
 
 {{< youtube uGx2rul46gk >}}
 {{< songlink "https://music.apple.com/ca/album/second-hand-embarrassment/1554129662?i=1554129916" "s" >}}
 
 This song is a pretty chill intro to the world of Underscores. Catchy loops,
-fun vocals, really just a good song to bop your head to. Not much to say, just 
-one I'd recommend checking out first if you're just starting your journey, as 
+fun vocals, really just a good song to bop your head to. Not much to say, just
+one I'd recommend checking out first if you're just starting your journey, as
 it's a lot more friendly to standard music tastes.
 
 ## 8485
@@ -179,7 +179,7 @@ another one of 8485's songs about relationships and/or suburbia.
 someone in what I can only assume is a romantic manner.
 
 ***Pure*** - Apparently this song is about a desire to be like christ, but as
-a lifelong athiest I can't really relate to that, so to me it's just a nice
+a lifelong atheist I can't really relate to that, so to me it's just a nice
 little synthy song with some sort of longing lyrics.
 
 ***Southview*** - God I adore this breakup song. It does such a good job at
@@ -233,7 +233,7 @@ God this one is a bop. It's the opening song on the album, and I don't know if
 there's a better way to open an album than by playing the **THX** sound effect.
 The lyrics are amazing, stupid, and resonant in typical gec fashion, and are
 reportedly somewhat about transitioning. (The line "I did science on my face"
-reportedly being a referrence to Facial Feminization Surgery, as an example.)
+reportedly being a reference to Facial Feminization Surgery, as an example.)
 
 > If you think I'm stupid now,\
 > You should see me when I'm high\
