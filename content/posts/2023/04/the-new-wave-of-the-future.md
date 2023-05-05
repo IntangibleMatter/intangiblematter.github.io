@@ -13,14 +13,6 @@ can be loosely defined as a type of music that borrows strongly from pop for
 its layout, early 2000s internet for its musical aesthetics, and pretty much
 whatever the hell the artist feels like for the lyrics.
 
-I first discovered hyperpop when I heard of the album
-[*fishmonger* by underscores](#underscores) in a
-[video by Alpo Media](https://youtu.be/v9JWUUb8sQw?t=433) where he
-reviewed his subscriber's favourite albums. I believe he discusses it at about
-7:13. I was in need of some new music at the time, and decided to check it out
-because... weird is fun! I was *not* disappointed and ended up with one of my
-most listened to albums of 2022.
-
 The genre is largely characterized by the following traits, though they can
 all be taken or left as the artist desires.
 
@@ -36,7 +28,46 @@ artist.
 
 ## underscores
 
-pass
+I first discovered hyperpop when I heard of the album
+[*fishmonger* by underscores](#underscores) in a
+[video by Alpo Media](https://youtu.be/v9JWUUb8sQw?t=433) where he
+reviewed his subscriber's favourite albums. I believe he discusses it at about
+7:13. I was in need of some new music at the time, and decided to check it out
+because... weird is fun! I was *not* disappointed and ended up with one of my
+most listened to albums of 2022.
+
+Underscores is a pretty solid all-around artist, and they're a fairly friendly
+entry into the genre. If you want a new artist with a pretty chill style and
+some unique sonic elements, give them a check out! I won't go into all of 
+their songs here, but I just have a few I want to talk about.
+
+### 70%
+
+{{<songlink "https://music.apple.com/ca/album/70/1554129662?i=1554129912" "m" >}}
+
+The opening song off their debut album, *fishmonger*, is a wondefully bombastic
+welcome into the world of underscores. The guitar in this song screeches, their
+voice near-inaudibly ratches over the driving rock-esque beats, and include a 
+fun, albiet depressingly current message for anyone who can decipher them.
+While definitely not a song for everyone, it's easily one of my favourite songs
+by them.
+
+> They're tryna make something of themselves before the world comes to an end,\
+> I guess you never see it coming when it's coming out of left field (Woo)\
+> Yeah, he's a pretty solid guy but said his humor's kinda dark,\
+> well I wish him the best and hope he keeps his beady little eyes peeled (Woo)\
+> She had a shitty day and now we've only made it worse for her,\
+> the sky is orange and there's fucking ashes on her windshield (Woo)
+
+### Second Hand Embarrassment 
+
+{{< youtube uGx2rul46gk >}}
+{{< songlink "https://music.apple.com/ca/album/second-hand-embarrassment/1554129662?i=1554129916" "s" >}}
+
+This song is a pretty chill intro to the world of Underscores. Catchy loops,
+fun vocals, really just a good song to bop your head to. Not much to say, just 
+one I'd recommend checking out first if you're just starting your journey, as 
+it's a lot more friendly to standard music tastes.
 
 ## 8485
 
