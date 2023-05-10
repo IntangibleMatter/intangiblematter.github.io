@@ -1,4 +1,0 @@
-2023-04-04T19:29:40.419727879-07:00 INFO wiki_tui::logging - successfully initialized the logging system
-2023-04-04T19:29:45.259332300-07:00 INFO wiki_tui::ui::search::display - displaying '10' search results
-2023-04-04T19:29:45.259492454-07:00 INFO wiki_tui::ui::search - selecting the item '100 Gecs', page id: '61495838'
-2023-04-04T19:29:45.259549999-07:00 INFO wiki_tui::ui::search - selecting the item 'Hyperpop', page id: '65325794'
