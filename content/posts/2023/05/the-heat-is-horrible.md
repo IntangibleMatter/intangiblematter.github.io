@@ -18,3 +18,6 @@ is bad enough on its own, but combined with El Niño I will be lying on the
 floor wearing as little as possible whenever I can.  I *hate* the heat. Let me 
 move to Iceland, the temperature range there is -2 - 14 degrees. It sounds so
 much nicer....
+
+Sweating is, in my opinion, the worst physical feeling that isn't outright
+painful that one can have.
