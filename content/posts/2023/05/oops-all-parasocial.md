@@ -1,6 +1,6 @@
 ---
 title: "Oops! All Parasocial!"
-date: 2023-05-21T16:59:45-07:00
+date: 2023-05-23T10:50:45-07:00
 draft: false
 tags: [personal, rant, internet, traumadump, bitching]
 ---
