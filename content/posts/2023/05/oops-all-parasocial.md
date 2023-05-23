@@ -1,7 +1,7 @@
 ---
 title: "Oops! All Parasocial!"
 date: 2023-05-21T16:59:45-07:00
-draft: true
+draft: false
 tags: [personal, rant, internet, traumadump, bitching]
 ---
 
@@ -30,5 +30,35 @@ his audience exists in particular, and he's just there to make some money and
 spread some hate.
 
 Parasocial relationships, despite all of their downfalls, have gotten me
-through a lot of my adolescent years.
+through a lot of my adolescent years. Even if I fully *know* that this is just
+a person observing a content creator, I still feel more close to some youtubers
+who I follow than some of my own peers. I mean, these people make things that I
+find very funny, very relatable, and very enjoyable. If I just knew them in
+*person* instead of observing them from a distance over the internet, we would
+be good friends, right? I'm anxious, they're anxious, I'm into weird indie
+games, they're into weird indie games, I'm 17, they're... 26.
+
+I can't be the only person who finds themselves desperately wanting to be
+famous on the internet just to join those social circles that look so *fun*,
+can I? The chaos of Alpharad, the nerdy theatrics of Brian David Gilbert, the
+unbridled honesty of Jaiden, Illymations, and Let Me Explain Studios...
+
+I know I'll never meet these people, and I know it's stupid and probably
+creepy, but I don't know if I'd be here today if I didn't have these pieces of
+content to bond to. People are hard and misunderstand you. A youtube video
+won't describe your weekend plans and then call you a loser for not going out
+to the beach with friends without even knowing that what they just described
+as pathetic is the only thing you can do without having a panic attack over
+potentially inconveniencing someone.
+
+I have real life friends. I wrote most of this post while a friend was hanging
+out at my house. But I've never had many, and there's always some distance. I
+will always, to some degree, crave the anonymity, chaos, and joy of having
+a cool group of people on the internet to spend time with. It may fade away
+someday, but I don't see that happening anytime soon.
+
+Anyways yeah if you're an awkward "loser" who feels like the internet makes
+more sense than people do and you would be doing *so* well if you could just
+get into those circles, then know you aren't alone. No matter how much it feels
+like it.
 
