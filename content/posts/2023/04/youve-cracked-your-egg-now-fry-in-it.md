@@ -33,3 +33,6 @@ First of all, I'm the only (cis) guy in my friend group at present, and I'm
 also the only person who isn't aroace. Guys can still think
 [girls are all really cute and great](https://youtu.be/Y2Y5KVtU810) without
 wanting to be sexual with all of them.
+
+[**UPDATE: 2023-05-23**]({{<ref "/content/posts/2023/05/eggs-like-russian-dolls.md">}})
+
