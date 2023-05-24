@@ -1,7 +1,7 @@
 ---
 title: "Eggs Like Russian Dolls"
 date: 2023-05-23T15:28:00-07:00
-draft: true
+draft: false
 tags: [gender, lgbtq+, eggs, short, update, personal]
 ---
 
