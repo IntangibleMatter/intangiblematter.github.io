@@ -9,7 +9,7 @@
     {{ with .Params.tags }}
     <span class="site-data-indicator">Tags: </span>
     <span class="tags-container">
-        {{ range .}}
+        {{ range (sort . )}}
         {{ $href := print (absURL "tags/") (urlize .) }}
         <a class="tags" href="{{ $href }}">{{ . }}</a>
         {{ end }}
