@@ -3,13 +3,13 @@
     {{ $dateFormat := .Site.Params.dateFormat | default "2006-01-02" }}
     <time datetime="{{ $dateTime }}">Published on {{ .PublishDate.Format $dateFormat }}</time>
     {{/*  {{ if .Params.edited}}
-    <span class="date-info italic"> | Edited on {{ .Lastmod.Format $dateFormat }}</span>
-    {{ end }}  */}}
+    <span class="date-info italic">  Edited on {{ .Lastmod.Format $dateFormat }}</span>
+    {{ end }}  */}} 🞂 {{ .ReadingTime }} min read
     <span> <br> </span>
     {{ with .Params.tags }}
     <span class="site-data-indicator">Tags: </span>
     <span class="tags-container">
-        {{ range .}}
+        {{ range (sort . )}}
         {{ $href := print (absURL "tags/") (urlize .) }}
         <a class="tags" href="{{ $href }}">{{ . }}</a>
         {{ end }}
