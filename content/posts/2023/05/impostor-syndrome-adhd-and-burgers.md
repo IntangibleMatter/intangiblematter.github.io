@@ -1,7 +1,7 @@
 ---
 title: "Impostor Syndrome, Adhd, and Burgers"
 date: 2023-05-31T12:24:11-07:00
-draft: true
+draft: false
 tags: [mental health, ramblings, adhd, short]
 ---
 
