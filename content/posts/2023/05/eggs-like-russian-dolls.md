@@ -30,3 +30,8 @@ Anyways, yeah. Still questioning, just don't like uncertainty. Maybe I'm
 bigender? Genderfluid? Just straight up transfem? Guess we'll see.
 
 Anyways yeah. Have a good one :)
+
+
+Also I'm adding this a few days later but I've been binge-listening to this
+song in *such* a cis way.
+{{< songlink "https://music.apple.com/ca/album/how-to-dress-as-human/1573374213?i=1573374214" "m" >}}
