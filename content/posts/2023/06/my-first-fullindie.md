@@ -21,7 +21,7 @@ for the doors to open two things happened:
 have visible dialogue bubbles!
 2. We met the third person to arrive, who was giving a talk. His name was Cole,
 and he was working on a pretty cool game called
-[Captain Soda]().
+[Captain Soda](https://store.steampowered.com/app/1862950/Captain_Soda/).
 Check it out! Played the demo, it's a lot of fun. 
 
 After we were invited in, we spent a bit of time in the mostly empty room as we
