@@ -9,7 +9,7 @@ tags: [personal, ramblings, mental health]
 
 You know how some people feel like they're the only real person in the world?\
 I have the opposite problem.\
-To some degree.:w
+To some degree.
 
 Society paints a very strong picture in our minds of what a "teenager" is
 *supposed* to do. And I very rarely find myself meeting those expectations.
