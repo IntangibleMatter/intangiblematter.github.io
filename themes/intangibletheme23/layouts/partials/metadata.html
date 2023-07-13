@@ -11,7 +11,7 @@
     <span class="tags-container">
         {{ range (sort . )}}
         {{ $href := print (absURL "tags/") (urlize .) }}
-        <a class="tags" href="{{ $href }}">{{ . }}</a>
+        <a class="tags" id="tags" href="{{ $href }}">{{ . }}</a>
         {{ end }}
     </span>
     <br>
