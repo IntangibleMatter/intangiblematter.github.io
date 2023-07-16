@@ -1,7 +1,7 @@
 ---
 title: "Don Hertzfeldt, Hangar, and the Desire to Be Human"
-date: 2023-07-05T00:01:00-07:00
-draft: true
+date: 2023-07-16T00:01:00-07:00
+draft: false
 tags: ["Ramblings", "8485", "Don Hertzfeldt", "media"]
 spoilers: ["It's Such a Beautiful Day", "World of Tomorrow"]
 ---
@@ -38,6 +38,7 @@ simultaneously living in the moment and thinking of the future and the past.
 Here's a little part where I'm going to put some of my favourite lyrics from
 the song. You don't *have* to read it, but you can.
 
+> **first verse**\
 > Come pick me up, I'll pay for gas\
 > There's nowhere that I want to be\
 > And you'll drive fast and I won't ask\
@@ -45,13 +46,28 @@ the song. You don't *have* to read it, but you can.
 > And we can talk about whatever\
 > And pretend that we won't tell\
 > Even pretending to ourselves\
-> You think it's easy where it's darker\
-> And I like to feel my heart\
-> Speed up with my eyes shut\
-> And feel we're doing something we should not\
-> So for a time, I spend my life\
-> Just trying to find out when to stop\
-> Just trying to guess when we'll get caught
+>
+> **final chorus**\
+> But I can't bring myself to\
+> Hate me for wanting a break\
+> I'll still be here in five years\
+> Where I made every mistake\
+> Sixteen trying to disappear\
+> For one week and a half\
+> You know it's all an act\
+> There's still a lot I haven't put into words yet
+>
+> **this is also the first chorus**\
+> This place is suffocating\
+> I'll still be here in five years\
+> Like I promise I won't\
+> Through the wind in your ears\
+> But nothing feels as urgent\
+> And these nights are still important\
+> And there's still a lot I haven't put into words yet
+
+*( this is as little as I could stand to put so I decided to cut it there*
+*because I could **easily** just put the whole song's lyrics in... )*
 
 This song is just so beautifully *human*. Even if I can't properly relate to
 all of it, due to me basically just... staying at home on my computer all the
@@ -68,7 +84,12 @@ that, *I still have these pieces of media*. Media doesn't leave you. Media
 doesn't judge you for being honest. *Media doesn't lie to your face and claim*
 *that they're having a great day and you aren't annoying them at all.*
 
-{{<br>}}
-
 These pieces of media, and so many more let me feel human when other people
 don't.
+
+Anyways, that's my 3am rambling for today
+
+Thanks For listening
+
+- L++;
+
