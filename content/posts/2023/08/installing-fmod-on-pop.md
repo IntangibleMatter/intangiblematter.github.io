@@ -21,7 +21,7 @@ Studio, and FMOD Studio will run just fine! There's an issue, though.
 When you next try to install something with `apt` you'll discover that it
 won't allow you to install anything, because a dependency is unresolved.
 
-To solve this, you need to edit `/var/local/dpkg/status` as sudo. Find the
+To solve this, you need to edit `/var/lib/dpkg/status` as sudo. Find the
 entry for `fmodstudio`, and remove `pulseaudio` from `Depends`.
 
 And boom! FMOD Studio running on Pop!_OS without any issues anywhere!
