@@ -5,7 +5,7 @@ draft: false
 tags: [gender, lgbtq+, eggs, short, update, personal]
 ---
 
-So [a while back]({{< ref "/content/posts/2023/04/youve-cracked-your-egg-now-fry-in-it.md">}})
+So [a while back]({{< ref "/content/personal/2023/04/youve-cracked-your-egg-now-fry-in-it.md">}})
 I made a post about how my egg had cracked, and that I was, disappointingly,
 cis.
 
@@ -18,7 +18,7 @@ I have done. Multiple times.
 
 I'm not *afraid* to come out as trans. My mother is very much not transphobic,
 when I had her read
-[my first post on the subject]({{< ref "/content/posts/2023/03/eggs-and-gender.md" >}})
+[my first post on the subject]({{< ref "/content/personal/2023/03/eggs-and-gender.md" >}})
 she immediately sent me links to goth skirts for men on etsy. While she herself
 doubts that I'm trans due to the fact that when I was about 9 a good friend of
 mine came out as trans so my parents checked with us about how we feel about

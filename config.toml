@@ -15,15 +15,21 @@ enableGitInfo = true
         url = "https://intangiblematter.itch.io/"
         weight = 2
     [[menu.main]]
-        name = "Posts"
-        pre = "posts"
-        url = "/posts/"
+        name = "Blog"
+        pre = "blog"
+        url = "/blog/"
         weight = 3
+    [[menu.main]]
+        name = "Personal"
+        pre = "personal"
+        url = "/personal/"
+        weight = 4
 
 
 
 [permalinks]
-    posts = '/posts/:year/:month/:day/:title/'
+    personal = '/personal/:year:month:day/:title/'
+    blog = '/blog/:year:month:day/:title/'
 
 
 
