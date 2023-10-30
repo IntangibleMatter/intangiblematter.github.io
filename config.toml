@@ -19,11 +19,11 @@ enableGitInfo = true
         pre = "blog"
         url = "/blog/"
         weight = 3
-    [[menu.main]]
-        name = "Personal"
-        pre = "personal"
-        url = "/personal/"
-        weight = 4
+    #[[menu.main]]
+        #name = "Personal"
+        #pre = "personal"
+        #url = "/personal/"
+        #weight = 4
 
 
 
