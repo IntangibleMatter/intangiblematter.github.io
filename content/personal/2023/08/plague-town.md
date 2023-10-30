@@ -19,8 +19,8 @@ another I long to understand it. It discusses taking a moment to try to escape
 the mundanity of suburbam life with a friend of yours. Not having anywhere you
 want to go, just wanting to go for a drive with someone you care about, and
 just wanting to not be *here.* There have been a great many late nights where I
-listen to this song, crying on the floor or in bed, thinking of how 
-[*isolated* I tend to make myself as a teenager.]({{< ref "/content/posts/2023/06/the-rare-moments-you-feel-like-youre-real.md" >}})
+listen to this song, crying on the floor or in bed, thinking of how
+[*isolated* I tend to make myself as a teenager.]({{< ref "/content/personal/2023/06/the-rare-moments-you-feel-like-youre-real.md" >}})
 Hangar always makes me feel less alone, because it allows me to *perceive* the
 feelings in someone else's head so viscerally. If I had to pick a single song
 as my faourite, it'd probably be this one.
@@ -43,12 +43,12 @@ extra special to me.
 > I hate everything I loved six months back\
 > Please don’t look at me, I’m sick and so sad\
 > I can breathe as long as you don’t know that
-> 
+>
 > You don’t really ask how I am so it’s easy\
 > I don’t really care if you don’t want to see me\
 > Honestly I’m finding your face hard to look at\
 > I don’t wanna try ‘cause I’m tired of the pushback
-> 
+>
 > Things can feel exactly right and go bad\
 > I need to remember, need to know that\
 > I can’t move I’m so scared to be shown it\
@@ -57,4 +57,3 @@ extra special to me.
 
 I've *never* been religious, but that doesn't mean I can't appreciate *Pure*
 for what it is.
-
