@@ -9,6 +9,11 @@ root {
 
 html,
 body {
+	--background: #11121D;
+	--text: #A0A8CD;
+	--link: #95C561;
+	--accent: #7199EE;
+	--border: #282C34;
 	overflow: hidden;
 	height: 100vh;
 	margin: 0;
@@ -66,7 +71,7 @@ body {
 }
 
 [data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::before {
-	content: '✨';
+	content: '✨ ';
 	color: var(--accent);
 }
 
@@ -74,7 +79,7 @@ body {
 [data-twitch-sender-roles*='vip'] .twitch-chat-sender::before,
 [data-twitch-sender-roles*='mod'] .twitch-chat-sender::before,
 [data-twitch-sender-roles*='broadcaster'] .twitch-chat-sender::before {
-	content: '💀';
+	content: '💀 ';
 	color: var(--accent);
 }
 
@@ -85,7 +90,12 @@ body {
 	word-wrap: break-word;
 }
 
+.twitch-chat-message::before {
+	content: '    ';
+}
+
 .twitch-chat-message::after {
+	display: block;
 	content: '}';
 }
 
