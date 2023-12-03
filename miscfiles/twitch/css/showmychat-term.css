@@ -6,7 +6,7 @@
 	--accent: #7199EE;
 	--border: #282C34;
 }*/
-html {background: #00000000}
+html,
 body {
 	--background: #11121D;
 	--text: #A0A8CD;
