@@ -62,7 +62,7 @@ body {
 }
 
 [data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::after {
-	content: '*';
+	content: '✨';
 	color: var(--accent);
 }
 
@@ -70,7 +70,7 @@ body {
 [data-twitch-sender-roles*='vip'] .twitch-chat-sender::after,
 [data-twitch-sender-roles*='mod'] .twitch-chat-sender::after,
 [data-twitch-sender-roles*='broadcaster'] .twitch-chat-sender::after {
-	content: '**';
+	content: '💀💀💀';
 	color: var(--accent);
 }
 
