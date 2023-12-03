@@ -97,6 +97,7 @@ body {
 .twitch-chat-message::after {
 	display: block;
 	content: '}';
+	color: var(--twitch-sender-color, var(--link));
 }
 
 [data-twitch-message-status*='highlighted'] .twitch-chat-message {
