@@ -6,7 +6,7 @@
 	--accent: #7199EE;
 	--border: #282C34;
 }*/
-
+html {background: #00000000}
 body {
 	--background: #11121D;
 	--text: #A0A8CD;
@@ -19,7 +19,7 @@ body {
 	font-family: 'JetBrains Mono', monospace;
 	font-size: 14pt;
 	color: var(--text);
-	background-color: var(--background);
+	background: var(--background);
 	border-radius: 16px;
 	border: 2px solid var(--border);
 }
