@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 root {
-	--background: #11121D;
+	--background: black;// #11121D;
 	--text: #A0A8CD;
 	--link: #95C561;
 	--accent: #7199EE;
@@ -61,16 +61,20 @@ body {
 	font-size: 115%;
 }
 
-[data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::after {
+.twitch-chat-sender::after {
+	content: " {";
+}
+
+[data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::before {
 	content: '✨';
 	color: var(--accent);
 }
 
-[data-twitch-sender-roles*='founder'] .twitch-chat-sender::after,
-[data-twitch-sender-roles*='vip'] .twitch-chat-sender::after,
-[data-twitch-sender-roles*='mod'] .twitch-chat-sender::after,
-[data-twitch-sender-roles*='broadcaster'] .twitch-chat-sender::after {
-	content: '💀💀💀';
+[data-twitch-sender-roles*='founder'] .twitch-chat-sender::before,
+[data-twitch-sender-roles*='vip'] .twitch-chat-sender::before,
+[data-twitch-sender-roles*='mod'] .twitch-chat-sender::before,
+[data-twitch-sender-roles*='broadcaster'] .twitch-chat-sender::before {
+	content: '💀';
 	color: var(--accent);
 }
 
@@ -79,6 +83,10 @@ body {
 	display: inline;
 	max-width: 50ch;
 	word-wrap: break-word;
+}
+
+.twitch-chat-message::after {
+	content: '}';
 }
 
 [data-twitch-message-status*='highlighted'] .twitch-chat-message {
