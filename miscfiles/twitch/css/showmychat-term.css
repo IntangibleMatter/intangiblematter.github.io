@@ -7,9 +7,6 @@
 	--border: #282C34;
 }*/
 
-html {
-	background: #0000;
-}
 body {
 	--background: #11121D;
 	--text: #A0A8CD;
@@ -87,7 +84,7 @@ body {
 
 /* part of a message block with the text of the message */
 .twitch-chat-message {
-	display: inline;
+	display: block;
 	max-width: 50ch;
 	word-wrap: break-word;
 	margin-left: 2em;
@@ -101,6 +98,7 @@ body {
 	display: block;
 	content: '}';
 	color: var(--twitch-sender-color, var(--link));
+	margin-left: -2em;
 }
 
 [data-twitch-message-status*='highlighted'] .twitch-chat-message {
