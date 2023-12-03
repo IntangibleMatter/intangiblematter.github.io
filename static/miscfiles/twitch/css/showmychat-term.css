@@ -20,7 +20,7 @@ body {
 	font-size: 14pt;
 	color: var(--text);
 	background: var(--background);
-	border-radius: 16px;
+	//border-radius: 16px;
 	border: 2px solid var(--border);
 }
 
