@@ -1,5 +1,4 @@
-
-:@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 root {
 	--background: #11121D;
 	--text: #A0A8CD;
@@ -17,6 +16,8 @@ body {
 	font-size: 14pt;
 	color: var(--text);
 	background-color: var(--background);
+	border-radius: 16px;
+	border: 2px solid var(--border);
 }
 
 /* the entire list of messages */
@@ -29,8 +30,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	border-radius: 16px;
-	border: 2px solid var(--border);
 }
 
 [data-twitch-chat] > * {
