@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
-root {
+/*root {
 	--background: black;// #11121D;
 	--text: #A0A8CD;
 	--link: #95C561;
 	--accent: #7199EE;
 	--border: #282C34;
-}
+}*/
 
-html,
+html {
+	background: #0000;
+}
 body {
 	--background: #11121D;
 	--text: #A0A8CD;
@@ -99,7 +101,6 @@ body {
 	display: block;
 	content: '}';
 	color: var(--twitch-sender-color, var(--link));
-	margin-left: -2em;
 }
 
 [data-twitch-message-status*='highlighted'] .twitch-chat-message {
