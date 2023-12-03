@@ -88,16 +88,18 @@ body {
 	display: inline;
 	max-width: 50ch;
 	word-wrap: break-word;
+	margin-left: 2em;
 }
-
+/*
 .twitch-chat-message::before {
 	content: '    ';
 }
-
+*/
 .twitch-chat-message::after {
 	display: block;
 	content: '}';
 	color: var(--twitch-sender-color, var(--link));
+	margin-left: -2em;
 }
 
 [data-twitch-message-status*='highlighted'] .twitch-chat-message {
