@@ -71,7 +71,7 @@ body {
 }
 
 [data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::before {
-	content: '✨ ';
+	content: 'struct ';
 	color: var(--accent);
 }
 
@@ -79,7 +79,7 @@ body {
 [data-twitch-sender-roles*='vip'] .twitch-chat-sender::before,
 [data-twitch-sender-roles*='mod'] .twitch-chat-sender::before,
 [data-twitch-sender-roles*='broadcaster'] .twitch-chat-sender::before {
-	content: '💀 ';
+	content: 'class ';
 	color: var(--accent);
 }
 
@@ -93,15 +93,15 @@ body {
 
 .twitch-chat-message::before {
 	content: 'return "';
-	color: var(--stntax);
-}
-
-.twitch-chat-message::after {
-	content: '";<span></span>';
 	color: var(--syntax);
 }
 
-.twitch-chat-message::after .span {
+.twitch-chat-message::after::before {
+	content: '";';
+	color: var(--syntax);
+}
+
+.twitch-chat-message::after{
 	display: block;
 	content: '}';
 	color: var(--twitch-sender-color, var(--link));
