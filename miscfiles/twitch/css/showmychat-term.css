@@ -9,7 +9,7 @@
 html,
 body {
 	--background: #11121D;
-	--text: #A0A8CD;
+	--text: #D7A65F;
 	--link: #95C561;
 	--accent: #7199EE;
 	--border: #282C34;
@@ -72,7 +72,8 @@ body {
 
 [data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::before {
 	content: 'struct ';
-	color: var(--accent);
+	font-style: italic;
+	color: var(--syntax);
 }
 
 [data-twitch-sender-roles*='founder'] .twitch-chat-sender::before,
@@ -80,7 +81,8 @@ body {
 [data-twitch-sender-roles*='mod'] .twitch-chat-sender::before,
 [data-twitch-sender-roles*='broadcaster'] .twitch-chat-sender::before {
 	content: 'class ';
-	color: var(--accent);
+	font-style: italic;
+	color: var(--syntax);
 }
 
 /* part of a message block with the text of the message */
