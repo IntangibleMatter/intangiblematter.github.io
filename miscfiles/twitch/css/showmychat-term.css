@@ -9,7 +9,7 @@
 html,
 body {
 	--background: #11121D;
-	--text: #D7A65F;
+	--text: #A0A8CD;
 	--link: #95C561;
 	--accent: #7199EE;
 	--border: #282C34;
@@ -18,7 +18,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	font-family: 'JetBrains Mono', monospace;
-	font-size: 14pt;
+	font-size: 12pt;
 	color: var(--text);
 	background: var(--background);
 	//border-radius: 16px;
