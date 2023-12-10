@@ -13,6 +13,7 @@ body {
 	--link: #95C561;
 	--accent: #7199EE;
 	--border: #282C34;
+	--syntax: #EE6D85;
 	overflow: hidden;
 	height: 100vh;
 	margin: 0;
@@ -89,12 +90,18 @@ body {
 	word-wrap: break-word;
 	margin-left: 2em;
 }
-/*
+
 .twitch-chat-message::before {
-	content: '    ';
+	content: 'return "';
+	color: var(--stntax);
 }
-*/
+
 .twitch-chat-message::after {
+	content: '";<span></span>';
+	color: var(--syntax);
+}
+
+.twitch-chat-message::after .span {
 	display: block;
 	content: '}';
 	color: var(--twitch-sender-color, var(--link));
