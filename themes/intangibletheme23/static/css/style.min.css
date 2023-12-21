@@ -171,7 +171,7 @@ body #content #main-content .prev-next-post-links .previous-post:hover {
 }
 .header .nav-menu {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
 }
 
@@ -312,6 +312,12 @@ blockquote {
   font-family: "Roboto Mono", monospace;
   border-left: 4px solid #686868;
   padding-left: 1em;
+}
+
+.gifv {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
 .audio-container {
