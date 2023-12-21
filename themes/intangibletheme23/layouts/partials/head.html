@@ -19,6 +19,9 @@
     <link rel="manifest" href="/favicon/site.webmanifest">
 
 
+	{{ with .OutputFormats.Get "rss" -}}
+	  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+	{{ end }}
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JHXHKMLXD"></script>
     <script>
