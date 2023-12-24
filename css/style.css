@@ -142,8 +142,7 @@ body #content #main-content .prev-next-post-links .previous-post:hover {
   }
 }
 .highlight pre {
-  background-color: black;
-  border: 2px solid black;
+  border: 2px solid white;
   border-radius: 1em;
   padding: 1em;
   overflow-x: auto;
@@ -235,7 +234,6 @@ footer .social-links .social-link:hover img {
 
 code {
   overflow-x: scroll;
-  background-color: #303030;
   border-radius: 10px;
 }
 
