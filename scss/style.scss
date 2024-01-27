@@ -106,20 +106,27 @@ body {
                 position: static;
                 left: 0;
                 bottom: 0;
-                display: grid;
-                grid-template-columns: 1fr 1fr;
+                display: flex;
+                //grid-template-columns: 1fr 1fr;
+				align-items: stretch;
+				flex-direction: row;
                 .next-post {
+					width: 40%;
+					flex: 1;
                     color: #686868;
                     position: static;
                     margin-left: 1em;
                     text-align: left;
                     transition: margin-left 0.5s;
+					max-width: 50%;
                     &:hover {
                         color: white;
                         margin-left: 0em;
                     }
                 }
                 .previous-post {
+					max-width: 50%;
+					flex: 2;
                     color: #686868;
 
                     position: static;

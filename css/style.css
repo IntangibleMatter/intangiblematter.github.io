@@ -106,21 +106,27 @@ body #content #main-content .prev-next-post-links {
   position: static;
   left: 0;
   bottom: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
 }
 body #content #main-content .prev-next-post-links .next-post {
+  width: 40%;
+  flex: 1;
   color: #686868;
   position: static;
   margin-left: 1em;
   text-align: left;
   transition: margin-left 0.5s;
+  max-width: 50%;
 }
 body #content #main-content .prev-next-post-links .next-post:hover {
   color: white;
   margin-left: 0em;
 }
 body #content #main-content .prev-next-post-links .previous-post {
+  max-width: 50%;
+  flex: 2;
   color: #686868;
   position: static;
   margin-right: 1em;
