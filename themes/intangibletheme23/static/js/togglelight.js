@@ -4,11 +4,11 @@ function applyLightMode(element, isLightModeOn) {
     } else {
         element.classList.remove('light_mode');
     }
-
+/*
     const children = element.children;
     for (let i = 0; i < children.length; i++) {
         applyLightMode(children[i], isLightModeOn);
-    }
+    }*/
 }
 
 function toggleLightMode() {
