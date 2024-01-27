@@ -78,13 +78,14 @@ body #content #main-content .centrebutton {
   display: flex;
   align-items: center;
 }
-body #content #main-content .centrebutton #toggleButton {
+body #content #main-content .centrebutton .toggleButton {
   margin: 0 auto;
   border: 2px solid #fff;
   border-radius: 1em;
   background-color: #0c0c0c;
   color: white;
   padding: 0.5em;
+  cursor: pointer;
 }
 body #content #main-content .spoilerwarning {
   line-height: 0.9;
@@ -472,6 +473,10 @@ blockquote {
   to {
     background-position: 900px;
   }
+}
+.stars-container .stars-off {
+  animation: none !important;
+  -webkit-animation: none !important;
 }
 .stars-container .stars#s1 {
   display: inline-block;

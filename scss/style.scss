@@ -76,13 +76,14 @@ body {
                 display: flex;
                 align-items: center;
                 // text-align: center;
-                #toggleButton {
+                .toggleButton {
                     margin: 0 auto;
                     border: 2px solid #fff;
                     border-radius: 1em;
                     background-color: #0c0c0c;
                     color: white;
                     padding: 0.5em;
+					cursor: pointer;
                 }
             }
             .spoilerwarning {
@@ -495,6 +496,7 @@ blockquote {
         }
     }
 }
+
 .stars-container {
     z-index: -4;
     overflow-y: hidden;
@@ -539,6 +541,10 @@ blockquote {
         }
     }
 
+	.stars-off {
+		animation: none !important;
+		-webkit-animation: none !important;
+	}
     .stars {
         &#s1 {
             @include stars-child(120s, 80%, -5);
