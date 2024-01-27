@@ -1,7 +1,8 @@
 {{ define "main" }}
 <div id="main-content">
     <div class="centrebutton">
-        <button id="toggleButton">Toggle light mode</button>
+        <button class="toggleButton" id="lightToggleButton">Toggle light mode</button>
+        <button class="toggleButton" id="starsToggleButton">Stars motion Off</button>
     </div>
     <h1>{{ .Title }}</h1>
     {{ partial "metadata.html" . }}
