@@ -53,8 +53,9 @@ body #content {
   margin-bottom: auto;
 }
 body #content #main-content {
-  background: rgba(0, 0, 0, 0.1333333333);
+  background: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
   box-shadow: 0 0 20px #000000;
   border: 4px solid #000000;
   padding: 1em;
@@ -278,8 +279,9 @@ code {
 
 .post-title {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5333333333);
+  background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   transform: scale(1, 1);
   transition: background-color 0.5s, backdrop-filter 0.5s, transform 0.5s;
   border-radius: 25px;
@@ -312,6 +314,7 @@ code {
 .post-title:hover {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
   transform: scale(1.05, 1.05);
 }
 
@@ -375,6 +378,7 @@ blockquote {
   color: #0e0e0e !important;
   background: rgba(255, 252, 232, 0.6666666667) !important;
   backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
 }
 .light_mode#main-content {
   box-shadow: 0 0 20px rgba(255, 252, 232, 0.6666666667) !important;
@@ -599,11 +603,13 @@ blockquote {
   transform: rotateX(0deg) translate(0, 0);
   background-color: rgba(0, 0, 0, 0.5333333333);
   backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 .personalposts div:hover {
   transform: rotateX(30deg) translate(0, -0.5em);
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 /*# sourceMappingURL=style.css.map */
