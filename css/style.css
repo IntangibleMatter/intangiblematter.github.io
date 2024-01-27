@@ -53,9 +53,9 @@ body #content {
   margin-bottom: auto;
 }
 body #content #main-content {
-  background: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.6666666667);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
   box-shadow: 0 0 20px #000000;
   border: 4px solid #000000;
   padding: 1em;
@@ -385,7 +385,7 @@ blockquote {
   border: 4px solid rgba(255, 252, 232, 0.1333333333) !important;
 }
 .light_mode a {
-  color: #0c0c0c;
+  color: #0c0c0c !important;
 }
 .light_mode h1,
 .light_mode h2,
@@ -395,8 +395,8 @@ blockquote {
 .light_mode h6 {
   text-shadow: none !important;
 }
-.light_mode #tags, .light_mode #toggleButton {
-  background: rgba(255, 252, 232, 0.1333333333) !important;
+.light_mode #tags, .light_mode .toggleButton {
+  background-color: rgba(255, 252, 232, 0.1333333333) !important;
   color: black !important;
   border: 2px solid black !important;
 }
