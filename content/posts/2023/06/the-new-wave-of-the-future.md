@@ -2,7 +2,7 @@
 title: "It's the New Wave of the Future!"
 date: 2023-06-10T08:25:02-08:00
 draft: true
-tags: [fanboying, media, hyperpop, music, "100 gecs", 8485, underscores, hantiplad]
+tags: [fanboying, media, hyperpop, music, "100 gecs", 8485, underscores, hantiplad, personal]
 toc: true
 ---
 
@@ -75,7 +75,7 @@ it's a lot more friendly to standard music tastes.
 8485 is the second artist of this genre who I got into, and the first one that
 caused me to identify "hyperpop" as something that I liked. She has, as of
 late, become my favourite musical artist, and I have probably spent more time
-listening to *Hangar* than any other song this decase. 
+listening to *Hangar* than any other song this decase.
 
 8485 is an artist
 who is based somewhere in Ontario. Her music frequently explores themes of

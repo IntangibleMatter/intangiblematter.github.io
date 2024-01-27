@@ -2,7 +2,7 @@
 title: "You Can't Fight the Homestuck"
 date: 2023-10-30T11:03:28-07:00
 draft: true
-tags: [media, hantiplad, homestuck]
+tags: [media, hantiplad, homestuck, personal]
 spoilers: [Homestuck, "The Homestuck Epilogues", "Homesetuck^2: Beyond Canon"]
 ---
 In August of this year I started reading one of the most infamous webcomics,

@@ -2,7 +2,7 @@
 title: "Mirrors"
 date: 2023-02-23T13:59:16-08:00
 draft: false
-tags: [short, mirrors, musings, ramblings]
+tags: [short, mirrors, musings, ramblings, personal]
 ---
 I feel like the people we get along best with are always, to some degree, mirrors of ourselves.
 My closest friends all mirror some aspect of myself, and I some aspect of them. The more you mirror, the more likely you are to be friends.

@@ -3,7 +3,7 @@ title: "Barbie and the Council of 2000"
 sub: "Or why my trans questioning might just be a fear of the patriarchy"
 date: 2023-07-23T00:04:14-07:00
 draft: true
-tags: [media, ramblings, gender, feminism]
+tags: [media, ramblings, gender, feminism, personal]
 spoilers: ["Barbie"]
 ---
 

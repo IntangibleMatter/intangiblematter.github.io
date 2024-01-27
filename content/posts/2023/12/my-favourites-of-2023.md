@@ -2,7 +2,7 @@
 title: "My Favourites of 2023"
 date: 2023-12-17T02:19:45-08:00
 draft: true
-tags: [list, favourites, "2023"]
+tags: [list, favourites, "2023", personal]
 ---
 
 As 2023 comes to a close, everyone is writing their lists of

@@ -2,7 +2,7 @@
 title: "Plague Town"
 date: 2023-08-24T05:13:25-07:00
 draft: true
-tags: ["8485", "music"]
+tags: ["8485", "music", general]
 ---
 
 Plague Town by 8485 is an incredibly special album to me.

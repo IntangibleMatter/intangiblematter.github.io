@@ -2,7 +2,7 @@
 title: "Footpedal: A FOSS Audio Engine for Games"
 date: 2023-05-12T10:01:10-07:00
 draft: false
-tags: [projects, audio, gamedev, software, foss, footpedal]
+tags: [projects, audio, gamedev, software, foss, footpedal, general]
 ---
 
 I *love* dynamic audio in games. Being a game developer, I want to add it to my
@@ -17,9 +17,8 @@ and continued *rewriting the JVM*. A few weeks back, though, they ended up
 taking another look at the project, and we started working on it together.
 
 So... Get ready for [Footpedal](https://github.com/skrekhere/footpedal-meta)!
-A Free, Open Source piece of audio middleware being written in Rust with a 
+A Free, Open Source piece of audio middleware being written in Rust with a
 frontend written in Godot! We are *super* early on in the process, but stay
 tuned here and check out
 [River's blog post](http://visu.do/2023/05/08/FootPedal-A-new-beginning/) for
 updates!
-

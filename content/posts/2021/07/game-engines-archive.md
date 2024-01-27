@@ -2,14 +2,14 @@
 title: "Game Engines [ARCHIVE]"
 date: 2021-07-12T10:01:29-07:00
 draft: false
-tags: [archive, gamedev, "game engines", godot]
+tags: [archive, gamedev, "game engines", godot, general]
 ---
 **PLEASE NOTE: this is an archive from my original blog. It was my only post.**
 
 ```txt
 Before we begin: A game engine is a tool which is used to create games. It
 usually has a user interface and a scripting language (a specialized programming
-language unique to the engine) of some sort.  
+language unique to the engine) of some sort.
 A game _framework_ is a library of code which can be added to your code so it's
 easier to make a game. These generally require substantially more knowledge and
 coding skill.
@@ -95,7 +95,7 @@ got messy, and it got messy _FAST._ The game turned out simple and cute and fun.
 It is with this engine that I entered my first game jam and published my first
 game, [Pack the Pack](https://intangiblematter.itch.io/pack-the-pack/) for the
 LebGameDev Quarantine Jam. From this I started to work on my next game. One
-which I never finished because around this time I watched some 
+which I never finished because around this time I watched some
 [videos by Miziziziziziziziziziz](https://www.youtube.com/watch?v=mtIW9h1-bxk&list=PLmugv6_kd0qMgc7Bd2gO7cbfrdBIQrdpV)
 or however the fuck many "iz"s he has in his name. And his engine of choice was
 a little open source project called Godot.
@@ -148,4 +148,3 @@ writing I have settled on a system where when I create games I use Godot, and
 when I just make live graphics projects I use LÖVE. I find this to be effective
 for me because it allows me to use the strengths of each engine, while largely
 avoiding the weaknesses.
-

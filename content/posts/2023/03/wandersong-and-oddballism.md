@@ -3,7 +3,7 @@ title: "Wandersong and Oddballism"
 date: 2023-03-05T14:28:59-08:00
 # edited: true
 draft: true
-tags: [wandersong, games, fanboying, oddballism, media]
+tags: [wandersong, games, fanboying, oddballism, media, personal]
 spoilers: [Wandersong]
 ---
 <!-- {{< spoilerwarning "Wandersong, Chicory: A Colorful Tale">}} -->

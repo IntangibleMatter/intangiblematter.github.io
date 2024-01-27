@@ -2,7 +2,7 @@
 title: "Wallsocket"
 date: 2023-09-26T08:56:10-07:00
 draft: true
-tags: ["underscores", "music", "fanboying", "hantiplad", "media"]
+tags: ["underscores", "music", "fanboying", "hantiplad", "media", personal]
 toc: true
 ---
 
@@ -59,4 +59,3 @@ pass
 ## Good luck final girl
 
 pass
-

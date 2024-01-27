@@ -2,7 +2,7 @@
 title: "Don Hertzfeldt, Hangar, and the Desire to Be Human"
 date: 2023-07-16T00:01:00-07:00
 draft: false
-tags: ["Ramblings", "8485", "Don Hertzfeldt", "media"]
+tags: ["Ramblings", "8485", "Don Hertzfeldt", "media", personal]
 spoilers: ["It's Such a Beautiful Day", "World of Tomorrow"]
 ---
 
@@ -92,4 +92,3 @@ Anyways, that's my 3am rambling for today
 Thanks For listening
 
 - L++;
-

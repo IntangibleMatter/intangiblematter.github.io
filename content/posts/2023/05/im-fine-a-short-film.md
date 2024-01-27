@@ -2,7 +2,7 @@
 title: "I'm Fine: a Short Film"
 date: 2023-05-05T00:10:00-07:00
 draft: false
-tags: [works, film, projects, media, video, mental health, anxiety, depression, traumadump]
+tags: [works, film, projects, media, video, mental health, personal, general, anxiety, depression, traumadump]
 ---
 
 {{< youtube nb-DMfLx_Kk >}}

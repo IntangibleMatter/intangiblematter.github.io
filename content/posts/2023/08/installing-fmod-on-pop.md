@@ -2,7 +2,7 @@
 title: "Installing Fmod Studio on Pop!_OS"
 date: 2023-08-03T01:27:58-07:00
 draft: false
-tags: [linux, fmod, tutorial]
+tags: [linux, fmod, tutorial, general]
 ---
 
 So, as a game developer, I *love* FMOD. Advanced sound is always so cool to me!
@@ -27,4 +27,3 @@ entry for `fmodstudio`, and remove `pulseaudio` from `Depends`.
 And boom! FMOD Studio running on Pop!_OS without any issues anywhere!
 
 Or you could install the AppImage, but that's not as fun...
-

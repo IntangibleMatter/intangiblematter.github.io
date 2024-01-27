@@ -2,7 +2,7 @@
 title: "Katana ZERO Is a Masterpiece"
 date: 2023-05-15T13:05:35-07:00
 draft: true
-tags: [hantiplad, fanboying, games, Katana ZERO, media]
+tags: [hantiplad, fanboying, games, Katana ZERO, media, personal]
 spoilers: [Katana ZERO]
 ---
 
@@ -16,6 +16,5 @@ Also, in case it wasn't obvious, there will be ***MAJOR SPOILERS*** for Katana
 ZERO! Please be warned!
 
 ## So... Tell Me Again About the Men in Masks
-
 
 

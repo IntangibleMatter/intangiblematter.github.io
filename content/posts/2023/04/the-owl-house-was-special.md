@@ -2,7 +2,7 @@
 title: "The Owl House Was Special"
 date: 2023-04-08T16:38:12-07:00
 draft: true
-tags: [media, fanboying, "The Owl House", hantiplad]
+tags: [media, fanboying, "The Owl House", hantiplad, personal]
 spoilers: ["The Owl House"]
 ---
 

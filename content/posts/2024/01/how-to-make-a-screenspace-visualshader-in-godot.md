@@ -2,7 +2,7 @@
 title: "How to Make a Screenspace Visualshader in Godot"
 date: 2024-01-25T11:10:12-08:00
 draft: false
-tags: [tutorial, godot, shaders, unhinged, technical, programming]
+tags: [tutorial, godot, shaders, unhinged, general, technical, programming]
 ---
 [*Click here to skip to the instructions.*](#the-actual-tutorial-bit-finally)
 

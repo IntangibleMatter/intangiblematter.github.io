@@ -2,7 +2,7 @@
 title: "Comments"
 date: 2023-04-17T15:58:35-07:00
 draft: false
-tags: [tech, update, blog, github]
+tags: [tech, update, blog, github, general]
 ---
 
 Hey! You might notice something new down at the bottom of my blog posts. It's a

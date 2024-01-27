@@ -2,7 +2,7 @@
 title: "The Perfect Mac and Cheese (According to My Dead Dad)"
 date: 2023-05-27T22:35:26-07:00
 draft: false
-tags: [food, personal, recipe]
+tags: [food, personal, recipe, general, personal]
 ---
 
 My dad (or as I and my family called him, Lala,) had a lot of experience with
@@ -30,7 +30,7 @@ exactly what he told me.
 
 ### Directions
 
-1. Boil some water 
+1. Boil some water
 
 2. When the water is fully boiling add the pasta
 
@@ -59,5 +59,4 @@ exactly what he told me.
 13. Add more cream as needed
 
 14. Done!
-
 
