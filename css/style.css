@@ -169,8 +169,8 @@ body #content #main-content .prev-next-post-links .previous-post:hover {
   width: 100%;
 }
 .header .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -209,14 +209,14 @@ footer {
 footer .social-links {
   margin-top: 2em;
   margin-bottom: 2em;
-  display: grid;
+  display: flex;
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   max-height: 4em;
   gap: 1rem;
-  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
 }
 footer .social-links .social-link {
   max-height: 4em;
@@ -548,6 +548,25 @@ blockquote {
   opacity: 75%;
   z-index: -5;
   background: url("/img/stars/6.png") repeat center;
+}
+
+.personalposts {
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  margin: 1em;
+}
+.personalposts div {
+  border: 2px solid white;
+  border-radius: 1em;
+  background-color: black;
+  margin: 0 1em 0 1em;
+  flex: 1;
+  transition: transform 0.25s;
+  transform: rotateX(0deg) translate(0, 0);
+}
+.personalposts div:hover {
+  transform: rotateX(30deg) translate(0, -0.5em);
 }
 
 /*# sourceMappingURL=style.css.map */
