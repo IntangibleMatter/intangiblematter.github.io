@@ -52,7 +52,10 @@ body {
         height: 100%;
         margin-bottom: auto;
         #main-content {
-            background: black;
+            background: #00000022;
+			backdrop-filter: blur(8px);
+			box-shadow: 0 0 20px #000000;
+			border: 4px solid #000000;
             padding: 1em;
             border-radius: 2em;
 
@@ -181,6 +184,13 @@ body {
         display: flex;
         justify-content: space-around;
         width: 100%;
+		a {
+			transform: scale(1, 1);
+			transition: transform 0.5s;
+			&:hover {
+				transform: scale(1.1, 1.1);
+			}
+		}
     }
 }
 
@@ -299,7 +309,10 @@ code {
 
 .post-title {
     text-align: center;
-    background-color: black;
+    background-color: #00000088;
+	backdrop-filter: blur(3px);
+	transform: scale(1, 1);
+	transition: background-color 0.5s, backdrop-filter 0.5s, transform 0.5s;
     border-radius: 25px;
     border: 4px solid white;
     margin: 2em;
@@ -330,7 +343,9 @@ code {
         }
     }
     &:hover {
-        background-color: #0e0e0e;
+		background-color: #00000066;
+		backdrop-filter: blur(5px);
+		transform: scale(1.05, 1.05);
     }
 }
 
@@ -398,7 +413,12 @@ blockquote {
 
 .light_mode {
     color: #0e0e0e !important;
-    background: #fffce8 !important;
+    background: #fffce8aa !important;
+	backdrop-filter: blur(2px);
+	&#main-content {
+		box-shadow: 0 0 20px #fffce8aa !important;
+		border: 4px solid #fffce822 !important;
+	}
     a {
         color: #0c0c0c;
     }
@@ -408,9 +428,11 @@ blockquote {
     h4,
     h5,
     h6 {
-        text-shadow: none;
+        text-shadow: none !important;
     }
     #tags, #toggleButton {
+		background: #fffce822 !important;
+		color: black !important;
         border: 2px solid black !important;
     }
 }
@@ -564,11 +586,14 @@ blockquote {
 		background-color: black;
 		margin: 0 1em 0 1em;
 		flex: 1;
-		transition: transform 0.25s;
+		transition: transform 0.25s, background-color 0.5s, backdrop-filter 0.5s;
 		transform: rotateX(0deg) translate(0, 0);
-
+		background-color: #00000088;
+		backdrop-filter: blur(3px);
 		&:hover {
 			transform: rotateX(30deg) translate(0, -0.5em);
+			background-color: #00000066;
+			backdrop-filter: blur(5px);
 		}
 	}
 }
