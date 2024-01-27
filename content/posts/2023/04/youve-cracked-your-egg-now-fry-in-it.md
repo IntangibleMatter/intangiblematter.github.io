@@ -5,7 +5,7 @@ draft: false
 tags: [gender, lgbtq+, eggs, short, update, personal]
 ---
 
-A while back I [made a post]({{< ref "/personal/2023/03/eggs-and-gender.md" >}}) about
+A while back I [made a post]({{< ref "/posts/2023/03/eggs-and-gender.md" >}}) about
 my gender and my experience in questioning. I'm happy to announce that my egg
 has recently cracked! And... I'm not trans.
 
@@ -34,5 +34,5 @@ also the only person who isn't aroace. Guys can still think
 [girls are all really cute and great](https://youtu.be/Y2Y5KVtU810) without
 wanting to be sexual with all of them.
 
-[**UPDATE: 2023-05-23**]({{<ref "/content/personal/2023/05/eggs-like-russian-dolls.md">}})
+[**UPDATE: 2023-05-23**]({{<ref "/content/posts/2023/05/eggs-like-russian-dolls.md">}})
 

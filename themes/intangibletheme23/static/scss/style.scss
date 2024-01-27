@@ -171,8 +171,8 @@ body {
         width: 100%;
     }
     .nav-menu {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        justify-content: space-around;
         width: 100%;
     }
 }
@@ -209,7 +209,7 @@ footer {
     .social-links {
         margin-top: 2em;
         margin-bottom: 2em;
-        display: grid;
+        display: flex;
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
@@ -217,7 +217,7 @@ footer {
         max-height: 4em;
         gap: 1rem;
         // edit this line whenever you add another item
-        grid-template-columns: repeat(5, 1fr);
+		justify-content: space-between;
         .social-link {
             max-height: 4em;
             width: auto;
@@ -544,4 +544,24 @@ blockquote {
             background: url("/img/stars/6.png") repeat center;
         }
     }
+}
+
+.personalposts {
+	display: flex;
+	align-items: stretch;
+	flex-direction: row;
+	margin: 1em;
+	div {
+		border: 2px solid white;
+		border-radius: 1em;
+		background-color: black;
+		margin: 0 1em 0 1em;
+		flex: 1;
+		transition: transform 0.25s;
+		transform: rotateX(0deg) translate(0, 0);
+
+		&:hover {
+			transform: rotateX(30deg) translate(0, -0.5em);
+		}
+	}
 }

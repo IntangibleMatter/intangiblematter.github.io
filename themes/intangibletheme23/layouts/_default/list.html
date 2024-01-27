@@ -1,6 +1,6 @@
 {{ define "main" }}
-{{- partial "stars.html" . -}}
 <h1>{{ .Title }}</h1>
+{{ .Content }}
 {{ range .Pages.ByPublishDate.Reverse }}
 <div class="post-title">
     <a href="{{ .RelPermalink }}" class="title">

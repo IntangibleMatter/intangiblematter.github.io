@@ -18,6 +18,6 @@ be easiest if I just order by when I first experienced them.
 Yeah, I know, it came out in 2022, but I didn't see it until *this year*, okay?
 When it finally hit the theatres near me I had COVID, and I just hadn't gotten
 around to it until I watched it with my Aunt over Spring Break. I loved it enough
-to [write a whole post about it]({{< ref "/personal/2023/04/a-brief-rant-about-everything-everywhere.md" >}})
+to [write a whole post about it]({{< ref "/posts/2023/04/a-brief-rant-about-everything-everywhere.md" >}})
 
 {{< gifv "/media/2023/12/favourites/simscat.webm" >}}

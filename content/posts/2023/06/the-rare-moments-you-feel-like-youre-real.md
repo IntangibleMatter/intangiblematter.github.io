@@ -33,7 +33,7 @@ I have friends. Good ones. The ones I spend the most *(read: any)* time with
 are also socially isolated loners like me, so I really only see them at
 school for the most part. There's nothing wrong with that, but then social
 media comes into play and I see all of the posts of classmates who
-[*I don't even really like all that much*]({{< ref "/personal/2023/04/that-one-person-who-presses-all-the-buttons.md" >}})
+[*I don't even really like all that much*]({{< ref "/posts/2023/04/that-one-person-who-presses-all-the-buttons.md" >}})
 spending time together and smiling and just... *being teens*. Having bonding
 moments they'll remember forever with their friends at the beach at sunset,
 sharing who they are, or even just messing around in ways that I not only
