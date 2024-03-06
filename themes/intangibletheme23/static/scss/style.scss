@@ -278,6 +278,7 @@ footer {
 	.pagebottom {
 		background-color: #0008;
 		backdrop-filter: blur(3px);
+		-webkit-backdrop-filter: blur(3px);
 		align-self: flex-end;
 		margin-top: auto;
 		width: 100%;
