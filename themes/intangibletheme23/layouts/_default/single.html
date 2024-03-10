@@ -5,6 +5,9 @@
         <button class="toggleButton" id="starsToggleButton">Stars motion Off</button>
     </div>
     <h1>{{ .Title }}</h1>
+	{{ if .Params.subtitle }}
+	<h3 class="subtitle">{{ .Params.subtitle }}</h3>
+	{{ end }}
     {{ partial "metadata.html" . }}
     <br>
     {{- partial "toc.html" . }}

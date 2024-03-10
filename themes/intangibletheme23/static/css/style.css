@@ -337,6 +337,11 @@ code {
   transform: scale(1.05, 1.05);
 }
 
+.subtitle {
+  margin-top: -0.5rem;
+  color: #888;
+}
+
 .list-title {
   font-size: larger;
 }
@@ -405,6 +410,9 @@ blockquote {
 }
 .light_mode a {
   color: #0c0c0c !important;
+}
+.light_mode .subtitle {
+  color: #333;
 }
 .light_mode h1,
 .light_mode h2,

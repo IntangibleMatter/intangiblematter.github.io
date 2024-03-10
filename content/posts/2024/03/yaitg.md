@@ -1,5 +1,6 @@
 ---
 title: "YAUFYAITG"
+subtitle: 'or, "Omlette"'
 date: 2024-03-02T00:34:03-08:00
 draft: true
 tags: [personal, eggs, lgbtq+, gender]
@@ -48,3 +49,20 @@ Second has just been uncovering... how *much* of myself strongly associated with
 trans culture in so many ways. This is a meme I posted in April of last year.
 ![A meme with a dog awkwardly trying to blend in with ducks. The ducks are labelled 'trans people', and the dog is labelled 'me, a cis guy, here for the suspiciously relatable memes. The water they are all in is labelled r/egg_irl'](/media/2024/03/cisguyrelatable.webp)
 {{< caption "still cis tho" >}}
+
+Here's an abridged list of other trans-associated things I associate with:
+
+- Celeste
+- Blåhaj
+- Hyperpop
+    - 100 Gecs
+    - underscores
+    - femtanyl
+- constantly thinking about what it would be like to be the other gender
+- mostly having friends not of my AGAB
+- being "just a really passionate ally"
+    - passionate enough to have a trans flag on the wall
+
+Again, *far* from a complete list. Barely scraping the surface here. I'm tired
+and writing later than I should be.
+
