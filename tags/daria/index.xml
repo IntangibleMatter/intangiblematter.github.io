@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Daria on IntangibleMatter</title>
+    <link>http://localhost:1313/tags/daria/</link>
+    <description>Recent content in Daria on IntangibleMatter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jan 2024 09:25:27 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/daria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daria and the Reality of High School, Or Why I Never Hang Out With My Friends</title>
+      <link>http://localhost:1313/posts/2023/03/03/daria-and-the-reality-of-high-school-or-why-i-never-hang-out-with-my-friends/</link>
+      <pubDate>Fri, 03 Mar 2023 00:24:48 -0800</pubDate>
+      <guid>http://localhost:1313/posts/2023/03/03/daria-and-the-reality-of-high-school-or-why-i-never-hang-out-with-my-friends/</guid>
+      <description>Daria, for those of you who don&amp;rsquo;t know, is a late-90s tv show which aired on MTV. It is also the single most accurate depiction of my high school experience that I have seen.</description>
+    </item>
+  </channel>
+</rss>

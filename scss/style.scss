@@ -224,6 +224,8 @@ footer {
     bottom: 0;
     left: 0;
     color: #686868;
+	display: flex;
+	flex-direction: column;
 
     .social-links {
         margin-top: 2em;
@@ -272,6 +274,24 @@ footer {
         //     }
         // }
     }
+
+	.pagebottom {
+		background-color: #0008;
+		backdrop-filter: blur(3px);
+		-webkit-backdrop-filter: blur(3px);
+		align-self: flex-end;
+		margin-top: auto;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		border-top: 2px solid white;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		flex-flow: wrap;
+	}
 }
 
 code {
@@ -353,6 +373,11 @@ code {
     }
 }
 
+.subtitle {
+	margin-top: -0.5rem;
+	color: #888;
+}
+
 .list-title {
     font-size: larger;
 }
@@ -427,6 +452,9 @@ blockquote {
     a {
         color: #0c0c0c !important;
     }
+	.subtitle {
+		color: #333;
+	}
     h1,
     h2,
     h3,
