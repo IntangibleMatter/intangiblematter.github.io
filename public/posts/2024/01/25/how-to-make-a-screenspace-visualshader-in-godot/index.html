@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    
+    
+    <title>IntangibleMatter - How to Make a Screenspace Visualshader in Godot</title>
+
+    <meta property="og:title" content="IntangibleMatter - How to Make a Screenspace Visualshader in Godot"/>
+    <meta property="og:image" content="/img/logo/intangible.png"/>
+    <meta property="og:description" content="Hi! Welcome to IntangibleMatter's blog! - How to Make a Screenspace Visualshader in Godot - Click here to skip to the instructions.
+So Godot Engine has a really cool shader system, allowing..."/>
+    <meta property="og:url" content='https://intangiblematter.net'/>
+    <meta property='og:image:width' content='1000' />
+    <meta property='og:image:height' content='1000' />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+
+	
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JHXHKMLXD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2JHXHKMLXD');
+    </script>
+
+</head>
+<body><div class="stars-container" id="stars-container">
+    <div class="vingette"></div>
+    
+    <div class="stars" id="st1"></div>
+    <div class="stars" id="st2"></div>
+    <div class="stars" id="st3"></div>
+    <div class="stars" id="st4"></div>
+    <div class="stars" id="st5"></div>
+    <div class="stars" id="st6"></div>
+</div>
+<div class="header">
+    <div class="site-title">
+        <h1 class="intangibletitle">IntangibleMatter</h1>
+    </div>
+    <div id="nav-border" class="nav-wrapper">
+        <nav id="nav" class="nav-menu">
+            
+            <a class="nav-link" href="/">
+                <h2>
+                
+                
+                Home
+                </h2>
+            </a>
+            
+            <a class="nav-link" href="https://intangiblematter.itch.io/">
+                <h2>
+                
+                
+                Games
+                </h2>
+            </a>
+            
+            <a class="nav-link" href="/posts/">
+                <h2>
+                
+                
+                Blog
+                </h2>
+            </a>
+            
+        </nav>
+    </div>
+</div><div id="content">
+<div id="main-content">
+    <div class="centrebutton">
+        <button class="toggleButton" id="lightToggleButton">Toggle light mode</button>
+        <button class="toggleButton" id="starsToggleButton">Stars motion Off</button>
+    </div>
+    <h1>How to Make a Screenspace Visualshader in Godot</h1>
+	
+    <div class="metadata">
+    
+    
+    <time datetime="2024-01-25">Published on 2024-01-25</time>
+     🞂 2 min read
+    <span> <br> </span>
+    
+    <span class="site-data-indicator">Tags: </span>
+    <span class="tags-container">
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/general">general</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/godot">godot</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/programming">programming</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/shaders">shaders</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/technical">technical</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/tutorial">tutorial</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/unhinged">unhinged</a>
+        
+    </span>
+    <br>
+    
+    
+</div>
+
+    <br>
+    <br>
+    <p><a href="#the-actual-tutorial-bit-finally"><em>Click here to skip to the instructions.</em></a></p>
+<p>So Godot Engine has a really cool shader system, allowing you to do stuff like
+change the way lighting works in both 2D <em>and</em> 3D using nothing but shaders,
+and it additionally has a <em>powerful</em> VisualShader system. VisualShaders, for
+those who don&rsquo;t know, are shaders that use a Shader Graph system instead of pure
+code. I&rsquo;m not huge on node-based programming systems, so I usually elect to
+(poorly) write a shader myself, but I&rsquo;m working on a game jam with a larger team
+than I ever have before right now, and they wanted to use the <a href="https://github.com/arkology/ShaderV">ShaderV addon</a>
+because of how many cool things it has.</p>
+<p>So I took the two shaders I&rsquo;d written with code based on code from the plugin,
+and converted them to VisualShaders.</p>
+<p>Or, I started to anyways. It ended up being harder than expected.</p>
+<p>In Godot 4, the <code>SCREEN_TEXTURE</code> variable isn&rsquo;t declared by default. Instead,
+you need to write a single line of code to access the screen texture
+(<code>uniform sampler2D SCREEN_TEXTURE : hint_screen_texture;</code>). This is fine in
+code, but VisualShaders don&rsquo;t have this hint type.</p>
+<p>So how do you get it?</p>
+<p>It&rsquo;s actually simple but also hellish. I&rsquo;m going to set it to a variable because
+that makes it reusable, but if you only need to use it once it&rsquo;s easy enough to
+just plug the output directly into where it needs to go.</p>
+<h2 id="the-actual-tutorial-bit-finally">The Actual Tutorial Bit Finally</h2>
+<h3 id="step-1">Step 1</h3>
+<p><img src="/media/2024/01/visualshader/global.png" alt="The VisualShader GlobalExpression node set up"></p>
+<p>Make a new GlobalExpression node in the graph and insert the following code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#111;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-glsl" data-lang="glsl"><span style="display:flex;"><span><span style="color:#fb660a;font-weight:bold">uniform</span> <span style="color:#fb660a;font-weight:bold">sampler2D</span> SCREEN_TEXTURE : hint_screen_texture;
+</span></span></code></pre></div><p>This gives us access to the screen texture using the SCREEN_TEXTURE variable.</p>
+<h3 id="step-2">Step 2</h3>
+<p><img src="/media/2024/01/visualshader/expression.png" alt="The VisualShader Expression node set up"></p>
+<p>Make a new Expression node in the graph, give it an output parameter of type Vec4
+(or Vec3 if you only want <code>.rgb</code>) and give it <em>this</em> code:</p>
+<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#111;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-glsl" data-lang="glsl"><span style="display:flex;"><span>color = texture(SCREEN_TEXTURE, SCREEN_UV);
+</span></span></code></pre></div><p>This gets the colour of the screen texture at the correct coordinates.</p>
+<h3 id="step-3">Step 3</h3>
+<p><img src="/media/2024/01/visualshader/final.png" alt="The final shader, low detail">
+Access it as you need!</p>
+<p>Anyways, hope that this helps you save time so you don&rsquo;t spend an hour hacking
+at this like I did!</p>
+
+    <div class="prev-next-post-links">
+        <span class="next-post">
+            
+            <a class="link-reverse" href="http://localhost:1313/posts/2024/01/27/fuck-it-its-all-me/?ref=footer">
+                &lt;- Fuck It, It&#39;s All Me</a>  </span> <span class="previous-post">
+                    
+                    <a class="link-reverse"
+                        href="http://localhost:1313/posts/2023/12/23/ecdl-a-new-file-type-for-ecs-engines/?ref=footer">ECDL a New File Type for ECS Engines -></a>
+                    
+        </span>
+    </div>
+    <script src="https://giscus.app/client.js" data-repo="IntangibleMatter/intangiblematter.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNTQzNzc2Mzc=" data-category="Announcements"
+        data-category-id="DIC_kwDOFR9fpc4CV2n9" data-mapping="pathname" data-strict="0" data-reactions-enabled="1"
+        data-emit-metadata="0" data-input-position="top" data-theme="https://intangiblematter.net/css/giscus.min.css"
+        data-lang="en" crossorigin="anonymous" async>
+    </script>
+    <script src="/js/togglelight.js"></script>
+</div>
+
+
+    </div><footer class="footer">
+  <div class="social-links">
+    <a href="https://www.youtube.com/channel/UC4WADLmaQKdI_mC4-Dd3R4g" title="Youtube" class="social-link">
+      <img src="/img/icons/youtube.svg" />
+    </a>
+
+    <a href="https://github.com/intangiblematter" title="Github" class="social-link">
+      <img src="/img/icons/github.svg" />
+    </a>
+    <a href="https://twitter.com/Intangible_Dev" title="Twitter" class="social-link">
+      <img src="/img/icons/twitter.svg" />
+    </a>
+    <a href="mailto:intangiblematter@intangiblematter.net" title="Mail" class="social-link">
+      <img src="/img/icons/mail.svg" />
+    </a>
+	<a href="/index.xml" title="RSS Feed" class="social-link">
+		<img src="/img/icons/rss.svg" />
+	</a>
+  </div>
+	<div class="pagebottom">
+  <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=164142&s=7' border='0' alt='Free Website Hit Counter'></a>
+	  
+</div>
+  <p class="text-center">
+    Copyright (c) 2024 IntangibleMatter
+  </p>
+  <p class="text-center">
+    Powered by <a href="https://gohugo.io">Hugo</a> and my own theme.
+  </p>
+  </div>
+</footer>
+</body>
+
+</html>

@@ -7,7 +7,7 @@ tags: [media, ramblings, gender, feminism, personal]
 spoilers: ["Barbie"]
 ---
 
-So I watched Barbie with [some friends,]({{< ref "/content/posts/2023/06/the-rare-moments-you-feel-like-youre-real.md" >}})
+So I watched Barbie with [some friends,]({{< ref "posts/2023/06/the-rare-moments-you-feel-like-youre-real.md" >}})
 and it was really good! I loved the storytelling, the characters, the plot,
 and... god dammit, I wasn't expecting a *Barbie* movie to be the most
 unabashedly feminist work I'd ever seen.

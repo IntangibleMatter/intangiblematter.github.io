@@ -20,7 +20,7 @@ the mundanity of suburbam life with a friend of yours. Not having anywhere you
 want to go, just wanting to go for a drive with someone you care about, and
 just wanting to not be *here.* There have been a great many late nights where I
 listen to this song, crying on the floor or in bed, thinking of how
-[*isolated* I tend to make myself as a teenager.]({{< ref "/content/posts/2023/06/the-rare-moments-you-feel-like-youre-real.md" >}})
+[*isolated* I tend to make myself as a teenager.]({{< ref "posts/2023/06/the-rare-moments-you-feel-like-youre-real.md" >}})
 Hangar always makes me feel less alone, because it allows me to *perceive* the
 feelings in someone else's head so viscerally. If I had to pick a single song
 as my faourite, it'd probably be this one.

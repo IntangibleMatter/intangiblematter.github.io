@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    
+    
+    <title>IntangibleMatter - Game Engines [ARCHIVE]</title>
+
+    <meta property="og:title" content="IntangibleMatter - Game Engines [ARCHIVE]"/>
+    <meta property="og:image" content="/img/logo/intangible.png"/>
+    <meta property="og:description" content="Hi! Welcome to IntangibleMatter's blog! - Game Engines [ARCHIVE] - PLEASE NOTE: this is an archive from my original blog. It was my only post.
+Before we begin: A game..."/>
+    <meta property="og:url" content='https://intangiblematter.net'/>
+    <meta property='og:image:width' content='1000' />
+    <meta property='og:image:height' content='1000' />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+
+
+	
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2JHXHKMLXD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2JHXHKMLXD');
+    </script>
+
+</head>
+<body><div class="stars-container" id="stars-container">
+    <div class="vingette"></div>
+    
+    <div class="stars" id="st1"></div>
+    <div class="stars" id="st2"></div>
+    <div class="stars" id="st3"></div>
+    <div class="stars" id="st4"></div>
+    <div class="stars" id="st5"></div>
+    <div class="stars" id="st6"></div>
+</div>
+<div class="header">
+    <div class="site-title">
+        <h1 class="intangibletitle">IntangibleMatter</h1>
+    </div>
+    <div id="nav-border" class="nav-wrapper">
+        <nav id="nav" class="nav-menu">
+            
+            <a class="nav-link" href="/">
+                <h2>
+                
+                
+                Home
+                </h2>
+            </a>
+            
+            <a class="nav-link" href="https://intangiblematter.itch.io/">
+                <h2>
+                
+                
+                Games
+                </h2>
+            </a>
+            
+            <a class="nav-link" href="/posts/">
+                <h2>
+                
+                
+                Blog
+                </h2>
+            </a>
+            
+        </nav>
+    </div>
+</div><div id="content">
+<div id="main-content">
+    <div class="centrebutton">
+        <button class="toggleButton" id="lightToggleButton">Toggle light mode</button>
+        <button class="toggleButton" id="starsToggleButton">Stars motion Off</button>
+    </div>
+    <h1>Game Engines [ARCHIVE]</h1>
+	
+    <div class="metadata">
+    
+    
+    <time datetime="2021-07-12">Published on 2021-07-12</time>
+     🞂 8 min read
+    <span> <br> </span>
+    
+    <span class="site-data-indicator">Tags: </span>
+    <span class="tags-container">
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/archive">archive</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/game-engines">game engines</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/gamedev">gamedev</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/general">general</a>
+        
+        
+        <a class="tags" id="tags" href="http://localhost:1313/tags/godot">godot</a>
+        
+    </span>
+    <br>
+    
+    
+</div>
+
+    <br>
+    <br>
+    <p><strong>PLEASE NOTE: this is an archive from my original blog. It was my only post.</strong></p>
+<div class="highlight"><pre tabindex="0" style="color:#fff;background-color:#111;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>Before we begin: A game engine is a tool which is used to create games. It
+</span></span><span style="display:flex;"><span>usually has a user interface and a scripting language (a specialized programming
+</span></span><span style="display:flex;"><span>language unique to the engine) of some sort.
+</span></span><span style="display:flex;"><span>A game _framework_ is a library of code which can be added to your code so it&#39;s
+</span></span><span style="display:flex;"><span>easier to make a game. These generally require substantially more knowledge and
+</span></span><span style="display:flex;"><span>coding skill.
+</span></span></code></pre></div><p>So, as many of you know, <a href="https://intangiblematter.itch.io">I like to make games.</a>
+A lot. I&rsquo;ve published four games (as
+of writing) and have created several more. However, my choice of game engine
+hasn&rsquo;t always been consistent. The first engine I tried to use was, as is many
+people&rsquo;s first choice, Unity. My time with this engine was short, and I had a
+great deal of trouble trying to grock how it works.</p>
+<h3 id="my-issues-with-unityhttpsunitycom">My Issues With <a href="https://unity,com">Unity</a></h3>
+<p><img src="/media/game-engines-2021-07-12/unity.svg" alt="">Unity is a great engine&hellip; for some
+people. It&rsquo;s very powerful, and it&rsquo;s become the industry standard for games, if
+there is one. It&rsquo;s been used for many well-known and well-regarded games.
+Including one of my favourites, <a href="https://www.hollowknight.com/">Hollow Knight</a>.
+However, Unity is signifcantly better optimized for 3D games than 2D games
+because when Unity was first released in 2005, many people were still writing
+their own game engines. However, this meant that if you were an indie developer
+without a major studio, you were more likely to make a 2D game than a 3D one
+because it&rsquo;s much easier to create a 2D engine. Unity picked up steam by
+focussing on 3D. Because Unity based itself on filling a gap in the market, it
+gained a large amount of success and is now responsible for around 45% of games
+being released[1]</p>
+<p>However, despite all of these remarkable achievements, Unity never clicked for
+me. I had a few major issues that come to mind, with my first one being how
+Unity is designed for 3D games, not 2D. That&rsquo;s not to say it can&rsquo;t do 2D, it
+does it perfectly well (See Hollow Knight or Thomas Was Alone,) but its
+implementation of 2D&hellip; leaves a lot to be desired. How Unity Engine implemented
+2D was it took its 3D engine and locked the camera into a fixed perspective.
+<em>There we go boss, 2D engine is done!</em> Now, this sounds like a perfectly fine
+implementation on paper. It even has some benefits! For example, you can import
+a 3D model and it&rsquo;ll fit with everything else just fine! However, in practice,
+this makes it difficult to create 2D games for a variety of reasons. The main
+ones I ran into were having to use 3D physics and the lack of a distinct type of
+measurement unit. These, combined with many other issues, such as the need to
+import many different packages to achieve some extremely basic functionality (If
+you want text to look nice, add a package called TextMeshPro.)</p>
+<p>But the thing that prevented me from really using this engine was the choice of
+scripting language- C#. Now, C# isn&rsquo;t a difficult language- if you have
+experience coding. But 12 year old me in 2018 was not an experienced coder. He
+was fresh out of <a href="https://scratch.mit.edu">Scratch</a> and taking a
+<a href="https://codecademy.com">Codecademy</a> Python course. All of this proved to be a
+little much but in the end I did learn some basics of Game Engine functionality.
+But all of this kept me off Unity no matter how many times I tried to come back
+over the next year.</p>
+<p>Then, in March 2020, the world went into lockdown.</p>
+<p>With nothing better to do, I browsed Reddit. Then, one day, on r/gamedev I saw a
+post that Clickteam Fusion: standard edition (an engine I had been eyeing for a
+while but had never gotten due to the over $100 price tag) had a free 3-month
+trial so people had something to do during the pandemic.</p>
+<h3 id="fusion-25httpsclickteamcom-isnt-jazz-disappointingly"><a href="https://clickteam.com">Fusion 2.5</a> Isn&rsquo;t Jazz, Disappointingly</h3>
+<p><img src="/media/game-engines-2021-07-12/fusion.svg" alt=""> Clickteam Fusion 2.5 is a
+remarkably powerful engine. It is also an extremely easy to use engine. On top
+of all this, it is an extremely frustrating engine. Knowing the first two, I
+excitedly downloaded it in near the end of March, and started creating my first
+game with it. This is where I discovered the Engine&rsquo;s strengths and weaknesses.
+On the one hand, all you need to do to create game logic is to create a new row
+in its spreadsheet-style event editor, set up what triggers that row, and then
+set up what happens when that row is triggered. And you can do all of this with
+just your mouse. Not a single line of code needs to be written. And this works
+great&hellip; for extremely simple games. Because the minute you want to start adding
+enemy AI, or even multiple enemies for the plyer to collide with, you need to
+duplicate many rows of events, and change one thing each time. Now do this for
+everything in every level and it starts to get tiring. The biggest game I made
+with the engine was a birthday gift for my mom. A small 2D platformer where you
+need to collect the letters of &ldquo;HAPPY BIRTHDAY&rdquo; while exploring a small map.
+While doing this, I discoveredone of the most annoying things about fusion- no
+tilemaps. A tilemap is essentially a little sheet of tiles which can be selected
+and placed in a level. From this tilemap you can select any tile, and place it.
+Every tile is stored in the one object, and this keeps things clean and easy to
+manage. Clickteam Fusion 2.5 does not have these. So when I started creating a
+large level, I had to create a new object for each unique type of tile. So this
+got messy, and it got messy <em>FAST.</em> The game turned out simple and cute and fun.
+It is with this engine that I entered my first game jam and published my first
+game, <a href="https://intangiblematter.itch.io/pack-the-pack/">Pack the Pack</a> for the
+LebGameDev Quarantine Jam. From this I started to work on my next game. One
+which I never finished because around this time I watched some
+<a href="https://www.youtube.com/watch?v=mtIW9h1-bxk&amp;list=PLmugv6_kd0qMgc7Bd2gO7cbfrdBIQrdpV">videos by Miziziziziziziziziziz</a>
+or however the fuck many &ldquo;iz&quot;s he has in his name. And his engine of choice was
+a little open source project called Godot.</p>
+<h3 id="waiting-for-godothttpsgodotengineorg">Waiting For <a href="https://godotengine.org">Godot</a></h3>
+<p><img src="/media/game-engines-2021-07-12/godotc.svg" alt=""> As my time with the free version
+of Fusion grew shorter, its outdated interface, high costs, and complications
+all began to make themselves more and more present. Because of this, I began to
+look for other engines. Thinking on what engine I could use that wasn&rsquo;t Fusion
+or Unity, I thought of what free engines I&rsquo;d heard of, and remembered Godot. I
+looked into it, downloaded it, and looked at some of the built-in demo projects.
+After thoroughly misunderstanding the interface, I found a short 15-minute
+tutorial by <a href="https://www.youtube.com/c/uheartbeast">Heartbeast</a> which let me
+make a simple 2D platformer in about 20 lines of code. This taught me the basics
+of Godot&rsquo;s node system which, while hard to understand at first, makes creating
+complex objects really simple due to the engine prioritizing the Object Oriented
+model of Composition over Inheritance. Godot has a scripting language called
+GDScript, a pythonic scripting language designed specifically for the engine.
+Everything I&rsquo;ve looked for in a game engine appears here in Godot, and it does
+it all well. I&rsquo;ve released 3 games with it so far, and development with the
+engine is just fast, easy, and streamlined. None of these things done to make
+development easier come at the price of efficiency or safety, though. Godot has
+a dedicated 2D engine which uses pixels as its units of measurement. This makes
+it so that there are less issues with physics types and creating 2D games
+efficiently. This is great for me, who definitively prefers 2D games and
+creating 2D games to 3D ones.</p>
+<p>Godot is also a comparatively new engine, so it hasn&rsquo;t had any hits releaseed
+with it just yet. It does. however, have a strong community and many people
+working on making the engine better. It has many small features that make it a
+pleasure to work with, and it makes several of the more frustrating bits of game
+development, such as input, a breeze. For these reasons and more, I have been
+working with Godot as my engine of choice for over a year and plan to continue
+using it for the forseeable future. Godot doesn&rsquo;t make everything extremely
+easy, though. For example, while it isn&rsquo;t difficult to do drawing with code in
+Godot, the engine is definitely better optimized for using sprites. So, when
+looking at other engines, I found a little Lua-based project called LÖVE2D.</p>
+<h3 id="all-you-need-is-lövehttpslove2dorg">All You Need Is <a href="https://love2d.org">LÖVE</a></h3>
+<p><img src="/media/game-engines-2021-07-12/lovec.svg" alt="">LÖVE is an open source game engine
+with no GUI, working exclusively through Lua scripts. LÖVE makes many of the
+things that are difficult in Godot extremely easy. I wrote my first program
+(without a tutorial) in LÖVE in 60 lines of code, which functioned perfectly on
+the first try. And it was all readable. LÖVE&rsquo;s strenghts are in its simplicity
+and its efficiency. However, it also complicates many of the integral parts of
+game development, such as scaling and input, which Godot simplifies. So, as of
+writing I have settled on a system where when I create games I use Godot, and
+when I just make live graphics projects I use LÖVE. I find this to be effective
+for me because it allows me to use the strengths of each engine, while largely
+avoiding the weaknesses.</p>
+
+    <div class="prev-next-post-links">
+        <span class="next-post">
+            
+            <a class="link-reverse" href="http://localhost:1313/posts/2023/01/17/test-post/?ref=footer">
+                &lt;- Test Post</a>  </span> <span class="previous-post">
+                    
+                    <a class="link-reverse"
+                        href="http://localhost:1313/posts/2006/01/03/looking-for-personal/?ref=footer">Looking for Personal? -></a>
+                    
+        </span>
+    </div>
+    <script src="https://giscus.app/client.js" data-repo="IntangibleMatter/intangiblematter.github.io"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkzNTQzNzc2Mzc=" data-category="Announcements"
+        data-category-id="DIC_kwDOFR9fpc4CV2n9" data-mapping="pathname" data-strict="0" data-reactions-enabled="1"
+        data-emit-metadata="0" data-input-position="top" data-theme="https://intangiblematter.net/css/giscus.min.css"
+        data-lang="en" crossorigin="anonymous" async>
+    </script>
+    <script src="/js/togglelight.js"></script>
+</div>
+
+
+    </div><footer class="footer">
+  <div class="social-links">
+    <a href="https://www.youtube.com/channel/UC4WADLmaQKdI_mC4-Dd3R4g" title="Youtube" class="social-link">
+      <img src="/img/icons/youtube.svg" />
+    </a>
+
+    <a href="https://github.com/intangiblematter" title="Github" class="social-link">
+      <img src="/img/icons/github.svg" />
+    </a>
+    <a href="https://twitter.com/Intangible_Dev" title="Twitter" class="social-link">
+      <img src="/img/icons/twitter.svg" />
+    </a>
+    <a href="mailto:intangiblematter@intangiblematter.net" title="Mail" class="social-link">
+      <img src="/img/icons/mail.svg" />
+    </a>
+	<a href="/index.xml" title="RSS Feed" class="social-link">
+		<img src="/img/icons/rss.svg" />
+	</a>
+  </div>
+	<div class="pagebottom">
+  <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=164142&s=7' border='0' alt='Free Website Hit Counter'></a>
+	  
+</div>
+  <p class="text-center">
+    Copyright (c) 2024 IntangibleMatter
+  </p>
+  <p class="text-center">
+    Powered by <a href="https://gohugo.io">Hugo</a> and my own theme.
+  </p>
+  </div>
+</footer>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Music on IntangibleMatter</title>
+    <link>http://localhost:1313/tags/music/</link>
+    <description>Recent content in Music on IntangibleMatter</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jan 2024 09:25:27 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wallsocket</title>
+      <link>http://localhost:1313/posts/2023/09/26/wallsocket/</link>
+      <pubDate>Tue, 26 Sep 2023 08:56:10 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/09/26/wallsocket/</guid>
+      <description>Wallsocket, the new album released by underscores on September 22nd, 2023, has quickly and easily risen to be my album of the year. After a lead up of a variety of singles being released, almost all of which I greatly enjoyed, the album released with a great variety of genres, tones, themes, and characters, all while feeling like a very cohesive work.&#xA;Cops and Robbers pass&#xA;Locals (Girls like us) pass</description>
+    </item>
+    <item>
+      <title>Plague Town</title>
+      <link>http://localhost:1313/posts/2023/08/24/plague-town/</link>
+      <pubDate>Thu, 24 Aug 2023 05:13:25 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/08/24/plague-town/</guid>
+      <description>Plague Town by 8485 is an incredibly special album to me.&#xA;While I started out listening to only one or two songs from it, over the next year it always had a song that was exactly what I needed when I needed it, and I slowly added all five songs on the EP to my rotation. From the longing, echoing synths of Hangar to the lying on the floor breakup song Southview, there was always something special in this album for me.</description>
+    </item>
+    <item>
+      <title>Hangar</title>
+      <link>http://localhost:1313/posts/2023/06/12/hangar/</link>
+      <pubDate>Mon, 12 Jun 2023 11:20:26 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2023/06/12/hangar/</guid>
+      <description>If you held me against a wall with a gun to my head asking me what my favourite song was, I&amp;rsquo;d probably have a fatal panic attack.&#xA;If I somehow managed to respond, however, I would probably say with very little hesitation that the answer is Hangar by 8485. It&amp;rsquo;s a song that means a lot to me, and that I&amp;rsquo;ve listened to more times than any other song in my music library.</description>
+    </item>
+    <item>
+      <title>It&#39;s the New Wave of the Future!</title>
+      <link>http://localhost:1313/posts/2023/06/10/its-the-new-wave-of-the-future/</link>
+      <pubDate>Sat, 10 Jun 2023 08:25:02 -0800</pubDate>
+      <guid>http://localhost:1313/posts/2023/06/10/its-the-new-wave-of-the-future/</guid>
+      <description>My music taste changes constantly. I had a long time where I mostly listened to video game music, then a good few months where I mostly listened to electro. (Thanks, Just Shapes and Beats!) Recently, though, I&amp;rsquo;ve been listening to hyperpop. For those of you who don&amp;rsquo;t know, hyperpop is a musical genre which can be loosely defined as a type of music that borrows strongly from pop for its layout, early 2000s internet for its musical aesthetics, and pretty much whatever the hell the artist feels like for the lyrics.</description>
+    </item>
+  </channel>
+</rss>
