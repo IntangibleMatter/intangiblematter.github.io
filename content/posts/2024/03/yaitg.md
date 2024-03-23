@@ -1,7 +1,7 @@
 ---
 title: "YAUFYAITG"
 subtitle: 'or, "Omlette"'
-date: 2024-03-02T00:34:03-08:00
+date: 2024-03-20T00:34:03-08:00
 draft: true
 tags: [personal, eggs, lgbtq+, gender]
 ---
