@@ -67,6 +67,6 @@ Buttons! Hell yeah! 90's style internet woooooo!
 Wanna add my button to your page? Here's the code:
 ```html
 <a href="https://intangiblematter.net/" title="IntangibleMatter's Button">
-    <img class="classicbutton" src="/img/intangible-button.gif" title="IntangibleMatter's Button">
+    <img class="classicbutton" src="https://intangiblematter.net/img/intangible-button.gif" title="IntangibleMatter's Button">
 </a>
 ```
