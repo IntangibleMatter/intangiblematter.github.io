@@ -58,7 +58,7 @@ Buttons! Hell yeah! 90's style internet woooooo!
     <img class="classicbutton" src="/media/badges/preserve.gif">
 </a>
 <img class="classicbutton" src="/media/badges/shitify.gif">
-<!--<a class="classicbutton" href="{{< ref \"posts/2024/03/yaitg.md\" >}}">
+<!--<a class="classicbutton" href=" ref \"posts/2024/03/yaitg.md\" >}}">
     <img class="classicbutton" src="/media/badges/she-her.gif">
 </a>-->
 <img class="classicbutton" src="/media/badges/queerpride.gif">
