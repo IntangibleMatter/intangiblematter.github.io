@@ -8,11 +8,14 @@
 	{{ if .Params.subtitle }}
 	<h3 class="subtitle">{{ .Params.subtitle }}</h3>
 	{{ end }}
-    {{ partial "metadata.html" . }}
-    <br>
+	{{ if not ( in .Params.tags "hidden" ) }}
+		{{ partial "metadata.html" . }}
+		<br>
+	{{ end }}
     {{- partial "toc.html" . }}
     <br>
     {{ .Content }}
+	{{ if not ( in .Params.tags "hidden" ) }}
     <div class="prev-next-post-links">
         <span class="next-post">
             {{ if .NextPage }}
@@ -30,6 +33,7 @@
         data-emit-metadata="0" data-input-position="top" data-theme="https://intangiblematter.net/css/giscus.min.css"
         data-lang="en" crossorigin="anonymous" async>
     </script>
+	{{ end }}
     <script src="/js/togglelight.js"></script>
 </div>
 

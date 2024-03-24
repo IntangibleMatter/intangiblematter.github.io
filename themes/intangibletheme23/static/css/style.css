@@ -33,6 +33,11 @@ a {
 a:visited {
   color: white;
 }
+a.classicbutton {
+  margin: 0 !important;
+  text-decoration: none !important;
+  white-space-collapse: collapse;
+}
 
 body {
   display: flex;
@@ -296,6 +301,11 @@ code {
   font-style: italic;
 }
 
+.classicbutton {
+  display: inline;
+  margin: 2px;
+}
+
 .post-title {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6);
@@ -316,8 +326,10 @@ code {
   color: #aaaaaa;
   text-align: center;
 }
-.post-title .summary .quotemark {
+.post-title .summary::before, .post-title .summary::after {
   color: white;
+  content: '"';
+  font-size: x-large;
 }
 .post-title a {
   flex: 1;
@@ -335,6 +347,12 @@ code {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   transform: scale(1.05, 1.05);
+}
+.post-title .newpost {
+  margin-bottom: -0.5em;
+  margin-top: 0;
+  font-style: italic;
+  text-shadow: 1px 1px 5px black;
 }
 
 .subtitle {

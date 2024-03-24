@@ -3,13 +3,26 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
+		{{- partial "stars.html" . -}}
         <div id="content">
             <div class="home-main">
                 <div class="logo-container">
                     <img src="/img/logo/intangible.png" alt="IntangibleMatter" class="logo">
                 </div>
-                {{- partial "stars.html" . -}}
             </div>
+		{{ with (index (where site.RegularPages "Type" "posts").ByDate.Reverse 0 ) }}
+			<div class="post-title">
+				<h4 class="text-center newpost" >Newest post!</h4>
+				<a href="{{ .RelPermalink }}" class="title">
+					<h2 class="list-title">{{ .Title }}</h2>
+					{{ if .Params.subtitle }}
+						<h4 class="subtitle">{{ .Params.subtitle }}</h4>
+					{{ end }}
+					<p class="summary"> {{ .Summary | truncate 110 "..." }} </p>
+					{{ partial "metadata.html" . }}
+				</a>
+			</div>
+		{{ end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>

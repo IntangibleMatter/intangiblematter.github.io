@@ -33,6 +33,11 @@ a {
     &:visited {
         color: white;
     }
+	&.classicbutton {
+		margin: 0 !important;
+		text-decoration: none !important;
+		white-space-collapse: collapse;
+	}
 }
 
 body {
@@ -329,6 +334,11 @@ code {
     }
 }
 
+.classicbutton {
+	display: inline;
+	margin: 2px;
+}
+
 .post-title {
     text-align: center;
     background-color: #00000099;
@@ -349,8 +359,10 @@ code {
         color: #aaaaaa;
         text-align: center;
 
-        .quotemark {
+        &::before, &::after {
             color: white;
+			content: '"';
+			font-size: x-large;
         }
     }
 
@@ -371,6 +383,13 @@ code {
 		-webkit-backdrop-filter: blur(5px);
 		transform: scale(1.05, 1.05);
     }
+	.newpost {
+		margin-bottom: -0.5em;
+		margin-top: 0;
+		font-style:italic;
+		text-shadow:1px 1px 5px black;
+	}
+
 }
 
 .subtitle {
