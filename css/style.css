@@ -445,6 +445,9 @@ blockquote {
   color: black !important;
   border: 2px solid black !important;
 }
+.light_mode .caption {
+  color: #222 !important;
+}
 
 .home-main {
   z-index: -1;
