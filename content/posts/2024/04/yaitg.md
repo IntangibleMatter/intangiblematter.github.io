@@ -1,8 +1,8 @@
 ---
 title: "YAUFYAITG"
 subtitle: 'or, "Omlette"'
-date: 2024-03-20T00:34:03-08:00
-draft: true
+date: 2024-04-20T17:33:03-08:00
+draft: false
 tags: [personal, eggs, lgbtq+, gender]
 ---
 
@@ -63,5 +63,58 @@ Here's an abridged list of other trans-associated things I associate with:
 - being "just a really passionate ally"
     - passionate enough to have a trans flag on the wall
 
-Again, *far* from a complete list. Barely scraping the surface here. I'm tired
-and writing later than I should be.
+Again, *far* from a complete list. Barely scraping the surface here.
+
+So why not just bite the bullet and come out and say it definitively and
+explicitly? Because even though the odds are *very* good, I just... don't like
+declaring things to be true when they aren't, which makes talking about (and
+even just *understanding*) my own feelings incredibly hard. Also... jesus
+*christ* what the fuck is going on politically right now??? Half the states are
+basically trying to ban trans people, but I live in Canada, so I should be
+safe, right? Well I would *hope* so but at the same time we have the leader of
+the Conservatives spouting anti-trans bullshit, and the premier of the province
+next to mine *taking selfies with Tucker fucking Carlson*.
+
+I'm fine. I feel fine. I live in a place that's actually pretty safe as far as
+this goes.
+
+It's not like I don't have any support, either. Most of my good friends
+throughout my teenage years have been on *some* level of genderfuckery.
+But the one I want to talk about briefly here is one I only met in the past
+year; Talia.
+
+Talia is a game developer who has some [experience under her belt](https://store.steampowered.com/curator/40625597).
+I met her at a game development thing last year without knowing her work, and
+she apparently almost *immediately* clocked me as trans-questioning. Candidly,
+she's a lot of what I want to be. A successful indie dev making cool shit and
+living in a very authentically *her* way, even if that's working on her games
+until ungodly hours of the morning. Which, candidly, so do I.
+
+She's also one of the most iconic people I've ever met.
+
+At one gamedev event I was following her around like a duckling, and
+would occasionally make comments about trans subjects that were, shall we say,
+*very* eggy. So after a few hours of this, Talia sits me down, gives me a bunch
+of genuinely good advice about being trans, and when I say that I'm just an egg
+she replies with a statement that I think about literally every day:
+
+> "Buddy, there's yolk all over the floor."
+
+Anyways yeah she's great love her check out her games can't wait for Clown Meat
+etc, etc, etc.
+
+There's so many signs.
+
+But I'm still so scared and unsure.
+
+The world is such a scary place, [*especially* for trans people](https://www.tumblr.com/welldrawnfish/731369978218119168/do-you-know-what-its-like-to-be-trans)
+and right now I'm overwhelmed just trying to finish high school.
+
+Do I feel so out of place as myself because I'm trans or is it because I'm
+autistic?
+
+I don't know
+
+I'm fine. I'll be fine.
+
+Maybe.
