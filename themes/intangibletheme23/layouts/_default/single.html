@@ -26,7 +26,7 @@
 					{{ end }}
 				{{ else }}
 					<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">
-						<- {{ .NextPage.NextPage.Title | truncate 50 "..." }}</a>
+						<- {{ .NextPage.Title | truncate 50 "..." }}</a>
 				{{ end }}
 			{{ end }} </span>
 		<span class="previous-post">
