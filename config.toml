@@ -25,7 +25,8 @@ enableRobotsTXT = true
         #pre = "personal"
         #url = "/personal/"
         #weight = 4
-
+[language]
+	languageCode = 'en-ca'
 
 
 [permalinks]

@@ -3,6 +3,7 @@ title: "Buttons"
 date: 2024-03-23T17:50:50-07:00
 draft: false
 tags: [hidden]
+hidden: true
 ---
 
 Buttons! Hell yeah! 90's style internet woooooo!
