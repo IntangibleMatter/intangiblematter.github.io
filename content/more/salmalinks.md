@@ -18,12 +18,12 @@ months back that has all sorts of cool stuff with magic, transformations, and
 transformation magic. I recommend starting at the birthday party arc, seems to
 be when the comic really kinda sorts out what it is and what it wants to do.
 
+I feel like there were more things than this... Ah well, I'm sure I'll remember
+well after you've seen this. Enjoy!
+
 ## Addendums
 
 [What Happens After](https://whathappensnext.webcomic.ws/comics/1#content-start),
 a well-done webcomic about being trans, trauma, mental health, true crime,
 and more. Heard about it through a... Lily Alexandre video, I think? Seems like
 something you might like.
-
-I feel like there were more things than this... Ah well, I'm sure I'll remember
-well after you've seen this. Enjoy!
