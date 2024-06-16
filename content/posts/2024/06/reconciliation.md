@@ -71,7 +71,8 @@ The formal process of this in Canada started in 2008 with the Truth and
 Reconciliation Commission (or TRC,) an organization with the purpose of
 recognizing the impacts of the Residential School system on those who survived
 it and their families, the history of the schools, and documenting it all.
-Its other task was to
+Its other task was to try to start the process of reconciling with the
+indigenous populations of Canada, and to try to make amends for what
 
 [^1]: At least, this is what I remember from various readings I've done. I know
 it wasn't always like this, and that there were still issues, but from what
