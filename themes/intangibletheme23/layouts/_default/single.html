@@ -19,7 +19,7 @@
     <div class="prev-next-post-links">
         <span class="next-post">
             {{ if .NextPage }}
-				{{ if in .NextPage.Params.tags "hidden" }}
+				{{ if eq .NextPage.Params.hidden true }}
 					{{ if .NextPage.NextPage }}
 						<a class="link-reverse" href="{{ .NextPage.NextPage.Permalink }}?ref=footer">
 							<- {{ .NextPage.NextPage.Title | truncate 50 "..." }}</a>
@@ -31,7 +31,7 @@
 			{{ end }} </span>
 		<span class="previous-post">
 			{{ if .PrevPage }}
-				{{ if in .PrevPage.Params.tags "hidden" }}
+				{{ if eq .PrevPage.Params.hidden true }}
 					{{ if .PrevPage.PrevPage }}
 						<a class="link-reverse"
 							href="{{ .PrevPage.PrevPage.Permalink }}?ref=footer">{{ .PrevPage.PrevPage.Title | truncate 50 "..."}} -></a>
