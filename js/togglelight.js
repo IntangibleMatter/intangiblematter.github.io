@@ -53,10 +53,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (starsModePreference === 'on') {
         applyStarsMode(true);
-        starsToggleButton.textContent = 'Star Motion Off';
+        //starsToggleButton.textContent = 'Star Motion Off';
     } else {
         applyStarsMode(false);
-        starsToggleButton.textContent = 'Star Motion On';
+        //starsToggleButton.textContent = 'Star Motion On';
     }
 
 });
@@ -81,10 +81,10 @@ function toggleStarsMode() {
     applyStarsMode(isStarsModeOn)
 
     if (isStarsModeOn) {
-        toggleStars.textContent = 'Star Motion On';
+        //toggleStars.textContent = 'Star Motion On';
         localStorage.setItem('starsModePreference', 'on');
     } else {
-        toggleStars.textContent = 'Star Motion Off';
+        //toggleStars.textContent = 'Star Motion Off';
         localStorage.setItem('starsModePreference', 'off');
     }
 }
