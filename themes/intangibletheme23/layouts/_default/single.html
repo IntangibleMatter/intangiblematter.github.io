@@ -1,56 +1,62 @@
 {{ define "main" }}
 <div id="main-content">
-    <div class="centrebutton">
-        <button class="toggleButton" id="lightToggleButton">Toggle light mode</button>
-        <button class="toggleButton" id="starsToggleButton">Stars motion Off</button>
-    </div>
-    <h1>{{ .Title }}</h1>
+	<h1>{{ .Title }}</h1>
 	{{ if .Params.subtitle }}
 	<h3 class="subtitle">{{ .Params.subtitle }}</h3>
-	{{ end }}
-	{{ if not ( in .Params.tags "hidden" ) }}
-		{{ partial "metadata.html" . }}
-		<br>
-	{{ end }}
-    {{- partial "toc.html" . }}
-    <br>
-    {{ .Content }}
-	{{ if not ( in .Params.tags "hidden" ) }}
-    <div class="prev-next-post-links">
-        <span class="next-post">
-            {{ if .NextPage }}
-				{{ if eq .NextPage.Params.hidden true }}
-					{{ if .NextPage.NextPage }}
-						<a class="link-reverse" href="{{ .NextPage.NextPage.Permalink }}?ref=footer">
-							<- {{ .NextPage.NextPage.Title | truncate 50 "..." }}</a>
-					{{ end }}
-				{{ else }}
-					<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">
-						<- {{ .NextPage.Title | truncate 50 "..." }}</a>
-				{{ end }}
-			{{ end }} </span>
+	{{ end }} {{ if not ( in .Params.tags "hidden" ) }} {{ partial "metadata.html"
+	. }}
+	<br />
+	{{ end }} {{- partial "toc.html" . }}
+	<br />
+	{{ .Content }} {{ if not ( in .Params.tags "hidden" ) }}
+	<div class="prev-next-post-links">
+		<span class="next-post">
+			{{ if .NextPage }} {{ if eq .NextPage.Params.hidden true }} {{ if
+			.NextPage.NextPage }}
+			<a
+				class="link-reverse"
+				href="{{ .NextPage.NextPage.Permalink }}?ref=footer"
+			>
+				<- {{ .NextPage.NextPage.Title | truncate 50 "..." }}</a
+			>
+			{{ end }} {{ else }}
+			<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">
+				<- {{ .NextPage.Title | truncate 50 "..." }}</a
+			>
+			{{ end }} {{ end }}
+		</span>
 		<span class="previous-post">
-			{{ if .PrevPage }}
-				{{ if eq .PrevPage.Params.hidden true }}
-					{{ if .PrevPage.PrevPage }}
-						<a class="link-reverse"
-							href="{{ .PrevPage.PrevPage.Permalink }}?ref=footer">{{ .PrevPage.PrevPage.Title | truncate 50 "..."}} -></a>
-					{{ end }}
-				{{ else }}
-					<a class="link-reverse"
-						href="{{ .PrevPage.Permalink }}?ref=footer">{{ .PrevPage.Title | truncate 50 "..."}} -></a>
-				{{ end }}
-			{{ end }}
-        </span>
-    </div>
-    <script src="https://giscus.app/client.js" data-repo="IntangibleMatter/intangiblematter.github.io"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkzNTQzNzc2Mzc=" data-category="Announcements"
-        data-category-id="DIC_kwDOFR9fpc4CV2n9" data-mapping="pathname" data-strict="0" data-reactions-enabled="1"
-        data-emit-metadata="0" data-input-position="top" data-theme="https://intangiblematter.net/css/giscus.min.css"
-        data-lang="en" crossorigin="anonymous" async>
-    </script>
+			{{ if .PrevPage }} {{ if eq .PrevPage.Params.hidden true }} {{ if
+			.PrevPage.PrevPage }}
+			<a
+				class="link-reverse"
+				href="{{ .PrevPage.PrevPage.Permalink }}?ref=footer"
+				>{{ .PrevPage.PrevPage.Title | truncate 50 "..."}} -></a
+			>
+			{{ end }} {{ else }}
+			<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer"
+				>{{ .PrevPage.Title | truncate 50 "..."}} -></a
+			>
+			{{ end }} {{ end }}
+		</span>
+	</div>
+	<script
+		src="https://giscus.app/client.js"
+		data-repo="IntangibleMatter/intangiblematter.github.io"
+		data-repo-id="MDEwOlJlcG9zaXRvcnkzNTQzNzc2Mzc="
+		data-category="Announcements"
+		data-category-id="DIC_kwDOFR9fpc4CV2n9"
+		data-mapping="pathname"
+		data-strict="0"
+		data-reactions-enabled="1"
+		data-emit-metadata="0"
+		data-input-position="top"
+		data-theme="https://intangiblematter.net/css/giscus.min.css"
+		data-lang="en"
+		crossorigin="anonymous"
+		async
+	></script>
 	{{ end }}
-    <script src="/js/togglelight.js"></script>
 </div>
 
 {{ end }}
