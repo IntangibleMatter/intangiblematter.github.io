@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>Antisocial media</title>
+    <!--<link type="text/css" rel="stylesheet" href="css/style.css" />-->
+    <style>
+      body {
+        font-family: "Open Sans", Arial, sans-serif;
+        background-color: black;
+        color: white;
+        font-size: 40px;
+      }
+
+      button {
+        background-color: white;
+        color: black;
+        border-radius: 4px;
+        font-size: 20px;
+      }
+
+      button:hover {
+        background-color: black;
+        color: white;
+      }
+
+      .centred {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      a.home {
+        font-size: 0.5em;
+        margin-top: 0;
+        margin-left: 0;
+        color: white;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--<script type="text/javascript" src="js/main.js"></script>-->
+
+    <script type="text/javascript">
+      var text = [
+        "Leave me alone",
+        "I don't like you",
+        "Why would you make an account?",
+        "Fuck off",
+        "Just let me be",
+        "I don't want to hang out",
+        "Please go away",
+        "Shut up",
+        "I hate you",
+        "Did I not tell you to leave?",
+        "Bug off",
+        "Screw you",
+        "What part of 'go away' do you not understand?",
+        "Why are you like this?",
+        "Please leave me alone",
+        "I hate you so much",
+        "Jesus christ just let me do my own thing",
+        ">:|",
+        ">:(",
+        ":(",
+        ":|",
+        "What did I do to you?",
+        "Leave. Me. Alone.",
+        "Just stop",
+        "This is why you have no friends",
+      ];
+
+      function newText() {
+        var currIndex = text.indexOf(document.getElementById("text").innerHTML);
+
+        var newMsg = Math.floor(Math.random() * text.length);
+        while (newMsg == currIndex) {
+          newMsg = Math.floor(Math.random() * text.length);
+        }
+
+        document.getElementById("text").innerHTML =
+          text[Math.floor(Math.random() * text.length)];
+      }
+    </script>
+    <div class="centred">
+      <h1>Antisocial Media</h1>
+      <p id="text">Go away</p>
+      <button onclick="newText()">Fuck off</button>
+      <!--update  aaa me when you want to update the site-->
+      <div class="changeme on update"></div>
+    </div>
+  </body>
+</html>
