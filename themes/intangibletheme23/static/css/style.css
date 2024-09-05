@@ -77,22 +77,6 @@ body #content #main-content {
     margin-right: 2em;
   }
 }
-body #content #main-content .centrebutton {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-body #content #main-content .centrebutton .toggleButton {
-  margin: 0 auto;
-  border: 2px solid #fff;
-  border-radius: 1em;
-  background-color: #0c0c0c;
-  color: white;
-  padding: 0.5em;
-  cursor: pointer;
-}
 body #content #main-content .spoilerwarning {
   line-height: 0.9;
   color: #797979;
@@ -196,6 +180,22 @@ body #content #main-content .prev-next-post-links .previous-post:hover {
 }
 .header .nav-menu a:hover {
   transform: scale(1.1, 1.1);
+}
+.header .centrebutton {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.header .centrebutton .toggleButton {
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 1em;
+  background-color: #0c0c0c;
+  color: white;
+  padding: 0.5em;
+  cursor: pointer;
 }
 
 figure figcaption {
