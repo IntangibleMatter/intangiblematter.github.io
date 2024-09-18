@@ -3,7 +3,10 @@ meetup! I basically got on a bus &lt;em>right&lt;/em> after school to get down t
 then I went into Vancouer and&amp;hellip; ate food?&lt;/p>
 &lt;p>Also all of this was with my friend &lt;a href="https://visu.do">River&lt;/a>. They&amp;rsquo;re cool.
 Check them out. Without whom I probably would&amp;rsquo;ve been having an anxiety attack
-for the whole trip so&amp;hellip; thanks, Riv!&lt;/p></description></item><item><title>Footpedal: A FOSS Audio Engine for Games</title><link>https://intangiblematter.github.io/posts/2023/05/12/footpedal-a-foss-audio-engine-for-games/</link><pubDate>Fri, 12 May 2023 10:01:10 -0700</pubDate><guid>https://intangiblematter.github.io/posts/2023/05/12/footpedal-a-foss-audio-engine-for-games/</guid><description>&lt;p>I &lt;em>love&lt;/em> dynamic audio in games. Being a game developer, I want to add it to my
+for the whole trip so&amp;hellip; thanks, Riv!&lt;/p>
+&lt;p>After we ate, we went down to the Skytrain and went down to the place where the
+meetup was happening. We arrived half an hour early, and while we were waiting
+for the doors to open two things happened:&lt;/p></description></item><item><title>Footpedal: A FOSS Audio Engine for Games</title><link>https://intangiblematter.github.io/posts/2023/05/12/footpedal-a-foss-audio-engine-for-games/</link><pubDate>Fri, 12 May 2023 10:01:10 -0700</pubDate><guid>https://intangiblematter.github.io/posts/2023/05/12/footpedal-a-foss-audio-engine-for-games/</guid><description>&lt;p>I &lt;em>love&lt;/em> dynamic audio in games. Being a game developer, I want to add it to my
 own projects. Unfortunately, I&amp;rsquo;m broke and all existing solutions are expensive
 to use (at least without a giant splash screen when you boot up the game.)
 Obviously, being a programmer myself, I decided I&amp;rsquo;d try to write an audio
@@ -19,4 +22,9 @@ taking another look at the project, and we started working on it together.&lt;/p
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A game _framework_ is a library of code which can be added to your code so it&amp;#39;s
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>easier to make a game. These generally require substantially more knowledge and
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>coding skill.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pr</description></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>So, as many of you know, &lt;a href="https://intangiblematter.itch.io">I like to make games.&lt;/a>
+A lot. I&amp;rsquo;ve published four games (as
+of writing) and have created several more. However, my choice of game engine
+hasn&amp;rsquo;t always been consistent. The first engine I tried to use was, as is many
+people&amp;rsquo;s first choice, Unity. My time with this engine was short, and I had a
+great deal of trouble trying to grock how it works.&lt;/p></description></item></channel></rss>
