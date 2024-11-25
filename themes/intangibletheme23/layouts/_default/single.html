@@ -3,39 +3,37 @@
 	<h1>{{ .Title }}</h1>
 	{{ if .Params.subtitle }}
 	<h3 class="subtitle">{{ .Params.subtitle }}</h3>
-	{{ end }} {{ if not ( in .Params.tags "hidden" ) }} {{ partial "metadata.html"
-	. }}
+	{{ end }} {{ if not ( in .Params.tags "hidden" ) }} {{ partial
+	"metadata.html" . }}
 	<br />
 	{{ end }} {{- partial "toc.html" . }}
 	<br />
 	{{ .Content }} {{ if not ( in .Params.tags "hidden" ) }}
 	<div class="prev-next-post-links">
 		<span class="next-post">
-			{{ if .NextPage }} {{ if eq .NextPage.Params.hidden true }} {{ if
-			.NextPage.NextPage }}
+			{{ if .Next }} {{ if eq .Next.Params.hidden true }} {{ if .Next.Next
+			}}
 			<a
 				class="link-reverse"
-				href="{{ .NextPage.NextPage.Permalink }}?ref=footer"
+				href="{{ .Next.Next.Permalink }}?ref=footer"
 			>
-				<- {{ .NextPage.NextPage.Title | truncate 50 "..." }}</a
+				<- {{ .Next.Next.Title | truncate 50 "..." }}</a
 			>
 			{{ end }} {{ else }}
-			<a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">
-				<- {{ .NextPage.Title | truncate 50 "..." }}</a
+			<a class="link-reverse" href="{{ .Next.Permalink }}?ref=footer">
+				<- {{ .Next.Title | truncate 50 "..." }}</a
 			>
 			{{ end }} {{ end }}
 		</span>
 		<span class="previous-post">
-			{{ if .PrevPage }} {{ if eq .PrevPage.Params.hidden true }} {{ if
-			.PrevPage.PrevPage }}
-			<a
-				class="link-reverse"
-				href="{{ .PrevPage.PrevPage.Permalink }}?ref=footer"
-				>{{ .PrevPage.PrevPage.Title | truncate 50 "..."}} -></a
+			{{ if .Prev }} {{ if eq .Prev.Params.hidden true }} {{ if .Prev.Prev
+			}}
+			<a class="link-reverse" href="{{ .Prev.Prev.Permalink }}?ref=footer"
+				>{{ .Prev.Prev.Title | truncate 50 "..."}} -></a
 			>
 			{{ end }} {{ else }}
-			<a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer"
-				>{{ .PrevPage.Title | truncate 50 "..."}} -></a
+			<a class="link-reverse" href="{{ .Prev.Permalink }}?ref=footer"
+				>{{ .Prev.Title | truncate 50 "..."}} -></a
 			>
 			{{ end }} {{ end }}
 		</span>
