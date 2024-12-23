@@ -326,6 +326,9 @@ code {
 .post-title .summary {
   color: #aaaaaa;
   text-align: center;
+  max-height: 8em;
+  overflow-y: hidden;
+  display: inline-block;
 }
 .post-title .summary::before, .post-title .summary::after {
   color: white;

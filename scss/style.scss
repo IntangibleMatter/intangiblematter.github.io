@@ -363,6 +363,9 @@ code {
 	.summary {
 		color: #aaaaaa;
 		text-align: center;
+		max-height: 8em;
+		overflow-y: hidden;
+		display: inline-block;
 
 		&::before,
 		&::after {
@@ -370,6 +373,10 @@ code {
 			//content: '"';
 			font-size: x-large;
 		}
+	}
+
+	iframe {
+		//	display: none;
 	}
 
 	a {
