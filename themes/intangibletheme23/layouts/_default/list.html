@@ -1,15 +1,28 @@
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }} {{ range .Pages.ByPublishDate.Reverse }} {{ if not ( in
-.Params.tags "hidden" ) }}
-<div class="post-title">
-	<a href="{{ .RelPermalink }}" class="title">
-		<h2 class="list-title">{{ .Title }}</h2>
-		{{ if .Params.subtitle }}
-		<h4 class="subtitle">{{ .Params.subtitle }}</h4>
+	<h1>{{ .Title }}</h1>
+	{{ .Content }}
+	{{ range .Pages.ByPublishDate.Reverse }}
+		{{ if not ( in .Params.tags "hidden" ) }}
+			<div class="post-title">
+				<a href="{{ .RelPermalink }}" class="title">
+					<h2 class="list-title">{{ .Title }}</h2>
+					{{ if .Params.subtitle }}
+						<h4 class="subtitle">{{ .Params.subtitle }}</h4>
+					{{ end }}
+
+					{{ $nsum := .Summary | safeHTML | truncate 100 "..." | replaceRE `<iframe .*?>.*?</iframe>` "" | safeHTML }}
+
+
+					<span class="summary"
+						>{{ if not (strings.Contains $nsum "iframe") }}
+							{{ $nsum }}
+						{{ else }}
+							[This summary omitted due to a bizzare bug]
+						{{ end }}</span
+					>
+					{{ partial "metadata.html" . }}
+				</a>
+			</div>
 		{{ end }}
-		<p class="summary">{{ .Summary | truncate 110 "..."}}</p>
-		{{ partial "metadata.html" . }}
-	</a>
-</div>
-{{ end }} {{ end }} {{ end }}
+	{{ end }}
+{{ end }}

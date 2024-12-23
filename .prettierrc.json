@@ -1,5 +1,14 @@
 {
 	"$schema": "https://json.schemastore.org/prettierrc",
 	"useTabs": true,
-	"tabWidth": 4
+	"tabWidth": 4,
+	"plugins": ["prettier-plugin-go-template"],
+	"overrides": [
+		{
+			"files": ["*.html"],
+			"options": {
+				"parser": "go-template"
+			}
+		}
+	]
 }

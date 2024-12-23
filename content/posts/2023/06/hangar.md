@@ -5,6 +5,8 @@ draft: true
 tags: [personal, ramblings, hantiplad, 8485, music]
 ---
 
+Here's a link to the song if you want to listen to it:
+
 {{< songlink "https://music.apple.com/ca/album/hangar/1561457977?i=1561457978" "m" >}}
 
 If you held me against a wall with a gun to my head asking me what my favourite
@@ -77,4 +79,3 @@ captures my mental reality.
 > But nothing feels as urgent\
 > And these nights are still important\
 > And there's still a lot I haven't put into words yet
-
