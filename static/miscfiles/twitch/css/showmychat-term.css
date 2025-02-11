@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 /*root {
 	--background: black;// #11121D;
 	--text: #A0A8CD;
@@ -8,22 +8,22 @@
 }*/
 html,
 body {
-	--background: #11121D00;
-	--text: #A0A8CD;
-	--link: #95C561;
-	--accent: #7199EE;
-	--border: #282C34;
-	--syntax: #EE6D85;
+	--background: #11121d00;
+	--text: #a0a8cd;
+	--link: #95c561;
+	--accent: #7199ee;
+	--border: #282c34;
+	--syntax: #ee6d85;
 	overflow: hidden;
 	height: 100vh;
 	margin: 0;
-	font-family: 'JetBrains Mono', monospace;
+	font-family: "JetBrains Mono", monospace;
 	font-size: 12pt;
 	color: var(--text);
 	background: var(--background);
 	//border-radius: 16px;
 	border: 2px solid var(--border);
-	text-shadow: 2px 2px 4px white;
+	text-shadow: 2px 2px 4px black;
 }
 
 /* the entire list of messages */
@@ -71,27 +71,27 @@ body {
 	content: "";
 }
 
-[data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::before {
-	content: '* ';
+[data-twitch-sender-roles*="subscriber"] .twitch-chat-sender::before {
+	content: "* ";
 	font-style: italic;
 	color: var(--syntax);
 }
 
-[data-twitch-sender-roles*='founder'] .twitch-chat-sender::before,
-[data-twitch-sender-roles*='vip'] .twitch-chat-sender::before,
-[data-twitch-sender-roles*='mod'] .twitch-chat-sender::before,
-[data-twitch-sender-roles*='broadcaster'] .twitch-chat-sender::before {
-	content: '! ';
+[data-twitch-sender-roles*="founder"] .twitch-chat-sender::before,
+[data-twitch-sender-roles*="vip"] .twitch-chat-sender::before,
+[data-twitch-sender-roles*="mod"] .twitch-chat-sender::before,
+[data-twitch-sender-roles*="broadcaster"] .twitch-chat-sender::before {
+	content: "! ";
 	font-style: italic;
 	color: var(--syntax);
 }
 
 /* part of a message block with the text of the message */
 .twitch-chat-message {
-	display: block;
+	/* display: block; */
 	max-width: 50ch;
 	word-wrap: break-word;
-	margin-left: 2em;
+	/*margin-left: 2em;*/
 }
 
 /*.twitch-chat-message::before {
@@ -104,14 +104,14 @@ body {
 	color: var(--syntax);
 }*/
 
-li::after{
+li::after {
 	display: block;
 	content: "";
 	color: var(--twitch-sender-color, var(--link));
-//	margin-left: -2em;
+	/*	margin-left: -2em;*/
 }
 
-[data-twitch-message-status*='highlighted'] .twitch-chat-message {
+[data-twitch-message-status*="highlighted"] .twitch-chat-message {
 	text-shadow: 0 0 5px white;
 	color: white;
 }
