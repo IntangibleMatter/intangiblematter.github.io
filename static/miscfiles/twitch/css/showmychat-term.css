@@ -65,10 +65,11 @@ body {
 .twitch-chat-sender {
 	color: var(--twitch-sender-color, var(--link));
 	font-size: 115%;
+	display: inline;
 }
 
 .twitch-chat-sender::after {
-	content: "";
+	content: ": ";
 }
 
 [data-twitch-sender-roles*="subscriber"] .twitch-chat-sender::before {
@@ -89,6 +90,7 @@ body {
 /* part of a message block with the text of the message */
 .twitch-chat-message {
 	/* display: block; */
+	display: inline;
 	max-width: 50ch;
 	word-wrap: break-word;
 	/*margin-left: 2em;*/
