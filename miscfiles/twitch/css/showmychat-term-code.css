@@ -8,7 +8,7 @@
 }*/
 html,
 body {
-	--background: #11121D00;
+	--background: #11121D;
 	--text: #A0A8CD;
 	--link: #95C561;
 	--accent: #7199EE;
@@ -23,7 +23,6 @@ body {
 	background: var(--background);
 	//border-radius: 16px;
 	border: 2px solid var(--border);
-	text-shadow: 2px 2px 4px white;
 }
 
 /* the entire list of messages */
@@ -68,11 +67,11 @@ body {
 }
 
 .twitch-chat-sender::after {
-	content: "";
+	content: " {";
 }
 
 [data-twitch-sender-roles*='subscriber'] .twitch-chat-sender::before {
-	content: '* ';
+	content: 'struct ';
 	font-style: italic;
 	color: var(--syntax);
 }
@@ -81,7 +80,7 @@ body {
 [data-twitch-sender-roles*='vip'] .twitch-chat-sender::before,
 [data-twitch-sender-roles*='mod'] .twitch-chat-sender::before,
 [data-twitch-sender-roles*='broadcaster'] .twitch-chat-sender::before {
-	content: '! ';
+	content: 'class ';
 	font-style: italic;
 	color: var(--syntax);
 }
@@ -94,7 +93,7 @@ body {
 	margin-left: 2em;
 }
 
-/*.twitch-chat-message::before {
+.twitch-chat-message::before {
 	content: 'return "';
 	color: var(--syntax);
 }
@@ -102,11 +101,11 @@ body {
 .twitch-chat-message::after {
 	content: '";';
 	color: var(--syntax);
-}*/
+}
 
 li::after{
 	display: block;
-	content: "";
+	content: '}';
 	color: var(--twitch-sender-color, var(--link));
 //	margin-left: -2em;
 }
