@@ -21,7 +21,7 @@ body {
 	font-size: 12pt;
 	color: var(--text);
 	background: var(--background);
-	//border-radius: 16px;
+	/*border-radius: 16px;*/
 	border: 2px solid var(--border);
 }
 
@@ -62,6 +62,7 @@ body {
 
 /* part of a message block with the sender of the message */
 .twitch-chat-sender {
+	display: inline;
 	color: var(--twitch-sender-color, var(--link));
 	font-size: 115%;
 }
@@ -89,6 +90,7 @@ body {
 /* part of a message block with the text of the message */
 .twitch-chat-message {
 	/*display: block;*/
+	display: inline;
 	max-width: 50ch;
 	word-wrap: break-word;
 	/*margin-left: 2em;*/
