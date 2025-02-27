@@ -39,7 +39,7 @@ simultaneously living in the moment and thinking of the future and the past.
 Here's a little part where I'm going to put some of my favourite lyrics from
 the song. You don't *have* to read it, but you can.
 
-> **first verse**\
+> [**first verse**]\
 > Come pick me up, I'll pay for gas\
 > There's nowhere that I want to be\
 > And you'll drive fast and I won't ask\
@@ -48,7 +48,7 @@ the song. You don't *have* to read it, but you can.
 > And pretend that we won't tell\
 > Even pretending to ourselves\
 >
-> **final chorus**\
+> [**final chorus**]\
 > But I can't bring myself to\
 > Hate me for wanting a break\
 > I'll still be here in five years\
@@ -58,7 +58,7 @@ the song. You don't *have* to read it, but you can.
 > You know it's all an act\
 > There's still a lot I haven't put into words yet
 >
-> **this is also the first chorus**\
+> [(**this is also the first chorus**)]\
 > This place is suffocating\
 > I'll still be here in five years\
 > Like I promise I won't\
