@@ -10,10 +10,15 @@ enableRobotsTXT = true
         pre = "home"
         url = "/"
         weight = 1
-    [[menu.main]]
-        name = "Portfolio"
-        pre = "portfolio"
-        url = "/portfolio/"
+    # [[menu.main]]
+    #     name = "Portfolio"
+    #     pre = "portfolio"
+    #     url = "/portfolio/"
+    #     weight = 2
+	[[menu.main]]
+        name = "Games"
+        pre = "games"
+        url = "https://intangiblematter.itch.io/"
         weight = 2
     [[menu.main]]
         name = "Blog"
