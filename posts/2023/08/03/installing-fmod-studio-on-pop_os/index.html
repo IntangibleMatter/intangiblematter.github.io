@@ -1,5 +1,6 @@
-<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=canonical href=https://intangiblematter.github.io/posts/2023/08/03/installing-fmod-studio-on-pop_os/><link rel=stylesheet type=text/css href=/css/style.css><title>IntangibleMatter - Installing Fmod Studio on Pop!_OS</title>
-<meta name=description content="So, as a game developer, I love FMOD. Advanced sound is always so cool to me!
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><link rel=canonical href=https://intangiblematter.github.io/posts/2023/08/03/installing-fmod-studio-on-pop_os/><link rel=stylesheet type=text/css href=/css/style.css><title>Installing Fmod Studio on Pop!_OS - IntangibleMatter</title>
+<meta name=description content="
+			So, as a game developer, I love FMOD. Advanced sound is always so cool to me!
 However, when installing FMOD Studio on Pop!_OS, you&rsquo;ll run into an issue.
 $ dpkg -i fmodstudio<version>.deb
 Package pulseaudio is not installed
@@ -8,8 +9,12 @@ shouldn&rsquo;t, it&rsquo;s actually quite easy!
 First, run dpkg -i --force-all fmodstudio<version>.deb. This installs FMOD
 Studio, and FMOD Studio will run just fine! There&rsquo;s an issue, though.
 When you next try to install something with apt you&rsquo;ll discover that it
-won&rsquo;t allow you to install anything, because a dependency is unresolved."><meta property="og:title" content="IntangibleMatter - Installing Fmod Studio on Pop!_OS"><meta property="og:image" content="/img/logo/intangible.png"><meta property="og:description" content="Hi! Welcome to IntangibleMatter's blog! - Installing Fmod Studio on Pop!_OS - So, as a game developer, I love FMOD. Advanced sound is always so cool to me!
-However, when..."><meta property="og:url" content='https://intangiblematter.net'><meta property='og:image:width' content='1000'><meta property='og:image:height' content='1000'><link rel=apple-touch-icon sizes=180x180 href=/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon/favicon-16x16.png><link rel=manifest href=/favicon/site.webmanifest></head><body><div class=stars-container id=stars-container><div class=vingette></div><div class=stars id=st1></div><div class=stars id=st2></div><div class=stars id=st3></div><div class=stars id=st4></div><div class=stars id=st5></div><div class=stars id=st6></div></div><div class=header><div class=site-title><h1 class=intangibletitle>IntangibleMatter</h1></div><div class=centrebutton><button class=toggleButton id=lightToggleButton>
+won&rsquo;t allow you to install anything, because a dependency is unresolved.
+		
+		"><meta property="og:title" content="IntangibleMatter - Installing Fmod Studio on Pop!_OS"><meta property="og:image" content="/img/logo/intangible.png"><meta property="og:description" content="Hi! Welcome to IntangibleMatter's blog! - Installing Fmod Studio on Pop!_OS 
+			-
+		 So, as a game developer, I love FMOD. Advanced sound is always so cool to me!
+However, when..."><meta property="og:url" content="https://intangiblematter.net"><meta property="og:image:width" content="1000"><meta property="og:image:height" content="1000"><link rel=apple-touch-icon sizes=180x180 href=/favicon/apple-touch-icon.png><link rel=icon type=image/png sizes=32x32 href=/favicon/favicon-32x32.png><link rel=icon type=image/png sizes=16x16 href=/favicon/favicon-16x16.png><link rel=manifest href=/favicon/site.webmanifest></head><body><div class=stars-container id=stars-container><div class=vingette></div><div class=stars id=st1></div><div class=stars id=st2></div><div class=stars id=st3></div><div class=stars id=st4></div><div class=stars id=st5></div><div class=stars id=st6></div></div><div class=header><div class=site-title><h1 class=intangibletitle>IntangibleMatter</h1></div><div class=centrebutton><button class=toggleButton id=lightToggleButton>
 Toggle light mode
 </button>
 <button class=toggleButton id=starsToggleButton>
