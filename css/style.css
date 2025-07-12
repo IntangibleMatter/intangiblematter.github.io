@@ -77,6 +77,9 @@ body #content #main-content {
     margin-right: 2em;
   }
 }
+body #content #main-content #main {
+  position: relative;
+}
 body #content #main-content .spoilerwarning {
   line-height: 0.9;
   color: #797979;
@@ -131,6 +134,35 @@ body #content #main-content .prev-next-post-links .previous-post {
 body #content #main-content .prev-next-post-links .previous-post:hover {
   color: white;
   margin-right: 0em;
+}
+
+#eighteenplus {
+  font-style: italic;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.768627451);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 0 20px #000000;
+  border: 4px solid #000000;
+  padding: 1em;
+}
+#eighteenplus #eighteen-buttoncontainer {
+  display: flex;
+  justify-content: space-between;
+}
+#eighteenplus #eighteen-buttoncontainer button {
+  margin: 0 auto;
+  border: 2px solid #fff;
+  border-radius: 1em;
+  background-color: #0c0c0c;
+  color: white;
+  padding: 0.5em;
+  font-size: 1.2rem;
+  cursor: pointer;
 }
 
 .highlight {
