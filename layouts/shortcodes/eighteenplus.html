@@ -1,0 +1,44 @@
+<!--<button popovertargetaction="toggle" popovertarget="eighteenplus">AAAAAAAAAAAAAAA</button>-->
+<script>
+	function proceedEighteen() {
+		console.log("PROCEED");
+		localStorage.setItem("eighteenplus", true);
+		killEighteen();
+	}
+
+	function autocloseEighteen() {
+		console.log("WWWWWWWWWWWWWWWWWW");
+		if (localStorage.getItem("eighteenplus") == true) {
+			console.log("KILL");
+			killEighteen();
+		}
+	}
+
+	function backEighteen() {
+		history.back();
+	}
+
+	function killEighteen() {
+		const eighteen = document.getElementById("eighteenplus");
+		eighteen.remove();
+	}
+
+	function setupEighteen() {
+		/*const eighteenProceedButton = document.getElementById("eighteen-proceed");
+		eighteenProceedButton.addEventListener("click", proceedEighteen);
+		console.log(eighteenProceedButton);*/
+		console.log("POGGIES");
+		autocloseEighteen();
+	}
+</script>
+<div id="eighteenplus" po pover="manual" onload="setupEighteen();console.log('aaaaaaaa')">
+	<h2>This page contains discussion of adult content</h2>
+	<h3>
+		By continuing, you confirm that you are 18+, or otherwise the age of majority where you
+		live.
+	</h3>
+	<div id="eighteen-buttoncontainer">
+		<button id="eighteen-proceed" onclick="proceedEighteen()" type="button">Proceed</button>
+		<button id="eighteen-return" onclick="backEighteen()" type="button">Go back</button>
+	</div>
+</div>
