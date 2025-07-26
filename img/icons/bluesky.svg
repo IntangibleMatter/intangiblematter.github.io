@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   width="256"
+   height="256"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="bluesky.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <svg:defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="2.1670205"
+     inkscape:cx="125.97943"
+     inkscape:cy="201.42865"
+     inkscape:window-width="1920"
+     inkscape:window-height="1139"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <svg:path
+     d="m 55.49138,30.471089 c 29.34979,22.03397 60.91882,66.70968 72.50937,90.685271 11.59144,-23.973821 43.1587,-68.651741 72.50937,-90.685271 C 221.68737,14.572259 256,2.2706486 256,41.415029 c 0,7.81766 -4.48218,65.672441 -7.11102,75.064941 -9.13782,32.65482 -42.43572,40.9836 -72.05475,35.94263 51.77349,8.81165 64.94417,37.99901 36.50053,67.18637 -54.0201,55.4325 -77.64258,-13.90823 -83.69827,-31.67585 -1.10962,-3.25722 -1.62885,-4.78099 -1.63649,-3.48528 -0.008,-1.29575 -0.52687,0.22805 -1.63649,3.48528 -6.05304,17.76762 -29.67508,87.11011 -83.69827,31.67585 C 14.22116,190.42161 27.3914,161.23248 79.16577,152.4226 49.54586,157.46357 16.24752,149.13474 7.11102,116.47997 4.48209,107.08659 0,49.231809 0,41.415029 0,2.2706486 34.31351,14.572259 55.48988,30.471089 Z"
+     fill="#1185fe"
+     id="path1"
+     style="fill:#ffffff;fill-opacity:1;stroke-width:0.441377" />
+  <div
+     id="divScriptsUsed"
+     style="display: none" />
+  <script
+     id="globalVarsDetection"
+     src="moz-extension://6e247757-56ae-458e-92ef-4a32b0372d96/js/wrs_env.js" />
+</svg:svg>
