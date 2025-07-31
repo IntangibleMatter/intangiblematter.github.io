@@ -2,7 +2,9 @@
 	"$schema": "https://json.schemastore.org/prettierrc",
 	"useTabs": true,
 	"tabWidth": 4,
-	"plugins": ["prettier-plugin-go-template"],
+	"plugins": [
+		"/home/linuxbrew/.linuxbrew/lib/node_modules/prettier-plugin-go-template/lib/index.js"
+	],
 	"overrides": [
 		{
 			"files": ["*.html"],
