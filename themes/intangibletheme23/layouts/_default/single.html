@@ -12,7 +12,7 @@
 		{{ end }}
 		{{- partial "toc.html" . }}
 		<br />
-		<div id="main">{{ .Content }}</div>
+		<article id="main">{{ .Content }}</article>
 		{{ if not ( in .Params.tags "hidden" ) }}
 			<div class="prev-next-post-links">
 				<span class="next-post">
