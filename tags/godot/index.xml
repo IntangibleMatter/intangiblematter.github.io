@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot on IntangibleMatter</title><link>https://intangiblematter.github.io/tags/godot/</link><description>Recent content in Godot on IntangibleMatter</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 27 Jan 2024 09:25:27 -0800</lastBuildDate><atom:link href="https://intangiblematter.github.io/tags/godot/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Make a Screenspace Visualshader in Godot</title><link>https://intangiblematter.github.io/posts/2024/01/25/how-to-make-a-screenspace-visualshader-in-godot/</link><pubDate>Thu, 25 Jan 2024 11:10:12 -0800</pubDate><guid>https://intangiblematter.github.io/posts/2024/01/25/how-to-make-a-screenspace-visualshader-in-godot/</guid><description>&lt;p>&lt;a href="#the-actual-tutorial-bit-finally">&lt;em>Click here to skip to the instructions.&lt;/em>&lt;/a>&lt;/p>
-&lt;p>So Godot Engine has a really cool shader system, allowing you to do stuff like
-change the way lighting works in both 2D &lt;em>and&lt;/em> 3D using nothing but shaders,
-and it additionally has a &lt;em>powerful&lt;/em> VisualShader system. VisualShaders, for
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Godot on IntangibleMatter</title><link>https://intangiblematter.github.io/tags/godot/</link><description>Recent content in Godot on IntangibleMatter</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 27 Jan 2024 09:25:27 -0800</lastBuildDate><atom:link href="https://intangiblematter.github.io/tags/godot/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Make a Screenspace Visualshader in Godot</title><link>https://intangiblematter.github.io/posts/2024/01/25/how-to-make-a-screenspace-visualshader-in-godot/</link><pubDate>Thu, 25 Jan 2024 11:10:12 -0800</pubDate><guid>https://intangiblematter.github.io/posts/2024/01/25/how-to-make-a-screenspace-visualshader-in-godot/</guid><description>&lt;p&gt;&lt;a href="#the-actual-tutorial-bit-finally"&gt;&lt;em&gt;Click here to skip to the instructions.&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So Godot Engine has a really cool shader system, allowing you to do stuff like
+change the way lighting works in both 2D &lt;em&gt;and&lt;/em&gt; 3D using nothing but shaders,
+and it additionally has a &lt;em&gt;powerful&lt;/em&gt; VisualShader system. VisualShaders, for
 those who don&amp;rsquo;t know, are shaders that use a Shader Graph system instead of pure
 code. I&amp;rsquo;m not huge on node-based programming systems, so I usually elect to
 (poorly) write a shader myself, but I&amp;rsquo;m working on a game jam with a larger team
-than I ever have before right now, and they wanted to use the &lt;a href="https://github.com/arkology/ShaderV">ShaderV addon&lt;/a>
-because of how many cool things it has.&lt;/p></description></item><item><title>Game Engines [ARCHIVE]</title><link>https://intangiblematter.github.io/posts/2021/07/12/game-engines-archive/</link><pubDate>Mon, 12 Jul 2021 10:01:29 -0700</pubDate><guid>https://intangiblematter.github.io/posts/2021/07/12/game-engines-archive/</guid><description>&lt;p>&lt;strong>PLEASE NOTE: this is an archive from my original blog. It was my only post.&lt;/strong>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#fff;background-color:#111;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-txt" data-lang="txt">&lt;span style="display:flex;">&lt;span>Before we begin: A game engine is a tool which is used to create games. It
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>usually has a user interface and a scripting language (a specialized programming
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>language unique to the engine) of some sort.
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>A game _framework_ is a library of code which can be added to your code so it&amp;#39;s
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>easier to make a game. These generally require substantially more knowledge and
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>coding skill.
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>So, as many of you know, &lt;a href="https://intangiblematter.itch.io">I like to make games.&lt;/a>
+than I ever have before right now, and they wanted to use the &lt;a href="https://github.com/arkology/ShaderV"&gt;ShaderV addon&lt;/a&gt;
+because of how many cool things it has.&lt;/p&gt;</description></item><item><title>Game Engines [ARCHIVE]</title><link>https://intangiblematter.github.io/posts/2021/07/12/game-engines-archive/</link><pubDate>Mon, 12 Jul 2021 10:01:29 -0700</pubDate><guid>https://intangiblematter.github.io/posts/2021/07/12/game-engines-archive/</guid><description>&lt;p&gt;&lt;strong&gt;PLEASE NOTE: this is an archive from my original blog. It was my only post.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#fff;background-color:#111;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-txt" data-lang="txt"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;Before we begin: A game engine is a tool which is used to create games. It
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;usually has a user interface and a scripting language (a specialized programming
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;language unique to the engine) of some sort.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;A game _framework_ is a library of code which can be added to your code so it&amp;#39;s
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;easier to make a game. These generally require substantially more knowledge and
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;coding skill.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So, as many of you know, &lt;a href="https://intangiblematter.itch.io"&gt;I like to make games.&lt;/a&gt;
 A lot. I&amp;rsquo;ve published four games (as
 of writing) and have created several more. However, my choice of game engine
 hasn&amp;rsquo;t always been consistent. The first engine I tried to use was, as is many
 people&amp;rsquo;s first choice, Unity. My time with this engine was short, and I had a
-great deal of trouble trying to grock how it works.&lt;/p></description></item></channel></rss>
+great deal of trouble trying to grock how it works.&lt;/p&gt;</description></item></channel></rss>
