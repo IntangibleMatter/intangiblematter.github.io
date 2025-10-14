@@ -3,7 +3,7 @@
 	"useTabs": true,
 	"tabWidth": 4,
 	"plugins": [
-		"/home/linuxbrew/.linuxbrew/lib/node_modules/prettier-plugin-go-template/lib/index.js"
+		"/home/intangible/.local/bin/prettier-plugin-go-template/lib/index.js"
 	],
 	"overrides": [
 		{
