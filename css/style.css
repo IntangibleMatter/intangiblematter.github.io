@@ -306,6 +306,9 @@ footer .pagebottom {
   align-items: center;
   flex-flow: wrap;
 }
+footer .pagebottom #librecounter img {
+  filter: invert(75%);
+}
 
 code {
   overflow-x: scroll;
