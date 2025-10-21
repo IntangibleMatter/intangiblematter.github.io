@@ -335,6 +335,12 @@ footer {
 		justify-content: space-around;
 		align-items: center;
 		flex-flow: wrap;
+
+		#librecounter {
+			img {
+				filter: invert(75%);
+			}
+		}
 	}
 }
 
