@@ -67,15 +67,17 @@ body #content #main-content {
   padding: 1em;
   border-radius: 2em;
   text-align: justify;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 800px;
 }
 @media screen and (max-width: 800px) {
   body #content #main-content {
     margin-left: 2em;
     margin-right: 2em;
   }
+}
+body #content #main-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
 }
 body #content #main-content #main {
   position: relative;
@@ -165,14 +167,14 @@ body #content #main-content .prev-next-post-links .previous-post:hover {
   cursor: pointer;
 }
 
-.highlight {
-  overflow-x: auto;
-  overflow-y: hidden;
-}
 @media screen and (max-width: 555px) {
   .highlight {
     max-width: 80vw;
   }
+}
+.highlight {
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 .highlight pre {
   border: 2px solid white;
@@ -230,28 +232,28 @@ body #content #main-content .prev-next-post-links .previous-post:hover {
   cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+  figure figcaption {
+    margin-top: -1em;
+  }
+}
 figure figcaption {
   margin-top: 0em;
   color: gray;
   text-align: center;
   width: 100%;
 }
+
 @media screen and (max-width: 600px) {
-  figure figcaption {
+  .caption {
     margin-top: -1em;
   }
 }
-
 .caption {
   margin-top: 0em;
   color: gray;
   text-align: center;
   width: 100%;
-}
-@media screen and (max-width: 600px) {
-  .caption {
-    margin-top: -1em;
-  }
 }
 
 footer {
@@ -371,11 +373,13 @@ code {
 }
 .post-title a {
   flex: 1;
-  text-decoration: none;
-  color: white;
 }
 .post-title a h3 {
   display: inline;
+}
+.post-title a {
+  text-decoration: none;
+  color: white;
 }
 .post-title a:visited {
   color: white;

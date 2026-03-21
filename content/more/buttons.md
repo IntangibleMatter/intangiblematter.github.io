@@ -7,63 +7,41 @@ hidden: true
 ---
 
 Buttons! Hell yeah! 90's style internet woooooo!
+<div style="text-align: center">
 
-<a class="classicbutton" href="https://intangiblematter.net/" title="IntangibleMatter's Button">
-    <img class="classicbutton" src="/img/intangible-button.gif" title="IntangibleMatter's Button">
-</a>
-<img class="classicbutton" src="/media/badges/1080p.gif">
-<a class="classicbutton" href="/media/badges/">
-    <img class="classicbutton" src="/media/badges/88x31.gif">
-</a>
-<img class="classicbutton" src="/media/badges/antinazi.gif">
-<img class="classicbutton" src="/media/badges/antinft.gif">
-<img class="classicbutton" src="/media/badges/anythingbut.gif">
-<img class="classicbutton" src="/media/badges/bestdesktop.gif">
-<a class="classicbutton" href="https://vimm.net/vault/">
-    <img class="classicbutton" src="/media/badges/bestromsites.gif">
-</a>
-<img class="classicbutton" src="/media/badges/bu12.gif">
-<img class="classicbutton" src="/media/badges/crushit.gif">
-<img class="classicbutton" src="/media/badges/dbd.gif">
-<a class="classicbutton" href="https://maia.crimew.gay/">
-    <img class="classicbutton" src="/media/badges/maia.crimew.gay.png">
-</a>
-<img class="classicbutton" src="/media/badges/fckgoogle.gif">
-<a class="classicbutton" href="https://www.mozilla.org/en-CA/firefox/new/">
-    <img class="classicbutton" src="/media/badges/firefox.gif">
-    <img class="classicbutton" src="/media/badges/ffrediscover.gif">
-    <img class="classicbutton" src="/media/badges/fftake.gif">
-</a>
-<a class="classicbutton" href="/index.xml">
-    <img class="classicbutton" src="/media/badges/feed.gif">
-</a>
-<a class="classicbutton" href="https://github.com/intangiblematter/">
-    <img class="classicbutton" src="/media/badges/github-check.gif">
-</a>
-<a class="classicbutton" href="https://archive.org">
-    <img class="classicbutton" src="/media/badges/internetarchive.gif">
-</a>
-<img class="classicbutton" src="/media/badges/imissxp.gif">
-<a class="classicbutton" href="https://en.wikipedia.org/wiki/Dennis_Ritchie">
-    <img class="classicbutton" src="/media/badges/jobsritchie.gif">
-</a>
-<img class="classicbutton" src="/media/badges/keep.gif">
-<img class="classicbutton" src="/media/badges/gnu-linux.gif">
-<img class="classicbutton" src="/media/badges/latex.gif">
-<img class="classicbutton" src="/media/badges/nft.gif">
-<a class="classicbutton" href="https://neovim.io">
-    <img class="classicbutton" src="/media/badges/neovim.gif">
-</a>
-<img class="classicbutton" src="/media/badges/penguins.gif">
-<a class="classicbutton" href="https://archive.org">
-    <img class="classicbutton" src="/media/badges/preserve.gif">
-</a>
-<img class="classicbutton" src="/media/badges/shitify.gif">
-<!--<a class="classicbutton" href=" ref \"posts/2024/03/yaitg.md\" >}}">
-    <img class="classicbutton" src="/media/badges/she-her.gif">
-</a>-->
-<img class="classicbutton" src="/media/badges/queerpride.gif">
-<!--<img class="classicbutton" src="">-->
+{{< button img="/img/intangible-button.gif" href="https://intangiblematter.net" >}}
+{{< button "1080p.gif" >}}
+{{< button img="88x31.gif" href="/more/buttons" >}}
+{{< button "antinazi.gif" >}}
+{{< button "antinft.gif" >}}
+{{< button "anythingbut.gif" >}}
+{{< button "bestdesktop.gif" >}}
+{{< button img="bestromsites.gif" href="https://vimm.net/vault/">}}
+{{< button "bu12.gif" >}}
+{{< button "crushit.gif" >}}
+{{< button "dbd.gif" >}}
+{{< button img="maia.crimew.gay.png" href="https://maia.crimew.gay/">}}
+{{< button "fckgoogle.gif" >}}
+{{< button img="firefox.gif" href="https://www.mozilla.org/en-CA/firefox/new/">}}
+{{< button img="feed.gif" href="/index.xml">}}
+{{< button img="github-check.gif" href="https://github.com/intangiblematter/">}}
+{{< button img="internetarchive.gif" href="https://archive.org">}}
+{{< button "imissxp.gif" >}}
+{{< button img="jobsritchie.gif" href="https://en.wikipedia.org/wiki/Dennis_Ritchie">}}
+{{< button "keep.gif" >}}
+{{< button "gnu-linux.gif" >}}
+{{< button "latex.gif" >}}
+{{< button "nft.gif" >}}
+{{< button img="neovim.gif" href="https://neovim.io" >}}
+{{< button "penguins.gif" >}}
+{{< button img="preserve.gif" href="https://archive.org" >}}
+{{< button "shitify.gif" >}}
+{{< button "queerpride.gif" >}}
+<!--{{/* {{/*< yaitg := (ref 'posts/2024/04/yaitg.md') >*/}} *}}
+{{< button img="she-her.gif" href="{{$yaitg}}">}}
+<a class="classicbutton" href=" ref \"posts/2024/03/yaitg.md\" >}}">*/}}-->
+
+</div>
 
 Wanna add my button to your page? Here's the code:
 ```html

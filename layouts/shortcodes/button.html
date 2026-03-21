@@ -1,0 +1,15 @@
+{{ $img := .Get 0 }}
+{{ if not $img }}
+	{{$img = .Get "img" }}
+{{ end }}
+{{ if not (or (strings.HasPrefix $img "https://") (strings.HasPrefix $img "/" ))}}
+	{{ $img = (printf "/media/badges/%s" $img) }}
+{{ end }}
+{{ $link := .Get "href" }}
+{{ if $link }}
+	<a href="{{$link}}" class="classicbutton" >
+{{ end }}
+<img class="classicbutton" src="{{$img}}" />
+{{ if $link }}
+	</a>
+{{ end }}
