@@ -1,7 +1,7 @@
 ---
 title: "A Big Change"
 date: 2026-04-01T00:00:01-07:00
-draft: true
+draft: false
 tags: [general, update, personal]
 ---
 
