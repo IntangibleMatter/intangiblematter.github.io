@@ -1,55 +1,47 @@
 {{ define "main" }}
-	<div id="main-content">
-		<h1>{{ .Title }}</h1>
-		{{ if .Params.subtitle }}
-			<h3 class="subtitle">{{ .Params.subtitle }}</h3>
-		{{ end }}
-		{{ if not ( in .Params.tags "hidden" ) }}
-			{{ partial
-				"metadata.html" .
+<div id="main-content">
+	<h1>{{ .Title }}</h1>
+	{{ if .Params.subtitle }}
+	<h3 class="subtitle">{{ .Params.subtitle }}</h3>
+	{{ end }} {{ if not ( in .Params.tags "hidden" ) }} {{ partial
+	"metadata.html" . }}
+	<br />
+	{{ end }} {{- partial "toc.html" . }}
+	<br />
+	<article id="main">{{ .Content }}</article>
+	{{ if not ( in .Params.tags "hidden" ) }}
+	<div class="prev-next-post-links">
+		<span class="next-post">
+			{{ if .Next }} {{ if eq .Next.Params.hidden true }} {{ if .Next.Next
 			}}
-			<br />
-		{{ end }}
-		{{- partial "toc.html" . }}
-		<br />
-		<article id="main">{{ .Content }}</article>
-		{{ if not ( in .Params.tags "hidden" ) }}
-			<div class="prev-next-post-links">
-				<span class="next-post">
-					{{ if .Next }}
-						{{ if eq .Next.Params.hidden true }}
-							{{ if .Next.Next }}
-								<a
-									class="link-reverse"
-									href="{{ .Next.Next.Permalink }}?ref=footer"
-								>
-									<- {{ .Next.Next.Title | truncate 50 "..." }}</a
-								>
-							{{ end }}
-						{{ else }}
-							<a class="link-reverse" href="{{ .Next.Permalink }}?ref=footer">
-								<- {{ .Next.Title | truncate 50 "..." }}</a
-							>
-						{{ end }}
-					{{ end }}
-				</span>
-				<span class="previous-post">
-					{{ if .Prev }}
-						{{ if eq .Prev.Params.hidden true }}
-							{{ if .Prev.Prev }}
-								<a class="link-reverse" href="{{ .Prev.Prev.Permalink }}?ref=footer"
-									>{{ .Prev.Prev.Title | truncate 50 "..." }} -></a
-								>
-							{{ end }}
-						{{ else }}
-							<a class="link-reverse" href="{{ .Prev.Permalink }}?ref=footer"
-								>{{ .Prev.Title | truncate 50 "..." }} -></a
-							>
-						{{ end }}
-					{{ end }}
-				</span>
-			</div>
-			<script
+			<a
+				class="link-reverse"
+				href="{{ .Next.Next.Permalink }}?ref=footer"
+			>
+				<- {{ .Next.Next.Title | truncate 50 "..." }}</a
+			>
+			{{ end }} {{ else }}
+			<a class="link-reverse" href="{{ .Next.Permalink }}?ref=footer">
+				<- {{ .Next.Title | truncate 50 "..." }}</a
+			>
+			{{ end }} {{ end }}
+		</span>
+		<span class="previous-post">
+			{{ if .Prev }} {{ if eq .Prev.Params.hidden true }} {{ if .Prev.Prev
+			}}
+			<a class="link-reverse" href="{{ .Prev.Prev.Permalink }}?ref=footer"
+				>{{ .Prev.Prev.Title | truncate 50 "..." }} -></a
+			>
+			{{ end }} {{ else }}
+			<a class="link-reverse" href="{{ .Prev.Permalink }}?ref=footer"
+				>{{ .Prev.Title | truncate 50 "..." }} -></a
+			>
+			{{ end }} {{ end }}
+		</span>
+	</div>
+	<div id="bluesky-comments"></div>
+	<script src="/js/bskycomments.js"></script>
+	<!--<script
 				src="https://giscus.app/client.js"
 				data-repo="IntangibleMatter/intangiblematter.github.io"
 				data-repo-id="MDEwOlJlcG9zaXRvcnkzNTQzNzc2Mzc="
@@ -64,7 +56,7 @@
 				data-lang="en"
 				crossorigin="anonymous"
 				async
-			></script>
-		{{ end }}
-	</div>
+					></script>-->
+	{{ end }}
+</div>
 {{ end }}

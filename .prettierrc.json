@@ -2,10 +2,10 @@
 	"$schema": "https://json.schemastore.org/prettierrc",
 	"useTabs": true,
 	"tabWidth": 4,
-	"plugins": [
+	"OLD_plugins": [
 		"/home/intangible/.local/bin/prettier-plugin-go-template/lib/index.js"
 	],
-	"overrides": [
+	"OLD_overrides": [
 		{
 			"files": ["*.html"],
 			"options": {
