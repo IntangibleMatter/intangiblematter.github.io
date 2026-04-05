@@ -53,7 +53,8 @@ async function loadBlueskyComments() {
 			{
 				headers: {
 					Accept: "application/json",
-					origin: "https://intangiblematter.net",
+					origin: "https://intangiblematter.github.io",
+					Referer: "https://intangiblematter.github.io",
 				},
 			},
 		);
