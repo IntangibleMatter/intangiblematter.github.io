@@ -44,10 +44,18 @@ async function loadBlueskyComments() {
 	commentsDiv.appendChild(commentsList);
 
 	try {
-		const searchParams = new URLSearchParams({ q: currentUrl });
+		const searchParams = new URLSearchParams({
+			q: currentUrl,
+			author: "blog.intangiblematter.net",
+		});
 		const searchResponse = await fetch(
 			`https://public.api.bsky.app/xrpc/app.bsky.feed.searchPosts?${searchParams}`,
-			{ headers: { Accept: "application/json" } },
+			{
+				headers: {
+					Accept: "application/json",
+					origin: "https://intangiblematter.net",
+				},
+			},
 		);
 
 		if (!searchResponse.ok) throw new Error("Failed to search posts");
