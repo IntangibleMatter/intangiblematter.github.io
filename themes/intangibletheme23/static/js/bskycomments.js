@@ -75,18 +75,24 @@ async function loadBlueskyComments() {
 		// find the post with the current page link
 		if (searchData.feed) {
 			for (const feedItem of searchData.feed) {
-				const postText = feedItem.post.record.text;
-				if (
-					postText.toLowerCase().includes(formattedUrl.toLowerCase())
-				) {
-					currPost = feedItem.post;
-					blueskyPostUrl = `https://bsky.app/profile/${currPost.author.did}/post/${currPost.url.split("/").pop()}`;
-					const commentPromptLink =
-						document.querySelector(".comment-prompt a");
-					if (commentPromptLink) {
-						commentPromptLink.href = blueskyPostUrl;
+				if (feedItem.post.embed) {
+					//const postText = feedItem.post.record.text;
+					if (feedItem.post.embed.external) {
+						if (
+							feedItem.post.embed.external.url
+								.toLowerCase()
+								.includes(formattedUrl.toLowerCase())
+						) {
+							currPost = feedItem.post;
+							blueskyPostUrl = `https://bsky.app/profile/${currPost.author.did}/post/${currPost.url.split("/").pop()}`;
+							const commentPromptLink =
+								document.querySelector(".comment-prompt a");
+							if (commentPromptLink) {
+								commentPromptLink.href = blueskyPostUrl;
+							}
+							break;
+						}
 					}
-					break;
 				}
 			}
 		}
