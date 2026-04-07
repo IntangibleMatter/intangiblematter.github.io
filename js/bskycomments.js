@@ -63,7 +63,7 @@ async function loadBlueskyComments() {
 			limit: 100,
 		});
 		const searchResponse = await fetch(
-			`https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeeds?${searchParams}`,
+			`https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed?${searchParams}`,
 		);
 
 		if (!searchResponse.ok) throw new Error("Failed to search posts");
