@@ -37,6 +37,7 @@ let blueskyPostUrl = "";
 
 async function loadBlueskyComments() {
 	const currentUrl = window.location.href;
+	const formattedUrl = currentUrl.replace("https://", "").split("?")[0];
 	const commentsDiv = document.getElementById("bluesky-comments");
 	// Clear existing content
 	commentsDiv.innerHTML = "";
@@ -75,7 +76,9 @@ async function loadBlueskyComments() {
 		if (searchData.feed) {
 			for (const feedItem of searchData.feed) {
 				const postText = feedItem.post.record.text;
-				if (postText.toLowerCase().includes(currentUrl.toLowerCase())) {
+				if (
+					postText.toLowerCase().includes(formattedUrl.toLowerCase())
+				) {
 					currPost = feedItem.post;
 					blueskyPostUrl = `https://bsky.app/profile/${currPost.author.did}/post/${currPost.url.split("/").pop()}`;
 					const commentPromptLink =
