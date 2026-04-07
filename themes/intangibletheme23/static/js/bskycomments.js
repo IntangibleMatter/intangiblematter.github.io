@@ -84,7 +84,7 @@ async function loadBlueskyComments() {
 								.includes(formattedUrl.toLowerCase())
 						) {
 							currPost = feedItem.post;
-							blueskyPostUrl = `https://bsky.app/profile/${currPost.author.did}/post/${currPost.url.split("/").pop()}`;
+							blueskyPostUrl = `https://bsky.app/profile/${currPost.author.did}/post/${currPost.uri.split("/").pop()}`;
 							const commentPromptLink =
 								document.querySelector(".comment-prompt a");
 							if (commentPromptLink) {
