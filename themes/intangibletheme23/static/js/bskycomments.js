@@ -79,7 +79,7 @@ async function loadBlueskyComments() {
 					//const postText = feedItem.post.record.text;
 					if (feedItem.post.embed.external) {
 						if (
-							feedItem.post.embed.external.url
+							feedItem.post.embed.external.uri
 								.toLowerCase()
 								.includes(formattedUrl.toLowerCase())
 						) {
