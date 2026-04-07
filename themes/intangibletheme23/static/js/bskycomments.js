@@ -44,7 +44,7 @@ async function loadBlueskyComments() {
 	commentsDiv.appendChild(commentsList);
 
 	try {
-		const searchParams = new URLSearchParams({
+		/*const searchParams = new URLSearchParams({
 			q: currentUrl,
 			author: "blog.intangiblematter.net",
 		});
@@ -57,13 +57,39 @@ async function loadBlueskyComments() {
 					Referer: "https://intangiblematter.github.io",
 				},
 			},
+		);*/
+		const searchParams = new URLSearchParams({
+			actor: "blog.intangiblematter.net",
+			limit: 100,
+		});
+		const searchResponse = await fetch(
+			`https://public.api.bsky.app/xrpc/app.bsky.feed.getActorFeeds?${searchParams}`,
 		);
 
 		if (!searchResponse.ok) throw new Error("Failed to search posts");
 		const searchData = await searchResponse.json();
 
+		let currPost = {};
+
+		// find the post with the current page link
+		if (searchData.feed) {
+			for (const feedItem of searchData.feed) {
+				const postText = feedItem.post.record.text;
+				if (postText.toLowerCase().includes(currentUrl.toLowerCase())) {
+					currPost = feedItem.post;
+					blueskyPostUrl = `https://bsky.app/profile/${currPost.author.did}/post/${currPost.url.split("/").pop()}`;
+					const commentPromptLink =
+						document.querySelector(".comment-prompt a");
+					if (commentPromptLink) {
+						commentPromptLink.href = blueskyPostUrl;
+					}
+					break;
+				}
+			}
+		}
+
 		// Update stats and post URL for the first matching post
-		if (searchData.posts && searchData.posts[0]) {
+		/*if (searchData.posts && searchData.posts[0]) {
 			const post = searchData.posts[0];
 			// Update stats
 			document.getElementById("reply-count").textContent =
@@ -79,24 +105,24 @@ async function loadBlueskyComments() {
 			if (commentPromptLink) {
 				commentPromptLink.href = blueskyPostUrl;
 			}
-		}
+		}*/
 
 		// For each post found, fetch its thread
 		const allComments = [];
-		for (const post of searchData.posts) {
-			const threadParams = new URLSearchParams({ uri: post.uri });
-			const threadResponse = await fetch(
-				`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?${threadParams}`,
-				{ headers: { Accept: "application/json" } },
-			);
+		//		for (const post of searchData.posts) {
+		const threadParams = new URLSearchParams({ uri: currPost.uri });
+		const threadResponse = await fetch(
+			`https://public.api.bsky.app/xrpc/app.bsky.feed.getPostThread?${threadParams}`,
+			{ headers: { Accept: "application/json" } },
+		);
 
-			if (threadResponse.ok) {
-				const threadData = await threadResponse.json();
-				if (threadData.thread?.replies) {
-					allComments.push(...threadData.thread.replies);
-				}
+		if (threadResponse.ok) {
+			const threadData = await threadResponse.json();
+			if (threadData.thread?.replies) {
+				allComments.push(...threadData.thread.replies);
 			}
 		}
+		//		}
 
 		// Sort all comments by time
 		const sortedComments = allComments.sort(
