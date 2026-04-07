@@ -86,7 +86,7 @@ async function loadBlueskyComments() {
 							currPost = feedItem.post;
 							blueskyPostUrl = `https://bsky.app/profile/${currPost.author.did}/post/${currPost.uri.split("/").pop()}`;
 							const commentPromptLink =
-								document.querySelector(".comment-prompt a");
+								document.querySelector("#comment-prompt a");
 							if (commentPromptLink) {
 								commentPromptLink.href = blueskyPostUrl;
 							}
