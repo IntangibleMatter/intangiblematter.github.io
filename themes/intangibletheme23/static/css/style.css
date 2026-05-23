@@ -703,4 +703,9 @@ blockquote {
   -webkit-backdrop-filter: blur(5px);
 }
 
+.bluesky-embed {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*# sourceMappingURL=style.css.map */
