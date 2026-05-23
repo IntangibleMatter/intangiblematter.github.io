@@ -1,7 +1,7 @@
 ---
 title: "Footpedal: A FOSS Audio Engine for Games"
 date: 2023-05-12T10:01:10-07:00
-draft: false
+draft: true
 tags: [projects, audio, gamedev, software, foss, footpedal, general]
 ---
 
