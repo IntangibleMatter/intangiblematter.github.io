@@ -9,7 +9,6 @@ hidden: true
 Buttons! Hell yeah! 90's style internet woooooo!
 <div style="text-align: center">
 
-<<<<<<< Updated upstream
 {{< button img="/img/intangible-button.gif" href="https://intangiblematter.net" >}}
 {{< button "1080p.gif" >}}
 {{< button img="88x31.gif" href="/more/buttons" >}}
@@ -40,12 +39,15 @@ Buttons! Hell yeah! 90's style internet woooooo!
 {{< button "queerpride.gif" >}}
 {{< button "flattrans.png" >}}
 {{< button "button-transgender.gif" >}}
+{{< button img="pghrt_88x31.png" href="https://pghrt.diy">}}
+
 <!--{{/* {{/*< yaitg := (ref 'posts/2024/04/yaitg.md') >*/}} *}}
 {{< button img="she-her.gif" href="{{$yaitg}}">}}
 <a class="classicbutton" href=" ref \"posts/2024/03/yaitg.md\" >}}">*/}}-->
 
 </div>
 Wanna add my button to your page? Here's the code:
+
 ```html
 <a href="https://intangiblematter.net/" title="IntangibleMatter's Button">
     <img class="classicbutton" src="https://intangiblematter.net/img/intangible-button.gif" title="IntangibleMatter's Button">
